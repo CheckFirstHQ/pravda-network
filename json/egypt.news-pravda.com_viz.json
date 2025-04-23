@@ -1,28 +1,28 @@
 {
   "domain": "egypt.news-pravda.com",
-  "totalArticles": 39,
+  "totalArticles": 59,
   "articlesPerDay": [
     {
       "date": "2025-04-23",
-      "count": 39
+      "count": 59
     }
   ],
   "topSources": [
     {
       "source": "arabic.rt.com",
-      "count": 17
-    },
-    {
-      "source": "ar.topwar.ru",
-      "count": 5
-    },
-    {
-      "source": "Telegram: Sputnik_Arabic",
-      "count": 3
+      "count": 24
     },
     {
       "source": "sarabic.ae",
-      "count": 3
+      "count": 10
+    },
+    {
+      "source": "Telegram: Sputnik_Arabic",
+      "count": 7
+    },
+    {
+      "source": "ar.topwar.ru",
+      "count": 6
     },
     {
       "source": "Telegram: russia_ar",
@@ -59,16 +59,20 @@
     {
       "source": "Telegram: VSMihalych67",
       "count": 1
+    },
+    {
+      "source": "russian.rt.com",
+      "count": 1
     }
   ],
   "categories": [
     {
       "category": "egypt",
-      "count": 23
+      "count": 39
     },
     {
       "category": "world",
-      "count": 16
+      "count": 20
     }
   ],
   "publicationHours": [
@@ -103,15 +107,35 @@
     {
       "hour": 12,
       "count": 1
+    },
+    {
+      "hour": 17,
+      "count": 1
+    },
+    {
+      "hour": 18,
+      "count": 6
+    },
+    {
+      "hour": 19,
+      "count": 6
+    },
+    {
+      "hour": 20,
+      "count": 3
+    },
+    {
+      "hour": 21,
+      "count": 4
     }
   ],
   "sourcesByDay": [
     {
       "date": "2025-04-23",
-      "arabic.rt.com": 17,
-      "ar.topwar.ru": 5,
-      "Telegram: Sputnik_Arabic": 3,
-      "sarabic.ae": 3,
+      "arabic.rt.com": 24,
+      "sarabic.ae": 10,
+      "Telegram: Sputnik_Arabic": 7,
+      "ar.topwar.ru": 6,
       "Telegram: russia_ar": 3,
       "Telegram: geopolitika_ar": 1,
       "Telegram: Politnavigator": 1,
@@ -122,9 +146,9 @@
   ],
   "topSourceNames": [
     "arabic.rt.com",
-    "ar.topwar.ru",
-    "Telegram: Sputnik_Arabic",
     "sarabic.ae",
+    "Telegram: Sputnik_Arabic",
+    "ar.topwar.ru",
     "Telegram: russia_ar",
     "Telegram: geopolitika_ar",
     "Telegram: Politnavigator",
@@ -133,18 +157,22 @@
     "Telegram: rustradeegypt"
   ],
   "alternatesStats": {
-    "articlesWithAlternates": 24,
-    "percentWithAlternates": 61.53846153846154,
-    "avgAlternatesPerArticle": 2.1666666666666665
+    "articlesWithAlternates": 38,
+    "percentWithAlternates": 64.40677966101694,
+    "avgAlternatesPerArticle": 2.1842105263157894
   },
   "languages": [
     {
       "language": "ar",
-      "count": 41
+      "count": 68
     },
     {
       "language": "en",
-      "count": 10
+      "count": 12
+    },
+    {
+      "language": "de",
+      "count": 2
     },
     {
       "language": "fr",
@@ -155,7 +183,7 @@
     {
       "source": "en",
       "target": "ar",
-      "strength": 9
+      "strength": 10
     },
     {
       "source": "en",
@@ -163,13 +191,23 @@
       "strength": 1
     },
     {
+      "source": "en",
+      "target": "de",
+      "strength": 1
+    },
+    {
       "source": "ar",
       "target": "en",
-      "strength": 9
+      "strength": 10
     },
     {
       "source": "ar",
       "target": "fr",
+      "strength": 1
+    },
+    {
+      "source": "ar",
+      "target": "de",
       "strength": 1
     },
     {
@@ -181,23 +219,33 @@
       "source": "fr",
       "target": "ar",
       "strength": 1
+    },
+    {
+      "source": "de",
+      "target": "en",
+      "strength": 1
+    },
+    {
+      "source": "de",
+      "target": "ar",
+      "strength": 1
     }
   ],
   "domainLanguageData": [
     {
       "domain": "egypt.news-pravda.com",
       "language": "ar",
-      "count": 24
+      "count": 38
     },
     {
       "domain": "egypt.news-pravda.com",
       "language": "en",
-      "count": 9
+      "count": 10
     },
     {
       "domain": "syria.news-pravda.com",
       "language": "ar",
-      "count": 13
+      "count": 24
     },
     {
       "domain": "chad.news-pravda.com",
@@ -217,28 +265,43 @@
     {
       "domain": "sudan.news-pravda.com",
       "language": "ar",
-      "count": 2
+      "count": 4
+    },
+    {
+      "domain": "austria.news-pravda.com",
+      "language": "de",
+      "count": 1
+    },
+    {
+      "domain": "austria.news-pravda.com",
+      "language": "en",
+      "count": 1
+    },
+    {
+      "domain": "deutsch.news-pravda.com",
+      "language": "de",
+      "count": 1
     }
   ],
   "countryLanguageData": [
     {
       "code": "ar-EG",
-      "count": 24
+      "count": 38
     },
     {
       "code": "ar-SY",
-      "count": 13
+      "count": 24
     },
     {
       "code": "en-EG",
-      "count": 9
-    },
-    {
-      "code": "ar-TD",
-      "count": 2
+      "count": 10
     },
     {
       "code": "ar-SD",
+      "count": 4
+    },
+    {
+      "code": "ar-TD",
       "count": 2
     },
     {
@@ -248,18 +311,33 @@
     {
       "code": "fr-SN",
       "count": 1
+    },
+    {
+      "code": "de-AT",
+      "count": 1
+    },
+    {
+      "code": "en-AT",
+      "count": 1
+    },
+    {
+      "code": "de",
+      "count": 1
     }
   ],
   "allDomains": [
-    "egypt.news-pravda.com",
+    "austria.news-pravda.com",
     "senegal.news-pravda.com",
     "chad.news-pravda.com",
+    "syria.news-pravda.com",
+    "egypt.news-pravda.com",
     "sudan.news-pravda.com",
-    "syria.news-pravda.com"
+    "deutsch.news-pravda.com"
   ],
   "allLanguages": [
     "en",
-    "ar",
-    "fr"
+    "de",
+    "fr",
+    "ar"
   ]
 }
