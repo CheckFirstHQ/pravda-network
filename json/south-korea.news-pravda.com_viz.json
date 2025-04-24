@@ -1,6 +1,6 @@
 {
   "domain": "south-korea.news-pravda.com",
-  "totalArticles": 29,
+  "totalArticles": 30,
   "articlesPerDay": [
     {
       "date": "2025-04-22",
@@ -9,6 +9,10 @@
     {
       "date": "2025-04-23",
       "count": 19
+    },
+    {
+      "date": "2025-04-24",
+      "count": 1
     }
   ],
   "topSources": [
@@ -99,22 +103,26 @@
     {
       "source": "Telegram: zvezdanews",
       "count": 1
+    },
+    {
+      "source": "Telegram: izvestia",
+      "count": 1
     }
   ],
   "categories": [
     {
-      "category": "south-korea",
+      "category": "world",
       "count": 15
     },
     {
-      "category": "world",
-      "count": 14
+      "category": "south-korea",
+      "count": 15
     }
   ],
   "publicationHours": [
     {
       "hour": 1,
-      "count": 2
+      "count": 3
     },
     {
       "hour": 2,
@@ -203,6 +211,19 @@
       "Telegram: svezhesti": 0,
       "Telegram: oplotdvizh": 0,
       "Telegram: ASGasparyan": 0
+    },
+    {
+      "date": "2025-04-24",
+      "Telegram: newstapa": 0,
+      "Telegram: smotri_media": 0,
+      "Telegram: vladivostok1978": 0,
+      "Telegram: pervush1nb": 0,
+      "Telegram: astrahandm": 0,
+      "Telegram: naspravdiinfo": 0,
+      "Telegram: yurasumy": 0,
+      "Telegram: svezhesti": 0,
+      "Telegram: oplotdvizh": 0,
+      "Telegram: ASGasparyan": 0
     }
   ],
   "topSourceNames": [
@@ -218,18 +239,18 @@
     "Telegram: ASGasparyan"
   ],
   "alternatesStats": {
-    "articlesWithAlternates": 29,
+    "articlesWithAlternates": 30,
     "percentWithAlternates": 100.0,
-    "avgAlternatesPerArticle": 6.0344827586206895
+    "avgAlternatesPerArticle": 5.933333333333334
   },
   "languages": [
     {
       "language": "en",
-      "count": 77
+      "count": 78
     },
     {
       "language": "ko",
-      "count": 59
+      "count": 61
     },
     {
       "language": "fr",
@@ -274,119 +295,9 @@
   ],
   "languageConnections": [
     {
-      "source": "uk",
-      "target": "fr",
-      "strength": 1
-    },
-    {
-      "source": "uk",
-      "target": "en",
-      "strength": 1
-    },
-    {
-      "source": "uk",
-      "target": "ko",
-      "strength": 1
-    },
-    {
-      "source": "fr",
-      "target": "en",
-      "strength": 9
-    },
-    {
-      "source": "fr",
-      "target": "ko",
-      "strength": 9
-    },
-    {
-      "source": "fr",
-      "target": "sk",
-      "strength": 5
-    },
-    {
-      "source": "fr",
-      "target": "hu",
-      "strength": 5
-    },
-    {
-      "source": "fr",
-      "target": "it",
-      "strength": 3
-    },
-    {
-      "source": "fr",
-      "target": "es",
-      "strength": 2
-    },
-    {
-      "source": "fr",
-      "target": "uk",
-      "strength": 1
-    },
-    {
-      "source": "fr",
-      "target": "ja",
-      "strength": 1
-    },
-    {
-      "source": "en",
-      "target": "ko",
-      "strength": 28
-    },
-    {
-      "source": "en",
-      "target": "fr",
-      "strength": 9
-    },
-    {
-      "source": "en",
-      "target": "sk",
-      "strength": 5
-    },
-    {
-      "source": "en",
-      "target": "hu",
-      "strength": 5
-    },
-    {
-      "source": "en",
-      "target": "ja",
-      "strength": 4
-    },
-    {
-      "source": "en",
-      "target": "it",
-      "strength": 3
-    },
-    {
-      "source": "en",
-      "target": "es",
-      "strength": 2
-    },
-    {
-      "source": "en",
-      "target": "uk",
-      "strength": 1
-    },
-    {
-      "source": "en",
-      "target": "zh",
-      "strength": 1
-    },
-    {
-      "source": "en",
-      "target": "hr",
-      "strength": 1
-    },
-    {
-      "source": "en",
-      "target": "sr",
-      "strength": 1
-    },
-    {
       "source": "ko",
       "target": "en",
-      "strength": 28
+      "strength": 29
     },
     {
       "source": "ko",
@@ -395,12 +306,12 @@
     },
     {
       "source": "ko",
-      "target": "sk",
+      "target": "hu",
       "strength": 5
     },
     {
       "source": "ko",
-      "target": "hu",
+      "target": "sk",
       "strength": 5
     },
     {
@@ -430,22 +341,147 @@
     },
     {
       "source": "ko",
-      "target": "hr",
-      "strength": 1
-    },
-    {
-      "source": "ko",
       "target": "sr",
       "strength": 1
     },
     {
-      "source": "ja",
-      "target": "en",
+      "source": "ko",
+      "target": "hr",
+      "strength": 1
+    },
+    {
+      "source": "en",
+      "target": "ko",
+      "strength": 29
+    },
+    {
+      "source": "en",
+      "target": "fr",
+      "strength": 9
+    },
+    {
+      "source": "en",
+      "target": "hu",
+      "strength": 5
+    },
+    {
+      "source": "en",
+      "target": "sk",
+      "strength": 5
+    },
+    {
+      "source": "en",
+      "target": "ja",
       "strength": 4
+    },
+    {
+      "source": "en",
+      "target": "it",
+      "strength": 3
+    },
+    {
+      "source": "en",
+      "target": "es",
+      "strength": 2
+    },
+    {
+      "source": "en",
+      "target": "uk",
+      "strength": 1
+    },
+    {
+      "source": "en",
+      "target": "zh",
+      "strength": 1
+    },
+    {
+      "source": "en",
+      "target": "sr",
+      "strength": 1
+    },
+    {
+      "source": "en",
+      "target": "hr",
+      "strength": 1
+    },
+    {
+      "source": "fr",
+      "target": "ko",
+      "strength": 9
+    },
+    {
+      "source": "fr",
+      "target": "en",
+      "strength": 9
+    },
+    {
+      "source": "fr",
+      "target": "hu",
+      "strength": 5
+    },
+    {
+      "source": "fr",
+      "target": "sk",
+      "strength": 5
+    },
+    {
+      "source": "fr",
+      "target": "it",
+      "strength": 3
+    },
+    {
+      "source": "fr",
+      "target": "es",
+      "strength": 2
+    },
+    {
+      "source": "fr",
+      "target": "uk",
+      "strength": 1
+    },
+    {
+      "source": "fr",
+      "target": "ja",
+      "strength": 1
+    },
+    {
+      "source": "uk",
+      "target": "ko",
+      "strength": 1
+    },
+    {
+      "source": "uk",
+      "target": "en",
+      "strength": 1
+    },
+    {
+      "source": "uk",
+      "target": "fr",
+      "strength": 1
+    },
+    {
+      "source": "zh",
+      "target": "ko",
+      "strength": 1
+    },
+    {
+      "source": "zh",
+      "target": "en",
+      "strength": 1
+    },
+    {
+      "source": "zh",
+      "target": "ja",
+      "strength": 1
     },
     {
       "source": "ja",
       "target": "ko",
+      "strength": 4
+    },
+    {
+      "source": "ja",
+      "target": "en",
       "strength": 4
     },
     {
@@ -464,43 +500,23 @@
       "strength": 1
     },
     {
-      "source": "zh",
-      "target": "ja",
-      "strength": 1
-    },
-    {
-      "source": "zh",
-      "target": "en",
-      "strength": 1
-    },
-    {
-      "source": "zh",
-      "target": "ko",
-      "strength": 1
-    },
-    {
-      "source": "sk",
-      "target": "fr",
-      "strength": 5
-    },
-    {
-      "source": "sk",
-      "target": "en",
-      "strength": 5
-    },
-    {
-      "source": "sk",
-      "target": "ko",
-      "strength": 5
-    },
-    {
-      "source": "sk",
+      "source": "it",
       "target": "hu",
-      "strength": 5
+      "strength": 3
     },
     {
-      "source": "sk",
-      "target": "it",
+      "source": "it",
+      "target": "ko",
+      "strength": 3
+    },
+    {
+      "source": "it",
+      "target": "en",
+      "strength": 3
+    },
+    {
+      "source": "it",
+      "target": "fr",
       "strength": 3
     },
     {
@@ -509,24 +525,19 @@
       "strength": 3
     },
     {
-      "source": "it",
-      "target": "fr",
-      "strength": 3
-    },
-    {
-      "source": "it",
-      "target": "en",
-      "strength": 3
-    },
-    {
-      "source": "it",
+      "source": "hu",
       "target": "ko",
-      "strength": 3
+      "strength": 5
     },
     {
-      "source": "it",
-      "target": "hu",
-      "strength": 3
+      "source": "hu",
+      "target": "en",
+      "strength": 5
+    },
+    {
+      "source": "hu",
+      "target": "fr",
+      "strength": 5
     },
     {
       "source": "hu",
@@ -535,27 +546,37 @@
     },
     {
       "source": "hu",
-      "target": "fr",
+      "target": "it",
+      "strength": 3
+    },
+    {
+      "source": "sk",
+      "target": "hu",
       "strength": 5
     },
     {
-      "source": "hu",
-      "target": "en",
-      "strength": 5
-    },
-    {
-      "source": "hu",
+      "source": "sk",
       "target": "ko",
       "strength": 5
     },
     {
-      "source": "hu",
+      "source": "sk",
+      "target": "en",
+      "strength": 5
+    },
+    {
+      "source": "sk",
+      "target": "fr",
+      "strength": 5
+    },
+    {
+      "source": "sk",
       "target": "it",
       "strength": 3
     },
     {
       "source": "es",
-      "target": "fr",
+      "target": "ko",
       "strength": 2
     },
     {
@@ -565,7 +586,7 @@
     },
     {
       "source": "es",
-      "target": "ko",
+      "target": "fr",
       "strength": 2
     },
     {
@@ -574,18 +595,13 @@
       "strength": 1
     },
     {
-      "source": "hr",
-      "target": "sr",
-      "strength": 1
-    },
-    {
-      "source": "hr",
-      "target": "en",
-      "strength": 1
-    },
-    {
-      "source": "hr",
+      "source": "sr",
       "target": "ko",
+      "strength": 1
+    },
+    {
+      "source": "sr",
+      "target": "en",
       "strength": 1
     },
     {
@@ -594,13 +610,18 @@
       "strength": 1
     },
     {
-      "source": "sr",
+      "source": "hr",
+      "target": "ko",
+      "strength": 1
+    },
+    {
+      "source": "hr",
       "target": "en",
       "strength": 1
     },
     {
-      "source": "sr",
-      "target": "ko",
+      "source": "hr",
+      "target": "sr",
       "strength": 1
     }
   ],
@@ -618,7 +639,7 @@
     {
       "domain": "korea.news-pravda.com",
       "language": "ko",
-      "count": 29
+      "count": 30
     },
     {
       "domain": "uk.news-pravda.com",
@@ -643,12 +664,12 @@
     {
       "domain": "south-korea.news-pravda.com",
       "language": "ko",
-      "count": 29
+      "count": 30
     },
     {
       "domain": "south-korea.news-pravda.com",
       "language": "en",
-      "count": 27
+      "count": 28
     },
     {
       "domain": "news-pravda.com",
@@ -784,15 +805,15 @@
   "countryLanguageData": [
     {
       "code": "ko",
-      "count": 29
+      "count": 30
     },
     {
       "code": "ko-KP",
-      "count": 29
+      "count": 30
     },
     {
       "code": "en-KP",
-      "count": 27
+      "count": 28
     },
     {
       "code": "en",
@@ -912,42 +933,42 @@
     }
   ],
   "allDomains": [
-    "japan.news-pravda.com",
-    "france.news-pravda.com",
-    "trump.news-pravda.com",
     "spanish.news-pravda.com",
-    "news-pravda.com",
-    "taiwan.news-pravda.com",
     "dprk.news-pravda.com",
-    "usa.news-pravda.com",
-    "italy.news-pravda.com",
-    "francais.news-pravda.com",
-    "singapore.news-pravda.com",
-    "korea.news-pravda.com",
-    "balkan.news-pravda.com",
     "south-korea.news-pravda.com",
-    "australia.news-pravda.com",
-    "hungary.news-pravda.com",
-    "croatia.news-pravda.com",
-    "slovakia.news-pravda.com",
-    "uk.news-pravda.com",
-    "nato.news-pravda.com",
-    "ua.news-pravda.com",
+    "news-pravda.com",
     "switzerland.news-pravda.com",
-    "canada.news-pravda.com"
+    "canada.news-pravda.com",
+    "taiwan.news-pravda.com",
+    "korea.news-pravda.com",
+    "slovakia.news-pravda.com",
+    "balkan.news-pravda.com",
+    "singapore.news-pravda.com",
+    "italy.news-pravda.com",
+    "nato.news-pravda.com",
+    "francais.news-pravda.com",
+    "australia.news-pravda.com",
+    "japan.news-pravda.com",
+    "hungary.news-pravda.com",
+    "uk.news-pravda.com",
+    "trump.news-pravda.com",
+    "france.news-pravda.com",
+    "usa.news-pravda.com",
+    "ua.news-pravda.com",
+    "croatia.news-pravda.com"
   ],
   "allLanguages": [
+    "it",
+    "es",
+    "hu",
+    "sr",
+    "ko",
+    "zh",
+    "en",
+    "fr",
+    "uk",
     "hr",
     "sk",
-    "es",
-    "fr",
-    "it",
-    "sr",
-    "uk",
-    "en",
-    "ja",
-    "zh",
-    "ko",
-    "hu"
+    "ja"
   ]
 }

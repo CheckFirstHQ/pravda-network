@@ -1,10 +1,14 @@
 {
   "domain": "bulgaria.news-pravda.com",
-  "totalArticles": 107,
+  "totalArticles": 110,
   "articlesPerDay": [
     {
       "date": "2025-04-23",
       "count": 107
+    },
+    {
+      "date": "2025-04-24",
+      "count": 3
     }
   ],
   "topSources": [
@@ -22,7 +26,7 @@
     },
     {
       "source": "bgr.news-front.su",
-      "count": 8
+      "count": 11
     },
     {
       "source": "Telegram: RosenNachev",
@@ -76,18 +80,22 @@
   "categories": [
     {
       "category": "world",
-      "count": 105
+      "count": 106
+    },
+    {
+      "category": "bulgaria",
+      "count": 3
     },
     {
       "category": "eu",
       "count": 1
-    },
-    {
-      "category": "bulgaria",
-      "count": 1
     }
   ],
   "publicationHours": [
+    {
+      "hour": 1,
+      "count": 3
+    },
     {
       "hour": 6,
       "count": 2
@@ -142,6 +150,19 @@
       "Telegram: NPzBG": 6,
       "Telegram: BulgariaZOV": 5,
       "Telegram: bgmilitary": 5
+    },
+    {
+      "date": "2025-04-24",
+      "Telegram: posveteniteZ": 0,
+      "Telegram: InfodefBULGARIA": 0,
+      "Telegram: bulgariaz": 0,
+      "bgr.news-front.su": 3,
+      "Telegram: RosenNachev": 0,
+      "Telegram: Za_PraVda": 0,
+      "Telegram: vremenapredsyuriy": 0,
+      "Telegram: NPzBG": 0,
+      "Telegram: BulgariaZOV": 0,
+      "Telegram: bgmilitary": 0
     }
   ],
   "topSourceNames": [
@@ -158,7 +179,7 @@
   ],
   "alternatesStats": {
     "articlesWithAlternates": 2,
-    "percentWithAlternates": 1.8691588785046727,
+    "percentWithAlternates": 1.8181818181818181,
     "avgAlternatesPerArticle": 17.5
   },
   "languages": [
@@ -233,68 +254,143 @@
   ],
   "languageConnections": [
     {
-      "source": "es",
-      "target": "it",
-      "strength": 1
-    },
-    {
-      "source": "es",
-      "target": "fr",
-      "strength": 1
-    },
-    {
-      "source": "es",
-      "target": "bg",
-      "strength": 1
-    },
-    {
-      "source": "es",
-      "target": "lb",
-      "strength": 1
-    },
-    {
-      "source": "es",
-      "target": "nl",
-      "strength": 1
-    },
-    {
-      "source": "es",
-      "target": "et",
-      "strength": 1
-    },
-    {
-      "source": "es",
+      "source": "ca",
       "target": "gl",
       "strength": 1
     },
     {
-      "source": "es",
-      "target": "en",
+      "source": "ca",
+      "target": "it",
       "strength": 1
     },
     {
-      "source": "es",
-      "target": "de",
+      "source": "ca",
+      "target": "es",
       "strength": 1
     },
     {
-      "source": "es",
+      "source": "ca",
+      "target": "da",
+      "strength": 1
+    },
+    {
+      "source": "ca",
+      "target": "nl",
+      "strength": 1
+    },
+    {
+      "source": "ca",
       "target": "el",
       "strength": 1
     },
     {
-      "source": "es",
-      "target": "ca",
+      "source": "ca",
+      "target": "de",
       "strength": 1
     },
     {
-      "source": "es",
+      "source": "ca",
+      "target": "bg",
+      "strength": 1
+    },
+    {
+      "source": "ca",
       "target": "eu",
       "strength": 1
     },
     {
-      "source": "es",
+      "source": "ca",
+      "target": "en",
+      "strength": 1
+    },
+    {
+      "source": "ca",
+      "target": "fr",
+      "strength": 1
+    },
+    {
+      "source": "ca",
+      "target": "lb",
+      "strength": 1
+    },
+    {
+      "source": "ca",
+      "target": "et",
+      "strength": 1
+    },
+    {
+      "source": "gl",
+      "target": "ca",
+      "strength": 1
+    },
+    {
+      "source": "gl",
+      "target": "it",
+      "strength": 1
+    },
+    {
+      "source": "gl",
+      "target": "es",
+      "strength": 1
+    },
+    {
+      "source": "gl",
       "target": "da",
+      "strength": 1
+    },
+    {
+      "source": "gl",
+      "target": "nl",
+      "strength": 1
+    },
+    {
+      "source": "gl",
+      "target": "el",
+      "strength": 1
+    },
+    {
+      "source": "gl",
+      "target": "de",
+      "strength": 1
+    },
+    {
+      "source": "gl",
+      "target": "bg",
+      "strength": 1
+    },
+    {
+      "source": "gl",
+      "target": "eu",
+      "strength": 1
+    },
+    {
+      "source": "gl",
+      "target": "en",
+      "strength": 1
+    },
+    {
+      "source": "gl",
+      "target": "fr",
+      "strength": 1
+    },
+    {
+      "source": "gl",
+      "target": "lb",
+      "strength": 1
+    },
+    {
+      "source": "gl",
+      "target": "et",
+      "strength": 1
+    },
+    {
+      "source": "it",
+      "target": "ca",
+      "strength": 1
+    },
+    {
+      "source": "it",
+      "target": "gl",
       "strength": 1
     },
     {
@@ -304,22 +400,47 @@
     },
     {
       "source": "it",
+      "target": "da",
+      "strength": 1
+    },
+    {
+      "source": "it",
+      "target": "nl",
+      "strength": 1
+    },
+    {
+      "source": "it",
+      "target": "el",
+      "strength": 1
+    },
+    {
+      "source": "it",
+      "target": "de",
+      "strength": 1
+    },
+    {
+      "source": "it",
+      "target": "bg",
+      "strength": 1
+    },
+    {
+      "source": "it",
+      "target": "eu",
+      "strength": 1
+    },
+    {
+      "source": "it",
+      "target": "en",
+      "strength": 1
+    },
+    {
+      "source": "it",
       "target": "fr",
       "strength": 1
     },
     {
       "source": "it",
-      "target": "bg",
-      "strength": 1
-    },
-    {
-      "source": "it",
       "target": "lb",
-      "strength": 1
-    },
-    {
-      "source": "it",
-      "target": "nl",
       "strength": 1
     },
     {
@@ -328,103 +449,328 @@
       "strength": 1
     },
     {
-      "source": "it",
-      "target": "gl",
-      "strength": 1
-    },
-    {
-      "source": "it",
-      "target": "en",
-      "strength": 1
-    },
-    {
-      "source": "it",
-      "target": "de",
-      "strength": 1
-    },
-    {
-      "source": "it",
-      "target": "el",
-      "strength": 1
-    },
-    {
-      "source": "it",
+      "source": "es",
       "target": "ca",
       "strength": 1
     },
     {
-      "source": "it",
-      "target": "eu",
+      "source": "es",
+      "target": "gl",
       "strength": 1
     },
     {
-      "source": "it",
-      "target": "da",
-      "strength": 1
-    },
-    {
-      "source": "fr",
-      "target": "es",
-      "strength": 1
-    },
-    {
-      "source": "fr",
+      "source": "es",
       "target": "it",
       "strength": 1
     },
     {
-      "source": "fr",
-      "target": "bg",
+      "source": "es",
+      "target": "da",
       "strength": 1
     },
     {
-      "source": "fr",
-      "target": "lb",
-      "strength": 1
-    },
-    {
-      "source": "fr",
+      "source": "es",
       "target": "nl",
       "strength": 1
     },
     {
-      "source": "fr",
-      "target": "et",
-      "strength": 1
-    },
-    {
-      "source": "fr",
-      "target": "gl",
-      "strength": 1
-    },
-    {
-      "source": "fr",
-      "target": "en",
-      "strength": 1
-    },
-    {
-      "source": "fr",
-      "target": "de",
-      "strength": 1
-    },
-    {
-      "source": "fr",
+      "source": "es",
       "target": "el",
       "strength": 1
     },
     {
-      "source": "fr",
-      "target": "ca",
+      "source": "es",
+      "target": "de",
       "strength": 1
     },
     {
-      "source": "fr",
+      "source": "es",
+      "target": "bg",
+      "strength": 1
+    },
+    {
+      "source": "es",
       "target": "eu",
       "strength": 1
     },
     {
-      "source": "fr",
+      "source": "es",
+      "target": "en",
+      "strength": 1
+    },
+    {
+      "source": "es",
+      "target": "fr",
+      "strength": 1
+    },
+    {
+      "source": "es",
+      "target": "lb",
+      "strength": 1
+    },
+    {
+      "source": "es",
+      "target": "et",
+      "strength": 1
+    },
+    {
+      "source": "da",
+      "target": "ca",
+      "strength": 1
+    },
+    {
+      "source": "da",
+      "target": "gl",
+      "strength": 1
+    },
+    {
+      "source": "da",
+      "target": "it",
+      "strength": 1
+    },
+    {
+      "source": "da",
+      "target": "es",
+      "strength": 1
+    },
+    {
+      "source": "da",
+      "target": "nl",
+      "strength": 1
+    },
+    {
+      "source": "da",
+      "target": "el",
+      "strength": 1
+    },
+    {
+      "source": "da",
+      "target": "de",
+      "strength": 1
+    },
+    {
+      "source": "da",
+      "target": "bg",
+      "strength": 1
+    },
+    {
+      "source": "da",
+      "target": "eu",
+      "strength": 1
+    },
+    {
+      "source": "da",
+      "target": "en",
+      "strength": 1
+    },
+    {
+      "source": "da",
+      "target": "fr",
+      "strength": 1
+    },
+    {
+      "source": "da",
+      "target": "lb",
+      "strength": 1
+    },
+    {
+      "source": "da",
+      "target": "et",
+      "strength": 1
+    },
+    {
+      "source": "nl",
+      "target": "ca",
+      "strength": 1
+    },
+    {
+      "source": "nl",
+      "target": "gl",
+      "strength": 1
+    },
+    {
+      "source": "nl",
+      "target": "it",
+      "strength": 1
+    },
+    {
+      "source": "nl",
+      "target": "es",
+      "strength": 1
+    },
+    {
+      "source": "nl",
       "target": "da",
+      "strength": 1
+    },
+    {
+      "source": "nl",
+      "target": "el",
+      "strength": 1
+    },
+    {
+      "source": "nl",
+      "target": "de",
+      "strength": 1
+    },
+    {
+      "source": "nl",
+      "target": "bg",
+      "strength": 1
+    },
+    {
+      "source": "nl",
+      "target": "eu",
+      "strength": 1
+    },
+    {
+      "source": "nl",
+      "target": "en",
+      "strength": 1
+    },
+    {
+      "source": "nl",
+      "target": "fr",
+      "strength": 1
+    },
+    {
+      "source": "nl",
+      "target": "lb",
+      "strength": 1
+    },
+    {
+      "source": "nl",
+      "target": "et",
+      "strength": 1
+    },
+    {
+      "source": "el",
+      "target": "ca",
+      "strength": 1
+    },
+    {
+      "source": "el",
+      "target": "gl",
+      "strength": 1
+    },
+    {
+      "source": "el",
+      "target": "it",
+      "strength": 1
+    },
+    {
+      "source": "el",
+      "target": "es",
+      "strength": 1
+    },
+    {
+      "source": "el",
+      "target": "da",
+      "strength": 1
+    },
+    {
+      "source": "el",
+      "target": "nl",
+      "strength": 1
+    },
+    {
+      "source": "el",
+      "target": "de",
+      "strength": 1
+    },
+    {
+      "source": "el",
+      "target": "bg",
+      "strength": 1
+    },
+    {
+      "source": "el",
+      "target": "eu",
+      "strength": 1
+    },
+    {
+      "source": "el",
+      "target": "en",
+      "strength": 1
+    },
+    {
+      "source": "el",
+      "target": "fr",
+      "strength": 1
+    },
+    {
+      "source": "el",
+      "target": "lb",
+      "strength": 1
+    },
+    {
+      "source": "el",
+      "target": "et",
+      "strength": 1
+    },
+    {
+      "source": "de",
+      "target": "ca",
+      "strength": 1
+    },
+    {
+      "source": "de",
+      "target": "gl",
+      "strength": 1
+    },
+    {
+      "source": "de",
+      "target": "it",
+      "strength": 1
+    },
+    {
+      "source": "de",
+      "target": "es",
+      "strength": 1
+    },
+    {
+      "source": "de",
+      "target": "da",
+      "strength": 1
+    },
+    {
+      "source": "de",
+      "target": "nl",
+      "strength": 1
+    },
+    {
+      "source": "de",
+      "target": "el",
+      "strength": 1
+    },
+    {
+      "source": "de",
+      "target": "bg",
+      "strength": 1
+    },
+    {
+      "source": "de",
+      "target": "eu",
+      "strength": 1
+    },
+    {
+      "source": "de",
+      "target": "en",
+      "strength": 1
+    },
+    {
+      "source": "de",
+      "target": "fr",
+      "strength": 1
+    },
+    {
+      "source": "de",
+      "target": "lb",
+      "strength": 1
+    },
+    {
+      "source": "de",
+      "target": "et",
       "strength": 1
     },
     {
@@ -434,12 +780,47 @@
     },
     {
       "source": "bg",
-      "target": "es",
+      "target": "ca",
+      "strength": 1
+    },
+    {
+      "source": "bg",
+      "target": "gl",
       "strength": 1
     },
     {
       "source": "bg",
       "target": "it",
+      "strength": 1
+    },
+    {
+      "source": "bg",
+      "target": "es",
+      "strength": 1
+    },
+    {
+      "source": "bg",
+      "target": "da",
+      "strength": 1
+    },
+    {
+      "source": "bg",
+      "target": "nl",
+      "strength": 1
+    },
+    {
+      "source": "bg",
+      "target": "el",
+      "strength": 1
+    },
+    {
+      "source": "bg",
+      "target": "de",
+      "strength": 1
+    },
+    {
+      "source": "bg",
+      "target": "eu",
       "strength": 1
     },
     {
@@ -454,42 +835,7 @@
     },
     {
       "source": "bg",
-      "target": "nl",
-      "strength": 1
-    },
-    {
-      "source": "bg",
       "target": "et",
-      "strength": 1
-    },
-    {
-      "source": "bg",
-      "target": "gl",
-      "strength": 1
-    },
-    {
-      "source": "bg",
-      "target": "de",
-      "strength": 1
-    },
-    {
-      "source": "bg",
-      "target": "el",
-      "strength": 1
-    },
-    {
-      "source": "bg",
-      "target": "ca",
-      "strength": 1
-    },
-    {
-      "source": "bg",
-      "target": "eu",
-      "strength": 1
-    },
-    {
-      "source": "bg",
-      "target": "da",
       "strength": 1
     },
     {
@@ -499,272 +845,77 @@
     },
     {
       "source": "bg",
-      "target": "uk",
-      "strength": 1
-    },
-    {
-      "source": "bg",
       "target": "ka",
       "strength": 1
     },
     {
-      "source": "lb",
-      "target": "es",
+      "source": "bg",
+      "target": "uk",
       "strength": 1
     },
     {
-      "source": "lb",
-      "target": "it",
+      "source": "eu",
+      "target": "ca",
       "strength": 1
     },
     {
-      "source": "lb",
-      "target": "fr",
-      "strength": 1
-    },
-    {
-      "source": "lb",
-      "target": "bg",
-      "strength": 1
-    },
-    {
-      "source": "lb",
-      "target": "nl",
-      "strength": 1
-    },
-    {
-      "source": "lb",
-      "target": "et",
-      "strength": 1
-    },
-    {
-      "source": "lb",
+      "source": "eu",
       "target": "gl",
       "strength": 1
     },
     {
-      "source": "lb",
-      "target": "en",
-      "strength": 1
-    },
-    {
-      "source": "lb",
-      "target": "de",
-      "strength": 1
-    },
-    {
-      "source": "lb",
-      "target": "el",
-      "strength": 1
-    },
-    {
-      "source": "lb",
-      "target": "ca",
-      "strength": 1
-    },
-    {
-      "source": "lb",
-      "target": "eu",
-      "strength": 1
-    },
-    {
-      "source": "lb",
-      "target": "da",
-      "strength": 1
-    },
-    {
-      "source": "nl",
-      "target": "es",
-      "strength": 1
-    },
-    {
-      "source": "nl",
+      "source": "eu",
       "target": "it",
       "strength": 1
     },
     {
-      "source": "nl",
-      "target": "fr",
-      "strength": 1
-    },
-    {
-      "source": "nl",
-      "target": "bg",
-      "strength": 1
-    },
-    {
-      "source": "nl",
-      "target": "lb",
-      "strength": 1
-    },
-    {
-      "source": "nl",
-      "target": "et",
-      "strength": 1
-    },
-    {
-      "source": "nl",
-      "target": "gl",
-      "strength": 1
-    },
-    {
-      "source": "nl",
-      "target": "en",
-      "strength": 1
-    },
-    {
-      "source": "nl",
-      "target": "de",
-      "strength": 1
-    },
-    {
-      "source": "nl",
-      "target": "el",
-      "strength": 1
-    },
-    {
-      "source": "nl",
-      "target": "ca",
-      "strength": 1
-    },
-    {
-      "source": "nl",
-      "target": "eu",
-      "strength": 1
-    },
-    {
-      "source": "nl",
-      "target": "da",
-      "strength": 1
-    },
-    {
-      "source": "et",
+      "source": "eu",
       "target": "es",
       "strength": 1
     },
     {
-      "source": "et",
-      "target": "it",
+      "source": "eu",
+      "target": "da",
       "strength": 1
     },
     {
-      "source": "et",
-      "target": "fr",
-      "strength": 1
-    },
-    {
-      "source": "et",
-      "target": "bg",
-      "strength": 1
-    },
-    {
-      "source": "et",
-      "target": "lb",
-      "strength": 1
-    },
-    {
-      "source": "et",
+      "source": "eu",
       "target": "nl",
       "strength": 1
     },
     {
-      "source": "et",
-      "target": "gl",
-      "strength": 1
-    },
-    {
-      "source": "et",
-      "target": "en",
-      "strength": 1
-    },
-    {
-      "source": "et",
-      "target": "de",
-      "strength": 1
-    },
-    {
-      "source": "et",
+      "source": "eu",
       "target": "el",
       "strength": 1
     },
     {
-      "source": "et",
-      "target": "ca",
+      "source": "eu",
+      "target": "de",
       "strength": 1
     },
     {
-      "source": "et",
-      "target": "eu",
-      "strength": 1
-    },
-    {
-      "source": "et",
-      "target": "da",
-      "strength": 1
-    },
-    {
-      "source": "gl",
-      "target": "es",
-      "strength": 1
-    },
-    {
-      "source": "gl",
-      "target": "it",
-      "strength": 1
-    },
-    {
-      "source": "gl",
-      "target": "fr",
-      "strength": 1
-    },
-    {
-      "source": "gl",
+      "source": "eu",
       "target": "bg",
       "strength": 1
     },
     {
-      "source": "gl",
-      "target": "lb",
-      "strength": 1
-    },
-    {
-      "source": "gl",
-      "target": "nl",
-      "strength": 1
-    },
-    {
-      "source": "gl",
-      "target": "et",
-      "strength": 1
-    },
-    {
-      "source": "gl",
+      "source": "eu",
       "target": "en",
       "strength": 1
     },
     {
-      "source": "gl",
-      "target": "de",
+      "source": "eu",
+      "target": "fr",
       "strength": 1
     },
     {
-      "source": "gl",
-      "target": "el",
+      "source": "eu",
+      "target": "lb",
       "strength": 1
     },
     {
-      "source": "gl",
-      "target": "ca",
-      "strength": 1
-    },
-    {
-      "source": "gl",
-      "target": "eu",
-      "strength": 1
-    },
-    {
-      "source": "gl",
-      "target": "da",
+      "source": "eu",
+      "target": "et",
       "strength": 1
     },
     {
@@ -774,12 +925,47 @@
     },
     {
       "source": "en",
-      "target": "es",
+      "target": "ca",
+      "strength": 1
+    },
+    {
+      "source": "en",
+      "target": "gl",
       "strength": 1
     },
     {
       "source": "en",
       "target": "it",
+      "strength": 1
+    },
+    {
+      "source": "en",
+      "target": "es",
+      "strength": 1
+    },
+    {
+      "source": "en",
+      "target": "da",
+      "strength": 1
+    },
+    {
+      "source": "en",
+      "target": "nl",
+      "strength": 1
+    },
+    {
+      "source": "en",
+      "target": "el",
+      "strength": 1
+    },
+    {
+      "source": "en",
+      "target": "de",
+      "strength": 1
+    },
+    {
+      "source": "en",
+      "target": "eu",
       "strength": 1
     },
     {
@@ -794,42 +980,7 @@
     },
     {
       "source": "en",
-      "target": "nl",
-      "strength": 1
-    },
-    {
-      "source": "en",
       "target": "et",
-      "strength": 1
-    },
-    {
-      "source": "en",
-      "target": "gl",
-      "strength": 1
-    },
-    {
-      "source": "en",
-      "target": "de",
-      "strength": 1
-    },
-    {
-      "source": "en",
-      "target": "el",
-      "strength": 1
-    },
-    {
-      "source": "en",
-      "target": "ca",
-      "strength": 1
-    },
-    {
-      "source": "en",
-      "target": "eu",
-      "strength": 1
-    },
-    {
-      "source": "en",
-      "target": "da",
       "strength": 1
     },
     {
@@ -839,377 +990,227 @@
     },
     {
       "source": "en",
-      "target": "uk",
+      "target": "ka",
       "strength": 1
     },
     {
       "source": "en",
-      "target": "ka",
+      "target": "uk",
       "strength": 1
     },
     {
-      "source": "de",
-      "target": "es",
-      "strength": 1
-    },
-    {
-      "source": "de",
-      "target": "it",
-      "strength": 1
-    },
-    {
-      "source": "de",
-      "target": "fr",
-      "strength": 1
-    },
-    {
-      "source": "de",
-      "target": "bg",
-      "strength": 1
-    },
-    {
-      "source": "de",
-      "target": "lb",
-      "strength": 1
-    },
-    {
-      "source": "de",
-      "target": "nl",
-      "strength": 1
-    },
-    {
-      "source": "de",
-      "target": "et",
-      "strength": 1
-    },
-    {
-      "source": "de",
-      "target": "gl",
-      "strength": 1
-    },
-    {
-      "source": "de",
-      "target": "en",
-      "strength": 1
-    },
-    {
-      "source": "de",
-      "target": "el",
-      "strength": 1
-    },
-    {
-      "source": "de",
+      "source": "fr",
       "target": "ca",
       "strength": 1
     },
     {
-      "source": "de",
-      "target": "eu",
-      "strength": 1
-    },
-    {
-      "source": "de",
-      "target": "da",
-      "strength": 1
-    },
-    {
-      "source": "el",
-      "target": "es",
-      "strength": 1
-    },
-    {
-      "source": "el",
-      "target": "it",
-      "strength": 1
-    },
-    {
-      "source": "el",
-      "target": "fr",
-      "strength": 1
-    },
-    {
-      "source": "el",
-      "target": "bg",
-      "strength": 1
-    },
-    {
-      "source": "el",
-      "target": "lb",
-      "strength": 1
-    },
-    {
-      "source": "el",
-      "target": "nl",
-      "strength": 1
-    },
-    {
-      "source": "el",
-      "target": "et",
-      "strength": 1
-    },
-    {
-      "source": "el",
+      "source": "fr",
       "target": "gl",
       "strength": 1
     },
     {
-      "source": "el",
-      "target": "en",
-      "strength": 1
-    },
-    {
-      "source": "el",
-      "target": "de",
-      "strength": 1
-    },
-    {
-      "source": "el",
-      "target": "ca",
-      "strength": 1
-    },
-    {
-      "source": "el",
-      "target": "eu",
-      "strength": 1
-    },
-    {
-      "source": "el",
-      "target": "da",
-      "strength": 1
-    },
-    {
-      "source": "ca",
-      "target": "es",
-      "strength": 1
-    },
-    {
-      "source": "ca",
+      "source": "fr",
       "target": "it",
       "strength": 1
     },
     {
-      "source": "ca",
-      "target": "fr",
+      "source": "fr",
+      "target": "es",
       "strength": 1
     },
     {
-      "source": "ca",
-      "target": "bg",
+      "source": "fr",
+      "target": "da",
       "strength": 1
     },
     {
-      "source": "ca",
-      "target": "lb",
-      "strength": 1
-    },
-    {
-      "source": "ca",
+      "source": "fr",
       "target": "nl",
       "strength": 1
     },
     {
-      "source": "ca",
-      "target": "et",
-      "strength": 1
-    },
-    {
-      "source": "ca",
-      "target": "gl",
-      "strength": 1
-    },
-    {
-      "source": "ca",
-      "target": "en",
-      "strength": 1
-    },
-    {
-      "source": "ca",
-      "target": "de",
-      "strength": 1
-    },
-    {
-      "source": "ca",
+      "source": "fr",
       "target": "el",
       "strength": 1
     },
     {
-      "source": "ca",
-      "target": "eu",
-      "strength": 1
-    },
-    {
-      "source": "ca",
-      "target": "da",
-      "strength": 1
-    },
-    {
-      "source": "eu",
-      "target": "es",
-      "strength": 1
-    },
-    {
-      "source": "eu",
-      "target": "it",
-      "strength": 1
-    },
-    {
-      "source": "eu",
-      "target": "fr",
-      "strength": 1
-    },
-    {
-      "source": "eu",
-      "target": "bg",
-      "strength": 1
-    },
-    {
-      "source": "eu",
-      "target": "lb",
-      "strength": 1
-    },
-    {
-      "source": "eu",
-      "target": "nl",
-      "strength": 1
-    },
-    {
-      "source": "eu",
-      "target": "et",
-      "strength": 1
-    },
-    {
-      "source": "eu",
-      "target": "gl",
-      "strength": 1
-    },
-    {
-      "source": "eu",
-      "target": "en",
-      "strength": 1
-    },
-    {
-      "source": "eu",
+      "source": "fr",
       "target": "de",
       "strength": 1
     },
     {
-      "source": "eu",
-      "target": "el",
-      "strength": 1
-    },
-    {
-      "source": "eu",
-      "target": "ca",
-      "strength": 1
-    },
-    {
-      "source": "eu",
-      "target": "da",
-      "strength": 1
-    },
-    {
-      "source": "da",
-      "target": "es",
-      "strength": 1
-    },
-    {
-      "source": "da",
-      "target": "it",
-      "strength": 1
-    },
-    {
-      "source": "da",
-      "target": "fr",
-      "strength": 1
-    },
-    {
-      "source": "da",
+      "source": "fr",
       "target": "bg",
       "strength": 1
     },
     {
-      "source": "da",
-      "target": "lb",
+      "source": "fr",
+      "target": "eu",
       "strength": 1
     },
     {
-      "source": "da",
-      "target": "nl",
-      "strength": 1
-    },
-    {
-      "source": "da",
-      "target": "et",
-      "strength": 1
-    },
-    {
-      "source": "da",
-      "target": "gl",
-      "strength": 1
-    },
-    {
-      "source": "da",
+      "source": "fr",
       "target": "en",
       "strength": 1
     },
     {
-      "source": "da",
-      "target": "de",
+      "source": "fr",
+      "target": "lb",
       "strength": 1
     },
     {
-      "source": "da",
-      "target": "el",
+      "source": "fr",
+      "target": "et",
       "strength": 1
     },
     {
-      "source": "da",
+      "source": "lb",
       "target": "ca",
       "strength": 1
     },
     {
-      "source": "da",
+      "source": "lb",
+      "target": "gl",
+      "strength": 1
+    },
+    {
+      "source": "lb",
+      "target": "it",
+      "strength": 1
+    },
+    {
+      "source": "lb",
+      "target": "es",
+      "strength": 1
+    },
+    {
+      "source": "lb",
+      "target": "da",
+      "strength": 1
+    },
+    {
+      "source": "lb",
+      "target": "nl",
+      "strength": 1
+    },
+    {
+      "source": "lb",
+      "target": "el",
+      "strength": 1
+    },
+    {
+      "source": "lb",
+      "target": "de",
+      "strength": 1
+    },
+    {
+      "source": "lb",
+      "target": "bg",
+      "strength": 1
+    },
+    {
+      "source": "lb",
       "target": "eu",
+      "strength": 1
+    },
+    {
+      "source": "lb",
+      "target": "en",
+      "strength": 1
+    },
+    {
+      "source": "lb",
+      "target": "fr",
+      "strength": 1
+    },
+    {
+      "source": "lb",
+      "target": "et",
+      "strength": 1
+    },
+    {
+      "source": "et",
+      "target": "ca",
+      "strength": 1
+    },
+    {
+      "source": "et",
+      "target": "gl",
+      "strength": 1
+    },
+    {
+      "source": "et",
+      "target": "it",
+      "strength": 1
+    },
+    {
+      "source": "et",
+      "target": "es",
+      "strength": 1
+    },
+    {
+      "source": "et",
+      "target": "da",
+      "strength": 1
+    },
+    {
+      "source": "et",
+      "target": "nl",
+      "strength": 1
+    },
+    {
+      "source": "et",
+      "target": "el",
+      "strength": 1
+    },
+    {
+      "source": "et",
+      "target": "de",
+      "strength": 1
+    },
+    {
+      "source": "et",
+      "target": "bg",
+      "strength": 1
+    },
+    {
+      "source": "et",
+      "target": "eu",
+      "strength": 1
+    },
+    {
+      "source": "et",
+      "target": "en",
+      "strength": 1
+    },
+    {
+      "source": "et",
+      "target": "fr",
+      "strength": 1
+    },
+    {
+      "source": "et",
+      "target": "lb",
       "strength": 1
     },
     {
       "source": "hy",
       "target": "bg",
+      "strength": 1
+    },
+    {
+      "source": "hy",
+      "target": "ka",
+      "strength": 1
+    },
+    {
+      "source": "hy",
+      "target": "en",
       "strength": 1
     },
     {
       "source": "hy",
       "target": "uk",
-      "strength": 1
-    },
-    {
-      "source": "hy",
-      "target": "en",
-      "strength": 1
-    },
-    {
-      "source": "hy",
-      "target": "ka",
-      "strength": 1
-    },
-    {
-      "source": "uk",
-      "target": "hy",
-      "strength": 1
-    },
-    {
-      "source": "uk",
-      "target": "bg",
-      "strength": 1
-    },
-    {
-      "source": "uk",
-      "target": "en",
-      "strength": 1
-    },
-    {
-      "source": "uk",
-      "target": "ka",
       "strength": 1
     },
     {
@@ -1224,11 +1225,31 @@
     },
     {
       "source": "ka",
-      "target": "uk",
+      "target": "en",
       "strength": 1
     },
     {
       "source": "ka",
+      "target": "uk",
+      "strength": 1
+    },
+    {
+      "source": "uk",
+      "target": "hy",
+      "strength": 1
+    },
+    {
+      "source": "uk",
+      "target": "bg",
+      "strength": 1
+    },
+    {
+      "source": "uk",
+      "target": "ka",
+      "strength": 1
+    },
+    {
+      "source": "uk",
       "target": "en",
       "strength": 1
     }
@@ -1531,45 +1552,45 @@
     }
   ],
   "allDomains": [
-    "bulgaria.news-pravda.com",
-    "galician.news-pravda.com",
-    "france.news-pravda.com",
-    "greece.news-pravda.com",
-    "ge.news-pravda.com",
     "spanish.news-pravda.com",
     "news-pravda.com",
-    "denmark.news-pravda.com",
-    "luxembourg.news-pravda.com",
-    "italy.news-pravda.com",
-    "deutsch.news-pravda.com",
-    "francais.news-pravda.com",
-    "belgium.news-pravda.com",
-    "eu.news-pravda.com",
-    "dutch.news-pravda.com",
     "catalan.news-pravda.com",
-    "basque.news-pravda.com",
     "spain.news-pravda.com",
     "armenia.news-pravda.com",
+    "italy.news-pravda.com",
+    "greece.news-pravda.com",
+    "dutch.news-pravda.com",
+    "francais.news-pravda.com",
+    "galician.news-pravda.com",
+    "bulgaria.news-pravda.com",
+    "luxembourg.news-pravda.com",
+    "denmark.news-pravda.com",
+    "eu.news-pravda.com",
+    "france.news-pravda.com",
+    "deutsch.news-pravda.com",
+    "belgium.news-pravda.com",
     "estonia.news-pravda.com",
-    "ua.news-pravda.com"
+    "ge.news-pravda.com",
+    "ua.news-pravda.com",
+    "basque.news-pravda.com"
   ],
   "allLanguages": [
-    "hy",
-    "es",
-    "it",
-    "fr",
-    "bg",
-    "lb",
-    "nl",
-    "et",
-    "gl",
-    "uk",
-    "en",
-    "ka",
-    "de",
-    "el",
     "ca",
+    "hy",
+    "gl",
+    "it",
+    "es",
+    "da",
+    "nl",
+    "el",
+    "de",
+    "uk",
+    "bg",
     "eu",
-    "da"
+    "en",
+    "fr",
+    "lb",
+    "ka",
+    "et"
   ]
 }
