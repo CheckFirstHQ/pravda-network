@@ -1,6 +1,6 @@
 {
   "domain": "sudan.news-pravda.com",
-  "totalArticles": 63,
+  "totalArticles": 69,
   "articlesPerDay": [
     {
       "date": "2025-04-22",
@@ -12,25 +12,37 @@
     },
     {
       "date": "2025-04-24",
-      "count": 14
+      "count": 20
     }
   ],
   "topSources": [
     {
       "source": "arabic.rt.com",
-      "count": 27
+      "count": 28
     },
     {
       "source": "sarabic.ae",
-      "count": 13
+      "count": 14
     },
     {
       "source": "ar.topwar.ru",
-      "count": 7
+      "count": 8
     },
     {
       "source": "Telegram: Sputnik_Arabic",
       "count": 6
+    },
+    {
+      "source": "Telegram: ukr_leaks_ara",
+      "count": 2
+    },
+    {
+      "source": "Telegram: rtarabicnewsroom",
+      "count": 2
+    },
+    {
+      "source": "Telegram: tass_ar",
+      "count": 2
     },
     {
       "source": "Telegram: TSC_SUDAN",
@@ -39,18 +51,6 @@
     {
       "source": "afrinz.ru",
       "count": 2
-    },
-    {
-      "source": "Telegram: ukr_leaks_ara",
-      "count": 1
-    },
-    {
-      "source": "Telegram: rtarabicnewsroom",
-      "count": 1
-    },
-    {
-      "source": "Telegram: tass_ar",
-      "count": 1
     },
     {
       "source": "Telegram: RiaArabic",
@@ -68,11 +68,11 @@
   "categories": [
     {
       "category": "sudan",
-      "count": 38
+      "count": 42
     },
     {
       "category": "world",
-      "count": 25
+      "count": 27
     }
   ],
   "publicationHours": [
@@ -106,7 +106,11 @@
     },
     {
       "hour": 8,
-      "count": 2
+      "count": 7
+    },
+    {
+      "hour": 9,
+      "count": 1
     },
     {
       "hour": 10,
@@ -164,11 +168,11 @@
       "sarabic.ae": 1,
       "ar.topwar.ru": 0,
       "Telegram: Sputnik_Arabic": 0,
-      "Telegram: TSC_SUDAN": 0,
-      "afrinz.ru": 0,
       "Telegram: ukr_leaks_ara": 1,
       "Telegram: rtarabicnewsroom": 1,
       "Telegram: tass_ar": 0,
+      "Telegram: TSC_SUDAN": 0,
+      "afrinz.ru": 0,
       "Telegram: RiaArabic": 0
     },
     {
@@ -177,24 +181,24 @@
       "sarabic.ae": 9,
       "ar.topwar.ru": 5,
       "Telegram: Sputnik_Arabic": 5,
-      "Telegram: TSC_SUDAN": 2,
-      "afrinz.ru": 1,
       "Telegram: ukr_leaks_ara": 0,
       "Telegram: rtarabicnewsroom": 0,
       "Telegram: tass_ar": 1,
+      "Telegram: TSC_SUDAN": 2,
+      "afrinz.ru": 1,
       "Telegram: RiaArabic": 1
     },
     {
       "date": "2025-04-24",
-      "arabic.rt.com": 7,
-      "sarabic.ae": 3,
-      "ar.topwar.ru": 2,
+      "arabic.rt.com": 8,
+      "sarabic.ae": 4,
+      "ar.topwar.ru": 3,
       "Telegram: Sputnik_Arabic": 1,
+      "Telegram: ukr_leaks_ara": 1,
+      "Telegram: rtarabicnewsroom": 1,
+      "Telegram: tass_ar": 1,
       "Telegram: TSC_SUDAN": 0,
       "afrinz.ru": 1,
-      "Telegram: ukr_leaks_ara": 0,
-      "Telegram: rtarabicnewsroom": 0,
-      "Telegram: tass_ar": 0,
       "Telegram: RiaArabic": 0
     }
   ],
@@ -203,22 +207,22 @@
     "sarabic.ae",
     "ar.topwar.ru",
     "Telegram: Sputnik_Arabic",
-    "Telegram: TSC_SUDAN",
-    "afrinz.ru",
     "Telegram: ukr_leaks_ara",
     "Telegram: rtarabicnewsroom",
     "Telegram: tass_ar",
+    "Telegram: TSC_SUDAN",
+    "afrinz.ru",
     "Telegram: RiaArabic"
   ],
   "alternatesStats": {
-    "articlesWithAlternates": 45,
-    "percentWithAlternates": 71.42857142857143,
-    "avgAlternatesPerArticle": 2.6222222222222222
+    "articlesWithAlternates": 50,
+    "percentWithAlternates": 72.46376811594203,
+    "avgAlternatesPerArticle": 2.62
   },
   "languages": [
     {
       "language": "ar",
-      "count": 97
+      "count": 110
     },
     {
       "language": "en",
@@ -247,36 +251,6 @@
   ],
   "languageConnections": [
     {
-      "source": "en",
-      "target": "ar",
-      "strength": 4
-    },
-    {
-      "source": "en",
-      "target": "fr",
-      "strength": 2
-    },
-    {
-      "source": "en",
-      "target": "et",
-      "strength": 1
-    },
-    {
-      "source": "en",
-      "target": "lt",
-      "strength": 1
-    },
-    {
-      "source": "en",
-      "target": "de",
-      "strength": 1
-    },
-    {
-      "source": "en",
-      "target": "lv",
-      "strength": 1
-    },
-    {
       "source": "ar",
       "target": "en",
       "strength": 4
@@ -298,11 +272,61 @@
     },
     {
       "source": "ar",
-      "target": "de",
+      "target": "lv",
       "strength": 1
     },
     {
       "source": "ar",
+      "target": "de",
+      "strength": 1
+    },
+    {
+      "source": "en",
+      "target": "ar",
+      "strength": 4
+    },
+    {
+      "source": "en",
+      "target": "fr",
+      "strength": 2
+    },
+    {
+      "source": "en",
+      "target": "et",
+      "strength": 1
+    },
+    {
+      "source": "en",
+      "target": "lt",
+      "strength": 1
+    },
+    {
+      "source": "en",
+      "target": "lv",
+      "strength": 1
+    },
+    {
+      "source": "en",
+      "target": "de",
+      "strength": 1
+    },
+    {
+      "source": "et",
+      "target": "en",
+      "strength": 1
+    },
+    {
+      "source": "et",
+      "target": "ar",
+      "strength": 1
+    },
+    {
+      "source": "et",
+      "target": "lt",
+      "strength": 1
+    },
+    {
+      "source": "et",
       "target": "lv",
       "strength": 1
     },
@@ -313,27 +337,67 @@
     },
     {
       "source": "et",
-      "target": "lt",
-      "strength": 1
-    },
-    {
-      "source": "et",
-      "target": "en",
-      "strength": 1
-    },
-    {
-      "source": "et",
       "target": "de",
       "strength": 1
     },
     {
-      "source": "et",
+      "source": "lt",
+      "target": "en",
+      "strength": 1
+    },
+    {
+      "source": "lt",
+      "target": "et",
+      "strength": 1
+    },
+    {
+      "source": "lt",
+      "target": "ar",
+      "strength": 1
+    },
+    {
+      "source": "lt",
       "target": "lv",
       "strength": 1
     },
     {
-      "source": "et",
+      "source": "lt",
+      "target": "fr",
+      "strength": 1
+    },
+    {
+      "source": "lt",
+      "target": "de",
+      "strength": 1
+    },
+    {
+      "source": "lv",
+      "target": "en",
+      "strength": 1
+    },
+    {
+      "source": "lv",
+      "target": "et",
+      "strength": 1
+    },
+    {
+      "source": "lv",
       "target": "ar",
+      "strength": 1
+    },
+    {
+      "source": "lv",
+      "target": "lt",
+      "strength": 1
+    },
+    {
+      "source": "lv",
+      "target": "fr",
+      "strength": 1
+    },
+    {
+      "source": "lv",
+      "target": "de",
       "strength": 1
     },
     {
@@ -358,42 +422,17 @@
     },
     {
       "source": "fr",
-      "target": "de",
+      "target": "lv",
       "strength": 1
     },
     {
       "source": "fr",
-      "target": "lv",
-      "strength": 1
-    },
-    {
-      "source": "lt",
-      "target": "et",
-      "strength": 1
-    },
-    {
-      "source": "lt",
-      "target": "fr",
-      "strength": 1
-    },
-    {
-      "source": "lt",
-      "target": "en",
-      "strength": 1
-    },
-    {
-      "source": "lt",
       "target": "de",
       "strength": 1
     },
     {
-      "source": "lt",
-      "target": "lv",
-      "strength": 1
-    },
-    {
-      "source": "lt",
-      "target": "ar",
+      "source": "de",
+      "target": "en",
       "strength": 1
     },
     {
@@ -403,7 +442,7 @@
     },
     {
       "source": "de",
-      "target": "fr",
+      "target": "ar",
       "strength": 1
     },
     {
@@ -413,47 +452,12 @@
     },
     {
       "source": "de",
-      "target": "en",
-      "strength": 1
-    },
-    {
-      "source": "de",
       "target": "lv",
       "strength": 1
     },
     {
       "source": "de",
-      "target": "ar",
-      "strength": 1
-    },
-    {
-      "source": "lv",
-      "target": "et",
-      "strength": 1
-    },
-    {
-      "source": "lv",
       "target": "fr",
-      "strength": 1
-    },
-    {
-      "source": "lv",
-      "target": "lt",
-      "strength": 1
-    },
-    {
-      "source": "lv",
-      "target": "en",
-      "strength": 1
-    },
-    {
-      "source": "lv",
-      "target": "de",
-      "strength": 1
-    },
-    {
-      "source": "lv",
-      "target": "ar",
       "strength": 1
     }
   ],
@@ -461,7 +465,7 @@
     {
       "domain": "sudan.news-pravda.com",
       "language": "ar",
-      "count": 45
+      "count": 50
     },
     {
       "domain": "sudan.news-pravda.com",
@@ -471,17 +475,17 @@
     {
       "domain": "syria.news-pravda.com",
       "language": "ar",
-      "count": 33
+      "count": 38
     },
     {
       "domain": "egypt.news-pravda.com",
       "language": "ar",
-      "count": 13
+      "count": 15
     },
     {
       "domain": "chad.news-pravda.com",
       "language": "ar",
-      "count": 4
+      "count": 5
     },
     {
       "domain": "algeria.news-pravda.com",
@@ -577,19 +581,19 @@
   "countryLanguageData": [
     {
       "code": "ar-SD",
-      "count": 45
+      "count": 50
     },
     {
       "code": "ar-SY",
-      "count": 33
+      "count": 38
     },
     {
       "code": "ar-EG",
-      "count": 13
+      "count": 15
     },
     {
       "code": "ar-TD",
-      "count": 4
+      "count": 5
     },
     {
       "code": "en-SD",
@@ -669,30 +673,30 @@
     }
   ],
   "allDomains": [
-    "algeria.news-pravda.com",
-    "germany.news-pravda.com",
-    "mali.news-pravda.com",
-    "francais.news-pravda.com",
-    "nato.news-pravda.com",
+    "estonia.news-pravda.com",
     "lt.news-pravda.com",
-    "sudan.news-pravda.com",
-    "egypt.news-pravda.com",
     "syria.news-pravda.com",
+    "sudan.news-pravda.com",
+    "germany.news-pravda.com",
+    "chad.news-pravda.com",
+    "uk.news-pravda.com",
     "usa.news-pravda.com",
     "latvia.news-pravda.com",
-    "france.news-pravda.com",
-    "uk.news-pravda.com",
-    "chad.news-pravda.com",
     "deutsch.news-pravda.com",
-    "estonia.news-pravda.com"
+    "mali.news-pravda.com",
+    "algeria.news-pravda.com",
+    "francais.news-pravda.com",
+    "nato.news-pravda.com",
+    "france.news-pravda.com",
+    "egypt.news-pravda.com"
   ],
   "allLanguages": [
-    "et",
-    "fr",
-    "lt",
     "en",
-    "de",
+    "et",
+    "ar",
     "lv",
-    "ar"
+    "lt",
+    "fr",
+    "de"
   ]
 }
