@@ -1,10 +1,10 @@
 {
   "domain": "armenia.news-pravda.com",
-  "totalArticles": 70,
+  "totalArticles": 71,
   "articlesPerDay": [
     {
       "date": "2025-04-23",
-      "count": 70
+      "count": 71
     }
   ],
   "topSources": [
@@ -71,6 +71,10 @@
     {
       "source": "Telegram: rt_russian",
       "count": 1
+    },
+    {
+      "source": "Telegram: rentv_news",
+      "count": 1
     }
   ],
   "categories": [
@@ -80,7 +84,7 @@
     },
     {
       "category": "armenia",
-      "count": 21
+      "count": 22
     }
   ],
   "publicationHours": [
@@ -143,6 +147,10 @@
     {
       "hour": 21,
       "count": 4
+    },
+    {
+      "hour": 23,
+      "count": 1
     }
   ],
   "sourcesByDay": [
@@ -173,18 +181,18 @@
     "Telegram: dva_majors"
   ],
   "alternatesStats": {
-    "articlesWithAlternates": 13,
-    "percentWithAlternates": 18.571428571428573,
-    "avgAlternatesPerArticle": 6.461538461538462
+    "articlesWithAlternates": 14,
+    "percentWithAlternates": 19.718309859154928,
+    "avgAlternatesPerArticle": 6.142857142857143
   },
   "languages": [
     {
       "language": "en",
-      "count": 45
+      "count": 46
     },
     {
       "language": "hy",
-      "count": 13
+      "count": 14
     },
     {
       "language": "de",
@@ -235,7 +243,7 @@
     {
       "source": "en",
       "target": "hy",
-      "strength": 13
+      "strength": 14
     },
     {
       "source": "en",
@@ -295,7 +303,7 @@
     {
       "source": "hy",
       "target": "en",
-      "strength": 13
+      "strength": 14
     },
     {
       "source": "hy",
@@ -354,12 +362,12 @@
     },
     {
       "source": "uk",
-      "target": "en",
+      "target": "hy",
       "strength": 3
     },
     {
       "source": "uk",
-      "target": "hy",
+      "target": "en",
       "strength": 3
     },
     {
@@ -384,12 +392,12 @@
     },
     {
       "source": "ka",
-      "target": "en",
+      "target": "hy",
       "strength": 3
     },
     {
       "source": "ka",
-      "target": "hy",
+      "target": "en",
       "strength": 3
     },
     {
@@ -409,12 +417,12 @@
     },
     {
       "source": "ka",
-      "target": "lv",
+      "target": "lt",
       "strength": 1
     },
     {
       "source": "ka",
-      "target": "lt",
+      "target": "lv",
       "strength": 1
     },
     {
@@ -429,23 +437,48 @@
     },
     {
       "source": "bg",
-      "target": "en",
-      "strength": 1
-    },
-    {
-      "source": "bg",
-      "target": "hy",
-      "strength": 1
-    },
-    {
-      "source": "bg",
       "target": "ka",
       "strength": 1
     },
     {
-      "source": "lv",
+      "source": "bg",
+      "target": "hy",
+      "strength": 1
+    },
+    {
+      "source": "bg",
       "target": "en",
-      "strength": 2
+      "strength": 1
+    },
+    {
+      "source": "lt",
+      "target": "lv",
+      "strength": 1
+    },
+    {
+      "source": "lt",
+      "target": "ka",
+      "strength": 1
+    },
+    {
+      "source": "lt",
+      "target": "hy",
+      "strength": 1
+    },
+    {
+      "source": "lt",
+      "target": "en",
+      "strength": 1
+    },
+    {
+      "source": "lt",
+      "target": "et",
+      "strength": 1
+    },
+    {
+      "source": "lt",
+      "target": "ro",
+      "strength": 1
     },
     {
       "source": "lv",
@@ -454,8 +487,8 @@
     },
     {
       "source": "lv",
-      "target": "ro",
-      "strength": 1
+      "target": "en",
+      "strength": 2
     },
     {
       "source": "lv",
@@ -470,6 +503,11 @@
     {
       "source": "lv",
       "target": "et",
+      "strength": 1
+    },
+    {
+      "source": "lv",
+      "target": "ro",
       "strength": 1
     },
     {
@@ -478,68 +516,28 @@
       "strength": 1
     },
     {
-      "source": "ro",
-      "target": "en",
-      "strength": 2
-    },
-    {
-      "source": "ro",
-      "target": "hy",
-      "strength": 2
-    },
-    {
-      "source": "ro",
-      "target": "ka",
-      "strength": 2
-    },
-    {
-      "source": "ro",
-      "target": "lv",
-      "strength": 1
-    },
-    {
-      "source": "ro",
+      "source": "et",
       "target": "lt",
-      "strength": 1
-    },
-    {
-      "source": "ro",
-      "target": "et",
-      "strength": 1
-    },
-    {
-      "source": "lt",
-      "target": "lv",
-      "strength": 1
-    },
-    {
-      "source": "lt",
-      "target": "ro",
-      "strength": 1
-    },
-    {
-      "source": "lt",
-      "target": "en",
-      "strength": 1
-    },
-    {
-      "source": "lt",
-      "target": "hy",
-      "strength": 1
-    },
-    {
-      "source": "lt",
-      "target": "ka",
-      "strength": 1
-    },
-    {
-      "source": "lt",
-      "target": "et",
       "strength": 1
     },
     {
       "source": "et",
       "target": "lv",
+      "strength": 1
+    },
+    {
+      "source": "et",
+      "target": "ka",
+      "strength": 1
+    },
+    {
+      "source": "et",
+      "target": "hy",
+      "strength": 1
+    },
+    {
+      "source": "et",
+      "target": "en",
       "strength": 1
     },
     {
@@ -548,23 +546,33 @@
       "strength": 1
     },
     {
-      "source": "et",
-      "target": "en",
-      "strength": 1
+      "source": "ro",
+      "target": "ka",
+      "strength": 2
     },
     {
-      "source": "et",
+      "source": "ro",
+      "target": "hy",
+      "strength": 2
+    },
+    {
+      "source": "ro",
+      "target": "en",
+      "strength": 2
+    },
+    {
+      "source": "ro",
       "target": "lt",
       "strength": 1
     },
     {
-      "source": "et",
-      "target": "hy",
+      "source": "ro",
+      "target": "lv",
       "strength": 1
     },
     {
-      "source": "et",
-      "target": "ka",
+      "source": "ro",
+      "target": "et",
       "strength": 1
     },
     {
@@ -599,17 +607,12 @@
     },
     {
       "source": "sr",
-      "target": "en",
-      "strength": 1
-    },
-    {
-      "source": "sr",
       "target": "hy",
       "strength": 1
     },
     {
-      "source": "sk",
-      "target": "uk",
+      "source": "sr",
+      "target": "en",
       "strength": 1
     },
     {
@@ -619,7 +622,7 @@
     },
     {
       "source": "sk",
-      "target": "en",
+      "target": "uk",
       "strength": 1
     },
     {
@@ -628,18 +631,23 @@
       "strength": 1
     },
     {
+      "source": "sk",
+      "target": "en",
+      "strength": 1
+    },
+    {
       "source": "ja",
       "target": "en",
       "strength": 1
     },
     {
       "source": "ja",
-      "target": "hy",
+      "target": "de",
       "strength": 1
     },
     {
       "source": "ja",
-      "target": "de",
+      "target": "hy",
       "strength": 1
     }
   ],
@@ -647,12 +655,12 @@
     {
       "domain": "armenia.news-pravda.com",
       "language": "en",
-      "count": 13
+      "count": 14
     },
     {
       "domain": "armenia.news-pravda.com",
       "language": "hy",
-      "count": 13
+      "count": 14
     },
     {
       "domain": "ge.news-pravda.com",
@@ -813,11 +821,11 @@
   "countryLanguageData": [
     {
       "code": "en-AM",
-      "count": 13
+      "count": 14
     },
     {
       "code": "hy-AM",
-      "count": 13
+      "count": 14
     },
     {
       "code": "en",
@@ -937,39 +945,39 @@
     }
   ],
   "allDomains": [
-    "deutsch.news-pravda.com",
-    "lt.news-pravda.com",
-    "news-pravda.com",
-    "balkan.news-pravda.com",
-    "bulgaria.news-pravda.com",
-    "slovakia.news-pravda.com",
+    "germany.news-pravda.com",
     "armenia.news-pravda.com",
+    "lt.news-pravda.com",
+    "estonia.news-pravda.com",
+    "romania.news-pravda.com",
     "japan.news-pravda.com",
-    "latvia.news-pravda.com",
     "usa.news-pravda.com",
     "ua.news-pravda.com",
-    "germany.news-pravda.com",
-    "uk.news-pravda.com",
-    "romania.news-pravda.com",
-    "estonia.news-pravda.com",
+    "slovakia.news-pravda.com",
     "serbia.news-pravda.com",
-    "ge.news-pravda.com",
+    "md.news-pravda.com",
+    "news-pravda.com",
     "eu.news-pravda.com",
-    "md.news-pravda.com"
+    "deutsch.news-pravda.com",
+    "bulgaria.news-pravda.com",
+    "balkan.news-pravda.com",
+    "latvia.news-pravda.com",
+    "uk.news-pravda.com",
+    "ge.news-pravda.com"
   ],
   "allLanguages": [
-    "uk",
-    "ja",
-    "lv",
-    "ro",
-    "en",
-    "lt",
     "sr",
+    "uk",
+    "lt",
     "sk",
-    "de",
-    "hy",
+    "lv",
     "ka",
+    "hy",
+    "de",
+    "en",
+    "et",
     "bg",
-    "et"
+    "ro",
+    "ja"
   ]
 }

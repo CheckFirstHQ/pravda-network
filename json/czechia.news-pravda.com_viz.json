@@ -1,10 +1,10 @@
 {
   "domain": "czechia.news-pravda.com",
-  "totalArticles": 133,
+  "totalArticles": 136,
   "articlesPerDay": [
     {
       "date": "2025-04-23",
-      "count": 133
+      "count": 136
     }
   ],
   "topSources": [
@@ -38,15 +38,15 @@
     },
     {
       "source": "Telegram: Libertas_info_cz",
-      "count": 7
+      "count": 8
+    },
+    {
+      "source": "Telegram: news_22_faraon",
+      "count": 6
     },
     {
       "source": "Telegram: InfodefenseCZE",
       "count": 5
-    },
-    {
-      "source": "Telegram: news_22_faraon",
-      "count": 4
     },
     {
       "source": "Telegram: marsalMalinovskij",
@@ -88,7 +88,7 @@
   "categories": [
     {
       "category": "world",
-      "count": 128
+      "count": 130
     },
     {
       "category": "eu",
@@ -96,7 +96,7 @@
     },
     {
       "category": "czechia",
-      "count": 1
+      "count": 2
     }
   ],
   "publicationHours": [
@@ -131,6 +131,10 @@
     {
       "hour": 22,
       "count": 18
+    },
+    {
+      "hour": 23,
+      "count": 3
     }
   ],
   "sourcesByDay": [
@@ -143,9 +147,9 @@
       "Telegram: LussiList": 10,
       "Telegram: neCT24": 9,
       "Telegram: uk100a": 9,
-      "Telegram: Libertas_info_cz": 7,
-      "Telegram: InfodefenseCZE": 5,
-      "Telegram: news_22_faraon": 4
+      "Telegram: Libertas_info_cz": 8,
+      "Telegram: news_22_faraon": 6,
+      "Telegram: InfodefenseCZE": 5
     }
   ],
   "topSourceNames": [
@@ -157,26 +161,26 @@
     "Telegram: neCT24",
     "Telegram: uk100a",
     "Telegram: Libertas_info_cz",
-    "Telegram: InfodefenseCZE",
-    "Telegram: news_22_faraon"
+    "Telegram: news_22_faraon",
+    "Telegram: InfodefenseCZE"
   ],
   "alternatesStats": {
-    "articlesWithAlternates": 5,
-    "percentWithAlternates": 3.7593984962406015,
-    "avgAlternatesPerArticle": 6.0
+    "articlesWithAlternates": 6,
+    "percentWithAlternates": 4.411764705882353,
+    "avgAlternatesPerArticle": 5.333333333333333
   },
   "languages": [
     {
       "language": "en",
-      "count": 15
+      "count": 16
+    },
+    {
+      "language": "cs",
+      "count": 6
     },
     {
       "language": "de",
       "count": 6
-    },
-    {
-      "language": "cs",
-      "count": 5
     },
     {
       "language": "et",
@@ -198,68 +202,38 @@
   "languageConnections": [
     {
       "source": "uk",
+      "target": "cs",
+      "strength": 1
+    },
+    {
+      "source": "uk",
+      "target": "pl",
+      "strength": 1
+    },
+    {
+      "source": "uk",
+      "target": "de",
+      "strength": 1
+    },
+    {
+      "source": "uk",
+      "target": "ga",
+      "strength": 1
+    },
+    {
+      "source": "uk",
       "target": "en",
       "strength": 1
     },
     {
       "source": "uk",
-      "target": "cs",
-      "strength": 1
-    },
-    {
-      "source": "uk",
-      "target": "de",
-      "strength": 1
-    },
-    {
-      "source": "uk",
-      "target": "pl",
-      "strength": 1
-    },
-    {
-      "source": "uk",
       "target": "et",
-      "strength": 1
-    },
-    {
-      "source": "uk",
-      "target": "ga",
-      "strength": 1
-    },
-    {
-      "source": "en",
-      "target": "cs",
-      "strength": 5
-    },
-    {
-      "source": "en",
-      "target": "de",
-      "strength": 3
-    },
-    {
-      "source": "en",
-      "target": "uk",
-      "strength": 1
-    },
-    {
-      "source": "en",
-      "target": "pl",
-      "strength": 1
-    },
-    {
-      "source": "en",
-      "target": "et",
-      "strength": 1
-    },
-    {
-      "source": "en",
-      "target": "ga",
       "strength": 1
     },
     {
       "source": "cs",
       "target": "en",
-      "strength": 5
+      "strength": 6
     },
     {
       "source": "cs",
@@ -278,13 +252,48 @@
     },
     {
       "source": "cs",
-      "target": "et",
+      "target": "ga",
       "strength": 1
     },
     {
       "source": "cs",
+      "target": "et",
+      "strength": 1
+    },
+    {
+      "source": "pl",
+      "target": "uk",
+      "strength": 1
+    },
+    {
+      "source": "pl",
+      "target": "cs",
+      "strength": 1
+    },
+    {
+      "source": "pl",
+      "target": "de",
+      "strength": 1
+    },
+    {
+      "source": "pl",
       "target": "ga",
       "strength": 1
+    },
+    {
+      "source": "pl",
+      "target": "en",
+      "strength": 1
+    },
+    {
+      "source": "pl",
+      "target": "et",
+      "strength": 1
+    },
+    {
+      "source": "de",
+      "target": "cs",
+      "strength": 3
     },
     {
       "source": "de",
@@ -293,67 +302,87 @@
     },
     {
       "source": "de",
+      "target": "uk",
+      "strength": 1
+    },
+    {
+      "source": "de",
+      "target": "pl",
+      "strength": 1
+    },
+    {
+      "source": "de",
+      "target": "ga",
+      "strength": 1
+    },
+    {
+      "source": "de",
+      "target": "et",
+      "strength": 1
+    },
+    {
+      "source": "ga",
+      "target": "uk",
+      "strength": 1
+    },
+    {
+      "source": "ga",
       "target": "cs",
+      "strength": 1
+    },
+    {
+      "source": "ga",
+      "target": "pl",
+      "strength": 1
+    },
+    {
+      "source": "ga",
+      "target": "de",
+      "strength": 1
+    },
+    {
+      "source": "ga",
+      "target": "en",
+      "strength": 1
+    },
+    {
+      "source": "ga",
+      "target": "et",
+      "strength": 1
+    },
+    {
+      "source": "en",
+      "target": "cs",
+      "strength": 6
+    },
+    {
+      "source": "en",
+      "target": "de",
       "strength": 3
     },
     {
-      "source": "de",
+      "source": "en",
       "target": "uk",
       "strength": 1
     },
     {
-      "source": "de",
+      "source": "en",
       "target": "pl",
       "strength": 1
     },
     {
-      "source": "de",
-      "target": "et",
-      "strength": 1
-    },
-    {
-      "source": "de",
+      "source": "en",
       "target": "ga",
       "strength": 1
     },
     {
-      "source": "pl",
-      "target": "uk",
-      "strength": 1
-    },
-    {
-      "source": "pl",
-      "target": "en",
-      "strength": 1
-    },
-    {
-      "source": "pl",
-      "target": "cs",
-      "strength": 1
-    },
-    {
-      "source": "pl",
-      "target": "de",
-      "strength": 1
-    },
-    {
-      "source": "pl",
+      "source": "en",
       "target": "et",
-      "strength": 1
-    },
-    {
-      "source": "pl",
-      "target": "ga",
       "strength": 1
     },
     {
       "source": "et",
       "target": "uk",
-      "strength": 1
-    },
-    {
-      "source": "et",
-      "target": "en",
       "strength": 1
     },
     {
@@ -363,12 +392,12 @@
     },
     {
       "source": "et",
-      "target": "de",
+      "target": "pl",
       "strength": 1
     },
     {
       "source": "et",
-      "target": "pl",
+      "target": "de",
       "strength": 1
     },
     {
@@ -377,33 +406,8 @@
       "strength": 1
     },
     {
-      "source": "ga",
-      "target": "uk",
-      "strength": 1
-    },
-    {
-      "source": "ga",
+      "source": "et",
       "target": "en",
-      "strength": 1
-    },
-    {
-      "source": "ga",
-      "target": "cs",
-      "strength": 1
-    },
-    {
-      "source": "ga",
-      "target": "de",
-      "strength": 1
-    },
-    {
-      "source": "ga",
-      "target": "pl",
-      "strength": 1
-    },
-    {
-      "source": "ga",
-      "target": "et",
       "strength": 1
     }
   ],
@@ -441,12 +445,12 @@
     {
       "domain": "czechia.news-pravda.com",
       "language": "cs",
-      "count": 5
+      "count": 6
     },
     {
       "domain": "czechia.news-pravda.com",
       "language": "en",
-      "count": 5
+      "count": 6
     },
     {
       "domain": "deutsch.news-pravda.com",
@@ -487,11 +491,11 @@
   "countryLanguageData": [
     {
       "code": "cs-CZ",
-      "count": 5
+      "count": 6
     },
     {
       "code": "en-CZ",
-      "count": 5
+      "count": 6
     },
     {
       "code": "de",
@@ -543,23 +547,23 @@
     }
   ],
   "allDomains": [
-    "poland.news-pravda.com",
     "deutsch.news-pravda.com",
+    "germany.news-pravda.com",
+    "estonia.news-pravda.com",
     "ireland.news-pravda.com",
+    "poland.news-pravda.com",
     "eu.news-pravda.com",
     "czechia.news-pravda.com",
     "ua.news-pravda.com",
-    "nato.news-pravda.com",
-    "germany.news-pravda.com",
-    "estonia.news-pravda.com"
+    "nato.news-pravda.com"
   ],
   "allLanguages": [
     "uk",
-    "en",
     "cs",
-    "de",
     "pl",
-    "et",
-    "ga"
+    "de",
+    "ga",
+    "en",
+    "et"
   ]
 }

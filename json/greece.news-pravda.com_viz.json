@@ -1,10 +1,14 @@
 {
   "domain": "greece.news-pravda.com",
-  "totalArticles": 84,
+  "totalArticles": 88,
   "articlesPerDay": [
     {
       "date": "2025-04-23",
-      "count": 84
+      "count": 87
+    },
+    {
+      "date": "2025-04-24",
+      "count": 1
     }
   ],
   "topSources": [
@@ -13,20 +17,20 @@
       "count": 45
     },
     {
+      "source": "Telegram: OliaOlenkaRuGr",
+      "count": 9
+    },
+    {
+      "source": "Telegram: HellasGlobalNews",
+      "count": 9
+    },
+    {
       "source": "Telegram: ClinkerCM",
       "count": 8
     },
     {
-      "source": "Telegram: OliaOlenkaRuGr",
-      "count": 8
-    },
-    {
       "source": "Telegram: halh8eiakaitodikaio",
-      "count": 7
-    },
-    {
-      "source": "Telegram: HellasGlobalNews",
-      "count": 7
+      "count": 8
     },
     {
       "source": "Telegram: infodefGreece",
@@ -60,7 +64,7 @@
   "categories": [
     {
       "category": "world",
-      "count": 79
+      "count": 83
     },
     {
       "category": "greece",
@@ -72,6 +76,10 @@
     }
   ],
   "publicationHours": [
+    {
+      "hour": 0,
+      "count": 1
+    },
     {
       "hour": 5,
       "count": 4
@@ -115,29 +123,46 @@
     {
       "hour": 22,
       "count": 3
+    },
+    {
+      "hour": 23,
+      "count": 3
     }
   ],
   "sourcesByDay": [
     {
       "date": "2025-04-23",
       "Telegram: leblorikzov": 45,
+      "Telegram: OliaOlenkaRuGr": 9,
+      "Telegram: HellasGlobalNews": 8,
       "Telegram: ClinkerCM": 8,
-      "Telegram: OliaOlenkaRuGr": 8,
-      "Telegram: halh8eiakaitodikaio": 7,
-      "Telegram: HellasGlobalNews": 7,
+      "Telegram: halh8eiakaitodikaio": 8,
       "Telegram: infodefGreece": 3,
       "lenta.ru": 1,
       "Telegram: lomovkaa": 1,
       "tass.ru": 1,
       "Telegram: bricsaffairs": 1
+    },
+    {
+      "date": "2025-04-24",
+      "Telegram: leblorikzov": 0,
+      "Telegram: OliaOlenkaRuGr": 0,
+      "Telegram: HellasGlobalNews": 1,
+      "Telegram: ClinkerCM": 0,
+      "Telegram: halh8eiakaitodikaio": 0,
+      "Telegram: infodefGreece": 0,
+      "lenta.ru": 0,
+      "Telegram: lomovkaa": 0,
+      "tass.ru": 0,
+      "Telegram: bricsaffairs": 0
     }
   ],
   "topSourceNames": [
     "Telegram: leblorikzov",
-    "Telegram: ClinkerCM",
     "Telegram: OliaOlenkaRuGr",
-    "Telegram: halh8eiakaitodikaio",
     "Telegram: HellasGlobalNews",
+    "Telegram: ClinkerCM",
+    "Telegram: halh8eiakaitodikaio",
     "Telegram: infodefGreece",
     "lenta.ru",
     "Telegram: lomovkaa",
@@ -146,7 +171,7 @@
   ],
   "alternatesStats": {
     "articlesWithAlternates": 6,
-    "percentWithAlternates": 7.142857142857142,
+    "percentWithAlternates": 6.8181818181818175,
     "avgAlternatesPerArticle": 9.166666666666666
   },
   "languages": [
@@ -223,12 +248,22 @@
     },
     {
       "source": "en",
-      "target": "ca",
+      "target": "fr",
       "strength": 2
     },
     {
       "source": "en",
-      "target": "eu",
+      "target": "it",
+      "strength": 2
+    },
+    {
+      "source": "en",
+      "target": "es",
+      "strength": 2
+    },
+    {
+      "source": "en",
+      "target": "ca",
       "strength": 2
     },
     {
@@ -243,23 +278,8 @@
     },
     {
       "source": "en",
-      "target": "fr",
+      "target": "eu",
       "strength": 2
-    },
-    {
-      "source": "en",
-      "target": "es",
-      "strength": 2
-    },
-    {
-      "source": "en",
-      "target": "it",
-      "strength": 2
-    },
-    {
-      "source": "en",
-      "target": "de",
-      "strength": 1
     },
     {
       "source": "en",
@@ -268,12 +288,7 @@
     },
     {
       "source": "en",
-      "target": "da",
-      "strength": 1
-    },
-    {
-      "source": "en",
-      "target": "bg",
+      "target": "de",
       "strength": 1
     },
     {
@@ -283,12 +298,22 @@
     },
     {
       "source": "en",
-      "target": "ro",
+      "target": "bg",
+      "strength": 1
+    },
+    {
+      "source": "en",
+      "target": "da",
       "strength": 1
     },
     {
       "source": "en",
       "target": "pl",
+      "strength": 1
+    },
+    {
+      "source": "en",
+      "target": "ro",
       "strength": 1
     },
     {
@@ -298,12 +323,22 @@
     },
     {
       "source": "el",
-      "target": "ca",
+      "target": "fr",
       "strength": 2
     },
     {
       "source": "el",
-      "target": "eu",
+      "target": "it",
+      "strength": 2
+    },
+    {
+      "source": "el",
+      "target": "es",
+      "strength": 2
+    },
+    {
+      "source": "el",
+      "target": "ca",
       "strength": 2
     },
     {
@@ -318,23 +353,8 @@
     },
     {
       "source": "el",
-      "target": "fr",
+      "target": "eu",
       "strength": 2
-    },
-    {
-      "source": "el",
-      "target": "es",
-      "strength": 2
-    },
-    {
-      "source": "el",
-      "target": "it",
-      "strength": 2
-    },
-    {
-      "source": "el",
-      "target": "de",
-      "strength": 1
     },
     {
       "source": "el",
@@ -343,12 +363,7 @@
     },
     {
       "source": "el",
-      "target": "da",
-      "strength": 1
-    },
-    {
-      "source": "el",
-      "target": "bg",
+      "target": "de",
       "strength": 1
     },
     {
@@ -358,7 +373,12 @@
     },
     {
       "source": "el",
-      "target": "ro",
+      "target": "bg",
+      "strength": 1
+    },
+    {
+      "source": "el",
+      "target": "da",
       "strength": 1
     },
     {
@@ -367,388 +387,28 @@
       "strength": 1
     },
     {
-      "source": "ca",
-      "target": "en",
-      "strength": 2
-    },
-    {
-      "source": "ca",
-      "target": "eu",
-      "strength": 2
-    },
-    {
-      "source": "ca",
-      "target": "el",
-      "strength": 2
-    },
-    {
-      "source": "ca",
-      "target": "nl",
-      "strength": 2
-    },
-    {
-      "source": "ca",
-      "target": "gl",
-      "strength": 2
-    },
-    {
-      "source": "ca",
-      "target": "fr",
-      "strength": 2
-    },
-    {
-      "source": "ca",
-      "target": "es",
-      "strength": 2
-    },
-    {
-      "source": "ca",
-      "target": "it",
-      "strength": 2
-    },
-    {
-      "source": "ca",
-      "target": "de",
-      "strength": 1
-    },
-    {
-      "source": "ca",
-      "target": "lb",
-      "strength": 1
-    },
-    {
-      "source": "ca",
-      "target": "da",
-      "strength": 1
-    },
-    {
-      "source": "ca",
-      "target": "bg",
-      "strength": 1
-    },
-    {
-      "source": "ca",
-      "target": "et",
-      "strength": 1
-    },
-    {
-      "source": "ca",
+      "source": "el",
       "target": "ro",
       "strength": 1
     },
     {
-      "source": "ca",
-      "target": "pl",
-      "strength": 1
-    },
-    {
-      "source": "eu",
-      "target": "ca",
-      "strength": 2
-    },
-    {
-      "source": "eu",
-      "target": "en",
-      "strength": 2
-    },
-    {
-      "source": "eu",
-      "target": "el",
-      "strength": 2
-    },
-    {
-      "source": "eu",
-      "target": "nl",
-      "strength": 2
-    },
-    {
-      "source": "eu",
-      "target": "gl",
-      "strength": 2
-    },
-    {
-      "source": "eu",
-      "target": "fr",
-      "strength": 2
-    },
-    {
-      "source": "eu",
-      "target": "es",
-      "strength": 2
-    },
-    {
-      "source": "eu",
-      "target": "it",
-      "strength": 2
-    },
-    {
-      "source": "eu",
-      "target": "de",
-      "strength": 1
-    },
-    {
-      "source": "eu",
-      "target": "lb",
-      "strength": 1
-    },
-    {
-      "source": "eu",
-      "target": "da",
-      "strength": 1
-    },
-    {
-      "source": "eu",
-      "target": "bg",
-      "strength": 1
-    },
-    {
-      "source": "eu",
-      "target": "et",
-      "strength": 1
-    },
-    {
-      "source": "eu",
-      "target": "ro",
-      "strength": 1
-    },
-    {
-      "source": "eu",
-      "target": "pl",
-      "strength": 1
-    },
-    {
-      "source": "nl",
-      "target": "ca",
-      "strength": 2
-    },
-    {
-      "source": "nl",
-      "target": "en",
-      "strength": 2
-    },
-    {
-      "source": "nl",
-      "target": "eu",
-      "strength": 2
-    },
-    {
-      "source": "nl",
-      "target": "el",
-      "strength": 2
-    },
-    {
-      "source": "nl",
-      "target": "gl",
-      "strength": 2
-    },
-    {
-      "source": "nl",
-      "target": "fr",
-      "strength": 2
-    },
-    {
-      "source": "nl",
-      "target": "es",
-      "strength": 2
-    },
-    {
-      "source": "nl",
-      "target": "it",
-      "strength": 2
-    },
-    {
-      "source": "nl",
-      "target": "de",
-      "strength": 1
-    },
-    {
-      "source": "nl",
-      "target": "lb",
-      "strength": 1
-    },
-    {
-      "source": "nl",
-      "target": "da",
-      "strength": 1
-    },
-    {
-      "source": "nl",
-      "target": "bg",
-      "strength": 1
-    },
-    {
-      "source": "nl",
-      "target": "et",
-      "strength": 1
-    },
-    {
-      "source": "nl",
-      "target": "ro",
-      "strength": 1
-    },
-    {
-      "source": "nl",
-      "target": "pl",
-      "strength": 1
-    },
-    {
-      "source": "gl",
-      "target": "ca",
-      "strength": 2
-    },
-    {
-      "source": "gl",
-      "target": "en",
-      "strength": 2
-    },
-    {
-      "source": "gl",
-      "target": "eu",
-      "strength": 2
-    },
-    {
-      "source": "gl",
-      "target": "el",
-      "strength": 2
-    },
-    {
-      "source": "gl",
-      "target": "nl",
-      "strength": 2
-    },
-    {
-      "source": "gl",
-      "target": "fr",
-      "strength": 2
-    },
-    {
-      "source": "gl",
-      "target": "es",
-      "strength": 2
-    },
-    {
-      "source": "gl",
-      "target": "it",
-      "strength": 2
-    },
-    {
-      "source": "gl",
-      "target": "de",
-      "strength": 1
-    },
-    {
-      "source": "gl",
-      "target": "lb",
-      "strength": 1
-    },
-    {
-      "source": "gl",
-      "target": "da",
-      "strength": 1
-    },
-    {
-      "source": "gl",
-      "target": "bg",
-      "strength": 1
-    },
-    {
-      "source": "gl",
-      "target": "et",
-      "strength": 1
-    },
-    {
-      "source": "gl",
-      "target": "ro",
-      "strength": 1
-    },
-    {
-      "source": "gl",
-      "target": "pl",
-      "strength": 1
-    },
-    {
-      "source": "de",
-      "target": "ca",
-      "strength": 1
-    },
-    {
-      "source": "de",
-      "target": "en",
-      "strength": 1
-    },
-    {
-      "source": "de",
-      "target": "eu",
-      "strength": 1
-    },
-    {
-      "source": "de",
-      "target": "el",
-      "strength": 1
-    },
-    {
-      "source": "de",
-      "target": "nl",
-      "strength": 1
-    },
-    {
-      "source": "de",
-      "target": "gl",
-      "strength": 1
-    },
-    {
-      "source": "de",
-      "target": "fr",
-      "strength": 1
-    },
-    {
-      "source": "de",
-      "target": "es",
-      "strength": 1
-    },
-    {
-      "source": "de",
-      "target": "lb",
-      "strength": 1
-    },
-    {
-      "source": "de",
-      "target": "da",
-      "strength": 1
-    },
-    {
-      "source": "de",
-      "target": "bg",
-      "strength": 1
-    },
-    {
-      "source": "de",
-      "target": "it",
-      "strength": 1
-    },
-    {
-      "source": "de",
-      "target": "et",
-      "strength": 1
-    },
-    {
       "source": "fr",
-      "target": "ca",
+      "target": "el",
       "strength": 2
     },
     {
       "source": "fr",
-      "target": "en",
+      "target": "it",
       "strength": 2
     },
     {
       "source": "fr",
-      "target": "eu",
+      "target": "es",
       "strength": 2
     },
     {
       "source": "fr",
-      "target": "el",
+      "target": "ca",
       "strength": 2
     },
     {
@@ -763,18 +423,13 @@
     },
     {
       "source": "fr",
-      "target": "es",
+      "target": "en",
       "strength": 2
     },
     {
       "source": "fr",
-      "target": "it",
+      "target": "eu",
       "strength": 2
-    },
-    {
-      "source": "fr",
-      "target": "de",
-      "strength": 1
     },
     {
       "source": "fr",
@@ -783,12 +438,7 @@
     },
     {
       "source": "fr",
-      "target": "da",
-      "strength": 1
-    },
-    {
-      "source": "fr",
-      "target": "bg",
+      "target": "de",
       "strength": 1
     },
     {
@@ -798,7 +448,12 @@
     },
     {
       "source": "fr",
-      "target": "ro",
+      "target": "bg",
+      "strength": 1
+    },
+    {
+      "source": "fr",
+      "target": "da",
       "strength": 1
     },
     {
@@ -807,293 +462,28 @@
       "strength": 1
     },
     {
-      "source": "es",
-      "target": "ca",
-      "strength": 2
-    },
-    {
-      "source": "es",
-      "target": "en",
-      "strength": 2
-    },
-    {
-      "source": "es",
-      "target": "eu",
-      "strength": 2
-    },
-    {
-      "source": "es",
-      "target": "el",
-      "strength": 2
-    },
-    {
-      "source": "es",
-      "target": "nl",
-      "strength": 2
-    },
-    {
-      "source": "es",
-      "target": "gl",
-      "strength": 2
-    },
-    {
-      "source": "es",
-      "target": "fr",
-      "strength": 2
-    },
-    {
-      "source": "es",
-      "target": "it",
-      "strength": 2
-    },
-    {
-      "source": "es",
-      "target": "de",
-      "strength": 1
-    },
-    {
-      "source": "es",
-      "target": "lb",
-      "strength": 1
-    },
-    {
-      "source": "es",
-      "target": "da",
-      "strength": 1
-    },
-    {
-      "source": "es",
-      "target": "bg",
-      "strength": 1
-    },
-    {
-      "source": "es",
-      "target": "et",
-      "strength": 1
-    },
-    {
-      "source": "es",
+      "source": "fr",
       "target": "ro",
       "strength": 1
     },
     {
-      "source": "es",
-      "target": "pl",
-      "strength": 1
-    },
-    {
-      "source": "lb",
-      "target": "ca",
-      "strength": 1
-    },
-    {
-      "source": "lb",
-      "target": "en",
-      "strength": 1
-    },
-    {
-      "source": "lb",
-      "target": "eu",
-      "strength": 1
-    },
-    {
-      "source": "lb",
-      "target": "el",
-      "strength": 1
-    },
-    {
-      "source": "lb",
-      "target": "nl",
-      "strength": 1
-    },
-    {
-      "source": "lb",
-      "target": "gl",
-      "strength": 1
-    },
-    {
-      "source": "lb",
-      "target": "de",
-      "strength": 1
-    },
-    {
-      "source": "lb",
-      "target": "fr",
-      "strength": 1
-    },
-    {
-      "source": "lb",
-      "target": "es",
-      "strength": 1
-    },
-    {
-      "source": "lb",
-      "target": "da",
-      "strength": 1
-    },
-    {
-      "source": "lb",
-      "target": "bg",
-      "strength": 1
-    },
-    {
-      "source": "lb",
-      "target": "it",
-      "strength": 1
-    },
-    {
-      "source": "lb",
-      "target": "et",
-      "strength": 1
-    },
-    {
-      "source": "da",
-      "target": "ca",
-      "strength": 1
-    },
-    {
-      "source": "da",
-      "target": "en",
-      "strength": 1
-    },
-    {
-      "source": "da",
-      "target": "eu",
-      "strength": 1
-    },
-    {
-      "source": "da",
-      "target": "el",
-      "strength": 1
-    },
-    {
-      "source": "da",
-      "target": "nl",
-      "strength": 1
-    },
-    {
-      "source": "da",
-      "target": "gl",
-      "strength": 1
-    },
-    {
-      "source": "da",
-      "target": "de",
-      "strength": 1
-    },
-    {
-      "source": "da",
-      "target": "fr",
-      "strength": 1
-    },
-    {
-      "source": "da",
-      "target": "es",
-      "strength": 1
-    },
-    {
-      "source": "da",
-      "target": "lb",
-      "strength": 1
-    },
-    {
-      "source": "da",
-      "target": "bg",
-      "strength": 1
-    },
-    {
-      "source": "da",
-      "target": "it",
-      "strength": 1
-    },
-    {
-      "source": "da",
-      "target": "et",
-      "strength": 1
-    },
-    {
-      "source": "bg",
-      "target": "ca",
-      "strength": 1
-    },
-    {
-      "source": "bg",
-      "target": "en",
-      "strength": 1
-    },
-    {
-      "source": "bg",
-      "target": "eu",
-      "strength": 1
-    },
-    {
-      "source": "bg",
-      "target": "el",
-      "strength": 1
-    },
-    {
-      "source": "bg",
-      "target": "nl",
-      "strength": 1
-    },
-    {
-      "source": "bg",
-      "target": "gl",
-      "strength": 1
-    },
-    {
-      "source": "bg",
-      "target": "de",
-      "strength": 1
-    },
-    {
-      "source": "bg",
-      "target": "fr",
-      "strength": 1
-    },
-    {
-      "source": "bg",
-      "target": "es",
-      "strength": 1
-    },
-    {
-      "source": "bg",
-      "target": "lb",
-      "strength": 1
-    },
-    {
-      "source": "bg",
-      "target": "da",
-      "strength": 1
-    },
-    {
-      "source": "bg",
-      "target": "it",
-      "strength": 1
-    },
-    {
-      "source": "bg",
-      "target": "et",
-      "strength": 1
-    },
-    {
       "source": "it",
-      "target": "ca",
-      "strength": 2
-    },
-    {
-      "source": "it",
-      "target": "en",
-      "strength": 2
-    },
-    {
-      "source": "it",
-      "target": "eu",
+      "target": "fr",
       "strength": 2
     },
     {
       "source": "it",
       "target": "el",
+      "strength": 2
+    },
+    {
+      "source": "it",
+      "target": "es",
+      "strength": 2
+    },
+    {
+      "source": "it",
+      "target": "ca",
       "strength": 2
     },
     {
@@ -1108,18 +498,13 @@
     },
     {
       "source": "it",
-      "target": "fr",
+      "target": "en",
       "strength": 2
     },
     {
       "source": "it",
-      "target": "es",
+      "target": "eu",
       "strength": 2
-    },
-    {
-      "source": "it",
-      "target": "de",
-      "strength": 1
     },
     {
       "source": "it",
@@ -1128,7 +513,12 @@
     },
     {
       "source": "it",
-      "target": "da",
+      "target": "de",
+      "strength": 1
+    },
+    {
+      "source": "it",
+      "target": "et",
       "strength": 1
     },
     {
@@ -1138,12 +528,7 @@
     },
     {
       "source": "it",
-      "target": "et",
-      "strength": 1
-    },
-    {
-      "source": "it",
-      "target": "ro",
+      "target": "da",
       "strength": 1
     },
     {
@@ -1152,18 +537,518 @@
       "strength": 1
     },
     {
-      "source": "et",
+      "source": "it",
+      "target": "ro",
+      "strength": 1
+    },
+    {
+      "source": "es",
+      "target": "fr",
+      "strength": 2
+    },
+    {
+      "source": "es",
+      "target": "el",
+      "strength": 2
+    },
+    {
+      "source": "es",
+      "target": "it",
+      "strength": 2
+    },
+    {
+      "source": "es",
+      "target": "ca",
+      "strength": 2
+    },
+    {
+      "source": "es",
+      "target": "nl",
+      "strength": 2
+    },
+    {
+      "source": "es",
+      "target": "gl",
+      "strength": 2
+    },
+    {
+      "source": "es",
+      "target": "en",
+      "strength": 2
+    },
+    {
+      "source": "es",
+      "target": "eu",
+      "strength": 2
+    },
+    {
+      "source": "es",
+      "target": "lb",
+      "strength": 1
+    },
+    {
+      "source": "es",
+      "target": "de",
+      "strength": 1
+    },
+    {
+      "source": "es",
+      "target": "et",
+      "strength": 1
+    },
+    {
+      "source": "es",
+      "target": "bg",
+      "strength": 1
+    },
+    {
+      "source": "es",
+      "target": "da",
+      "strength": 1
+    },
+    {
+      "source": "es",
+      "target": "pl",
+      "strength": 1
+    },
+    {
+      "source": "es",
+      "target": "ro",
+      "strength": 1
+    },
+    {
+      "source": "lb",
+      "target": "fr",
+      "strength": 1
+    },
+    {
+      "source": "lb",
+      "target": "el",
+      "strength": 1
+    },
+    {
+      "source": "lb",
+      "target": "it",
+      "strength": 1
+    },
+    {
+      "source": "lb",
+      "target": "es",
+      "strength": 1
+    },
+    {
+      "source": "lb",
       "target": "ca",
       "strength": 1
     },
     {
-      "source": "et",
+      "source": "lb",
+      "target": "de",
+      "strength": 1
+    },
+    {
+      "source": "lb",
+      "target": "nl",
+      "strength": 1
+    },
+    {
+      "source": "lb",
+      "target": "gl",
+      "strength": 1
+    },
+    {
+      "source": "lb",
       "target": "en",
       "strength": 1
     },
     {
-      "source": "et",
+      "source": "lb",
       "target": "eu",
+      "strength": 1
+    },
+    {
+      "source": "lb",
+      "target": "et",
+      "strength": 1
+    },
+    {
+      "source": "lb",
+      "target": "bg",
+      "strength": 1
+    },
+    {
+      "source": "lb",
+      "target": "da",
+      "strength": 1
+    },
+    {
+      "source": "ca",
+      "target": "fr",
+      "strength": 2
+    },
+    {
+      "source": "ca",
+      "target": "el",
+      "strength": 2
+    },
+    {
+      "source": "ca",
+      "target": "it",
+      "strength": 2
+    },
+    {
+      "source": "ca",
+      "target": "es",
+      "strength": 2
+    },
+    {
+      "source": "ca",
+      "target": "nl",
+      "strength": 2
+    },
+    {
+      "source": "ca",
+      "target": "gl",
+      "strength": 2
+    },
+    {
+      "source": "ca",
+      "target": "en",
+      "strength": 2
+    },
+    {
+      "source": "ca",
+      "target": "eu",
+      "strength": 2
+    },
+    {
+      "source": "ca",
+      "target": "lb",
+      "strength": 1
+    },
+    {
+      "source": "ca",
+      "target": "de",
+      "strength": 1
+    },
+    {
+      "source": "ca",
+      "target": "et",
+      "strength": 1
+    },
+    {
+      "source": "ca",
+      "target": "bg",
+      "strength": 1
+    },
+    {
+      "source": "ca",
+      "target": "da",
+      "strength": 1
+    },
+    {
+      "source": "ca",
+      "target": "pl",
+      "strength": 1
+    },
+    {
+      "source": "ca",
+      "target": "ro",
+      "strength": 1
+    },
+    {
+      "source": "de",
+      "target": "fr",
+      "strength": 1
+    },
+    {
+      "source": "de",
+      "target": "el",
+      "strength": 1
+    },
+    {
+      "source": "de",
+      "target": "it",
+      "strength": 1
+    },
+    {
+      "source": "de",
+      "target": "es",
+      "strength": 1
+    },
+    {
+      "source": "de",
+      "target": "lb",
+      "strength": 1
+    },
+    {
+      "source": "de",
+      "target": "ca",
+      "strength": 1
+    },
+    {
+      "source": "de",
+      "target": "nl",
+      "strength": 1
+    },
+    {
+      "source": "de",
+      "target": "gl",
+      "strength": 1
+    },
+    {
+      "source": "de",
+      "target": "en",
+      "strength": 1
+    },
+    {
+      "source": "de",
+      "target": "eu",
+      "strength": 1
+    },
+    {
+      "source": "de",
+      "target": "et",
+      "strength": 1
+    },
+    {
+      "source": "de",
+      "target": "bg",
+      "strength": 1
+    },
+    {
+      "source": "de",
+      "target": "da",
+      "strength": 1
+    },
+    {
+      "source": "nl",
+      "target": "fr",
+      "strength": 2
+    },
+    {
+      "source": "nl",
+      "target": "el",
+      "strength": 2
+    },
+    {
+      "source": "nl",
+      "target": "it",
+      "strength": 2
+    },
+    {
+      "source": "nl",
+      "target": "es",
+      "strength": 2
+    },
+    {
+      "source": "nl",
+      "target": "ca",
+      "strength": 2
+    },
+    {
+      "source": "nl",
+      "target": "gl",
+      "strength": 2
+    },
+    {
+      "source": "nl",
+      "target": "en",
+      "strength": 2
+    },
+    {
+      "source": "nl",
+      "target": "eu",
+      "strength": 2
+    },
+    {
+      "source": "nl",
+      "target": "lb",
+      "strength": 1
+    },
+    {
+      "source": "nl",
+      "target": "de",
+      "strength": 1
+    },
+    {
+      "source": "nl",
+      "target": "et",
+      "strength": 1
+    },
+    {
+      "source": "nl",
+      "target": "bg",
+      "strength": 1
+    },
+    {
+      "source": "nl",
+      "target": "da",
+      "strength": 1
+    },
+    {
+      "source": "nl",
+      "target": "pl",
+      "strength": 1
+    },
+    {
+      "source": "nl",
+      "target": "ro",
+      "strength": 1
+    },
+    {
+      "source": "gl",
+      "target": "fr",
+      "strength": 2
+    },
+    {
+      "source": "gl",
+      "target": "el",
+      "strength": 2
+    },
+    {
+      "source": "gl",
+      "target": "it",
+      "strength": 2
+    },
+    {
+      "source": "gl",
+      "target": "es",
+      "strength": 2
+    },
+    {
+      "source": "gl",
+      "target": "ca",
+      "strength": 2
+    },
+    {
+      "source": "gl",
+      "target": "nl",
+      "strength": 2
+    },
+    {
+      "source": "gl",
+      "target": "en",
+      "strength": 2
+    },
+    {
+      "source": "gl",
+      "target": "eu",
+      "strength": 2
+    },
+    {
+      "source": "gl",
+      "target": "lb",
+      "strength": 1
+    },
+    {
+      "source": "gl",
+      "target": "de",
+      "strength": 1
+    },
+    {
+      "source": "gl",
+      "target": "et",
+      "strength": 1
+    },
+    {
+      "source": "gl",
+      "target": "bg",
+      "strength": 1
+    },
+    {
+      "source": "gl",
+      "target": "da",
+      "strength": 1
+    },
+    {
+      "source": "gl",
+      "target": "pl",
+      "strength": 1
+    },
+    {
+      "source": "gl",
+      "target": "ro",
+      "strength": 1
+    },
+    {
+      "source": "eu",
+      "target": "fr",
+      "strength": 2
+    },
+    {
+      "source": "eu",
+      "target": "el",
+      "strength": 2
+    },
+    {
+      "source": "eu",
+      "target": "it",
+      "strength": 2
+    },
+    {
+      "source": "eu",
+      "target": "es",
+      "strength": 2
+    },
+    {
+      "source": "eu",
+      "target": "ca",
+      "strength": 2
+    },
+    {
+      "source": "eu",
+      "target": "nl",
+      "strength": 2
+    },
+    {
+      "source": "eu",
+      "target": "gl",
+      "strength": 2
+    },
+    {
+      "source": "eu",
+      "target": "en",
+      "strength": 2
+    },
+    {
+      "source": "eu",
+      "target": "lb",
+      "strength": 1
+    },
+    {
+      "source": "eu",
+      "target": "de",
+      "strength": 1
+    },
+    {
+      "source": "eu",
+      "target": "et",
+      "strength": 1
+    },
+    {
+      "source": "eu",
+      "target": "bg",
+      "strength": 1
+    },
+    {
+      "source": "eu",
+      "target": "da",
+      "strength": 1
+    },
+    {
+      "source": "eu",
+      "target": "pl",
+      "strength": 1
+    },
+    {
+      "source": "eu",
+      "target": "ro",
+      "strength": 1
+    },
+    {
+      "source": "et",
+      "target": "fr",
       "strength": 1
     },
     {
@@ -1173,22 +1058,7 @@
     },
     {
       "source": "et",
-      "target": "nl",
-      "strength": 1
-    },
-    {
-      "source": "et",
-      "target": "gl",
-      "strength": 1
-    },
-    {
-      "source": "et",
-      "target": "de",
-      "strength": 1
-    },
-    {
-      "source": "et",
-      "target": "fr",
+      "target": "it",
       "strength": 1
     },
     {
@@ -1203,7 +1073,32 @@
     },
     {
       "source": "et",
-      "target": "da",
+      "target": "ca",
+      "strength": 1
+    },
+    {
+      "source": "et",
+      "target": "de",
+      "strength": 1
+    },
+    {
+      "source": "et",
+      "target": "nl",
+      "strength": 1
+    },
+    {
+      "source": "et",
+      "target": "gl",
+      "strength": 1
+    },
+    {
+      "source": "et",
+      "target": "en",
+      "strength": 1
+    },
+    {
+      "source": "et",
+      "target": "eu",
       "strength": 1
     },
     {
@@ -1213,37 +1108,187 @@
     },
     {
       "source": "et",
-      "target": "it",
+      "target": "da",
       "strength": 1
     },
     {
-      "source": "ro",
-      "target": "ca",
+      "source": "bg",
+      "target": "fr",
       "strength": 1
     },
     {
-      "source": "ro",
-      "target": "en",
-      "strength": 1
-    },
-    {
-      "source": "ro",
-      "target": "eu",
-      "strength": 1
-    },
-    {
-      "source": "ro",
+      "source": "bg",
       "target": "el",
       "strength": 1
     },
     {
-      "source": "ro",
+      "source": "bg",
+      "target": "it",
+      "strength": 1
+    },
+    {
+      "source": "bg",
+      "target": "es",
+      "strength": 1
+    },
+    {
+      "source": "bg",
+      "target": "lb",
+      "strength": 1
+    },
+    {
+      "source": "bg",
+      "target": "ca",
+      "strength": 1
+    },
+    {
+      "source": "bg",
+      "target": "de",
+      "strength": 1
+    },
+    {
+      "source": "bg",
       "target": "nl",
       "strength": 1
     },
     {
-      "source": "ro",
+      "source": "bg",
       "target": "gl",
+      "strength": 1
+    },
+    {
+      "source": "bg",
+      "target": "en",
+      "strength": 1
+    },
+    {
+      "source": "bg",
+      "target": "eu",
+      "strength": 1
+    },
+    {
+      "source": "bg",
+      "target": "et",
+      "strength": 1
+    },
+    {
+      "source": "bg",
+      "target": "da",
+      "strength": 1
+    },
+    {
+      "source": "da",
+      "target": "fr",
+      "strength": 1
+    },
+    {
+      "source": "da",
+      "target": "el",
+      "strength": 1
+    },
+    {
+      "source": "da",
+      "target": "it",
+      "strength": 1
+    },
+    {
+      "source": "da",
+      "target": "es",
+      "strength": 1
+    },
+    {
+      "source": "da",
+      "target": "lb",
+      "strength": 1
+    },
+    {
+      "source": "da",
+      "target": "ca",
+      "strength": 1
+    },
+    {
+      "source": "da",
+      "target": "de",
+      "strength": 1
+    },
+    {
+      "source": "da",
+      "target": "nl",
+      "strength": 1
+    },
+    {
+      "source": "da",
+      "target": "gl",
+      "strength": 1
+    },
+    {
+      "source": "da",
+      "target": "en",
+      "strength": 1
+    },
+    {
+      "source": "da",
+      "target": "eu",
+      "strength": 1
+    },
+    {
+      "source": "da",
+      "target": "et",
+      "strength": 1
+    },
+    {
+      "source": "da",
+      "target": "bg",
+      "strength": 1
+    },
+    {
+      "source": "pl",
+      "target": "fr",
+      "strength": 1
+    },
+    {
+      "source": "pl",
+      "target": "el",
+      "strength": 1
+    },
+    {
+      "source": "pl",
+      "target": "it",
+      "strength": 1
+    },
+    {
+      "source": "pl",
+      "target": "es",
+      "strength": 1
+    },
+    {
+      "source": "pl",
+      "target": "ca",
+      "strength": 1
+    },
+    {
+      "source": "pl",
+      "target": "nl",
+      "strength": 1
+    },
+    {
+      "source": "pl",
+      "target": "gl",
+      "strength": 1
+    },
+    {
+      "source": "pl",
+      "target": "en",
+      "strength": 1
+    },
+    {
+      "source": "pl",
+      "target": "eu",
+      "strength": 1
+    },
+    {
+      "source": "pl",
+      "target": "ro",
       "strength": 1
     },
     {
@@ -1253,7 +1298,22 @@
     },
     {
       "source": "ro",
+      "target": "el",
+      "strength": 1
+    },
+    {
+      "source": "ro",
+      "target": "it",
+      "strength": 1
+    },
+    {
+      "source": "ro",
       "target": "es",
+      "strength": 1
+    },
+    {
+      "source": "ro",
+      "target": "ca",
       "strength": 1
     },
     {
@@ -1263,57 +1323,22 @@
     },
     {
       "source": "ro",
-      "target": "it",
-      "strength": 1
-    },
-    {
-      "source": "pl",
-      "target": "ca",
-      "strength": 1
-    },
-    {
-      "source": "pl",
-      "target": "ro",
-      "strength": 1
-    },
-    {
-      "source": "pl",
-      "target": "en",
-      "strength": 1
-    },
-    {
-      "source": "pl",
-      "target": "eu",
-      "strength": 1
-    },
-    {
-      "source": "pl",
-      "target": "el",
-      "strength": 1
-    },
-    {
-      "source": "pl",
       "target": "nl",
       "strength": 1
     },
     {
-      "source": "pl",
+      "source": "ro",
       "target": "gl",
       "strength": 1
     },
     {
-      "source": "pl",
-      "target": "fr",
+      "source": "ro",
+      "target": "en",
       "strength": 1
     },
     {
-      "source": "pl",
-      "target": "es",
-      "strength": 1
-    },
-    {
-      "source": "pl",
-      "target": "it",
+      "source": "ro",
+      "target": "eu",
       "strength": 1
     }
   ],
@@ -1597,43 +1622,43 @@
     }
   ],
   "allDomains": [
-    "deutsch.news-pravda.com",
+    "belgium.news-pravda.com",
     "denmark.news-pravda.com",
-    "luxembourg.news-pravda.com",
-    "news-pravda.com",
-    "bulgaria.news-pravda.com",
-    "poland.news-pravda.com",
-    "italy.news-pravda.com",
-    "francais.news-pravda.com",
-    "galician.news-pravda.com",
-    "dutch.news-pravda.com",
-    "spanish.news-pravda.com",
-    "france.news-pravda.com",
-    "greece.news-pravda.com",
     "basque.news-pravda.com",
+    "estonia.news-pravda.com",
     "catalan.news-pravda.com",
     "romania.news-pravda.com",
-    "estonia.news-pravda.com",
-    "belgium.news-pravda.com",
+    "galician.news-pravda.com",
+    "news-pravda.com",
+    "spanish.news-pravda.com",
+    "luxembourg.news-pravda.com",
+    "dutch.news-pravda.com",
     "eu.news-pravda.com",
-    "spain.news-pravda.com"
+    "poland.news-pravda.com",
+    "spain.news-pravda.com",
+    "italy.news-pravda.com",
+    "france.news-pravda.com",
+    "deutsch.news-pravda.com",
+    "francais.news-pravda.com",
+    "bulgaria.news-pravda.com",
+    "greece.news-pravda.com"
   ],
   "allLanguages": [
-    "ca",
-    "ro",
-    "en",
-    "eu",
     "el",
+    "fr",
+    "it",
+    "es",
+    "lb",
+    "ca",
+    "pl",
+    "de",
     "nl",
     "gl",
-    "de",
-    "fr",
-    "es",
-    "da",
-    "lb",
-    "bg",
-    "it",
+    "en",
+    "eu",
     "et",
-    "pl"
+    "bg",
+    "ro",
+    "da"
   ]
 }
