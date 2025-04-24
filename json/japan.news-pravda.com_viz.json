@@ -1,10 +1,14 @@
 {
   "domain": "japan.news-pravda.com",
-  "totalArticles": 90,
+  "totalArticles": 92,
   "articlesPerDay": [
     {
       "date": "2025-04-23",
       "count": 90
+    },
+    {
+      "date": "2025-04-24",
+      "count": 2
     }
   ],
   "topSources": [
@@ -37,6 +41,14 @@
       "count": 2
     },
     {
+      "source": "Telegram: rentv_news",
+      "count": 2
+    },
+    {
+      "source": "kp.ru",
+      "count": 2
+    },
+    {
       "source": "Telegram: olegtsarov",
       "count": 2
     },
@@ -46,10 +58,6 @@
     },
     {
       "source": "Telegram: duginjp",
-      "count": 1
-    },
-    {
-      "source": "Telegram: rentv_news",
       "count": 1
     },
     {
@@ -74,10 +82,6 @@
     },
     {
       "source": "ren.tv",
-      "count": 1
-    },
-    {
-      "source": "kp.ru",
       "count": 1
     },
     {
@@ -120,10 +124,14 @@
     },
     {
       "category": "japan",
-      "count": 36
+      "count": 38
     }
   ],
   "publicationHours": [
+    {
+      "hour": 0,
+      "count": 2
+    },
     {
       "hour": 5,
       "count": 2
@@ -195,9 +203,22 @@
       "lenta.ru": 4,
       "tass.ru": 3,
       "tsargrad.tv": 2,
-      "Telegram: olegtsarov": 2,
-      "Telegram: tsargradtv": 2,
-      "Telegram: duginjp": 1
+      "Telegram: rentv_news": 1,
+      "kp.ru": 1,
+      "Telegram: olegtsarov": 2
+    },
+    {
+      "date": "2025-04-24",
+      "ja.topwar.ru": 0,
+      "Telegram: keybo101_st_monkey": 0,
+      "sputniknews.jp": 0,
+      "Telegram: infodefensejpn": 0,
+      "lenta.ru": 0,
+      "tass.ru": 0,
+      "tsargrad.tv": 0,
+      "Telegram: rentv_news": 1,
+      "kp.ru": 1,
+      "Telegram: olegtsarov": 0
     }
   ],
   "topSourceNames": [
@@ -208,23 +229,23 @@
     "lenta.ru",
     "tass.ru",
     "tsargrad.tv",
-    "Telegram: olegtsarov",
-    "Telegram: tsargradtv",
-    "Telegram: duginjp"
+    "Telegram: rentv_news",
+    "kp.ru",
+    "Telegram: olegtsarov"
   ],
   "alternatesStats": {
-    "articlesWithAlternates": 29,
-    "percentWithAlternates": 32.22222222222222,
-    "avgAlternatesPerArticle": 4.896551724137931
+    "articlesWithAlternates": 31,
+    "percentWithAlternates": 33.69565217391305,
+    "avgAlternatesPerArticle": 4.838709677419355
   },
   "languages": [
     {
       "language": "en",
-      "count": 74
+      "count": 80
     },
     {
       "language": "ja",
-      "count": 29
+      "count": 31
     },
     {
       "language": "uk",
@@ -275,7 +296,7 @@
     {
       "source": "en",
       "target": "ja",
-      "strength": 29
+      "strength": 31
     },
     {
       "source": "en",
@@ -299,12 +320,12 @@
     },
     {
       "source": "en",
-      "target": "ca",
+      "target": "gl",
       "strength": 2
     },
     {
       "source": "en",
-      "target": "gl",
+      "target": "ca",
       "strength": 2
     },
     {
@@ -335,7 +356,7 @@
     {
       "source": "ja",
       "target": "en",
-      "strength": 29
+      "strength": 31
     },
     {
       "source": "ja",
@@ -359,12 +380,12 @@
     },
     {
       "source": "ja",
-      "target": "ca",
+      "target": "gl",
       "strength": 2
     },
     {
       "source": "ja",
-      "target": "gl",
+      "target": "ca",
       "strength": 2
     },
     {
@@ -404,12 +425,12 @@
     },
     {
       "source": "es",
-      "target": "ca",
+      "target": "gl",
       "strength": 2
     },
     {
       "source": "es",
-      "target": "gl",
+      "target": "ca",
       "strength": 2
     },
     {
@@ -423,6 +444,31 @@
       "strength": 1
     },
     {
+      "source": "gl",
+      "target": "es",
+      "strength": 2
+    },
+    {
+      "source": "gl",
+      "target": "en",
+      "strength": 2
+    },
+    {
+      "source": "gl",
+      "target": "ja",
+      "strength": 2
+    },
+    {
+      "source": "gl",
+      "target": "ca",
+      "strength": 2
+    },
+    {
+      "source": "gl",
+      "target": "eu",
+      "strength": 2
+    },
+    {
       "source": "ca",
       "target": "es",
       "strength": 2
@@ -439,47 +485,17 @@
     },
     {
       "source": "ca",
-      "target": "eu",
+      "target": "ja",
       "strength": 2
     },
     {
       "source": "ca",
-      "target": "ja",
-      "strength": 2
-    },
-    {
-      "source": "gl",
-      "target": "es",
-      "strength": 2
-    },
-    {
-      "source": "gl",
-      "target": "ca",
-      "strength": 2
-    },
-    {
-      "source": "gl",
-      "target": "en",
-      "strength": 2
-    },
-    {
-      "source": "gl",
       "target": "eu",
       "strength": 2
     },
     {
-      "source": "gl",
-      "target": "ja",
-      "strength": 2
-    },
-    {
       "source": "eu",
       "target": "es",
-      "strength": 2
-    },
-    {
-      "source": "eu",
-      "target": "ca",
       "strength": 2
     },
     {
@@ -495,6 +511,11 @@
     {
       "source": "eu",
       "target": "ja",
+      "strength": 2
+    },
+    {
+      "source": "eu",
+      "target": "ca",
       "strength": 2
     },
     {
@@ -524,11 +545,6 @@
     },
     {
       "source": "uk",
-      "target": "fi",
-      "strength": 1
-    },
-    {
-      "source": "uk",
       "target": "fr",
       "strength": 1
     },
@@ -543,38 +559,13 @@
       "strength": 1
     },
     {
-      "source": "fi",
-      "target": "en",
-      "strength": 2
-    },
-    {
-      "source": "fi",
-      "target": "ja",
-      "strength": 2
-    },
-    {
-      "source": "fi",
-      "target": "uk",
-      "strength": 1
-    },
-    {
-      "source": "fi",
-      "target": "fr",
-      "strength": 1
-    },
-    {
-      "source": "fi",
-      "target": "it",
-      "strength": 1
-    },
-    {
-      "source": "fi",
-      "target": "de",
+      "source": "uk",
+      "target": "fi",
       "strength": 1
     },
     {
       "source": "fr",
-      "target": "de",
+      "target": "ja",
       "strength": 3
     },
     {
@@ -584,18 +575,8 @@
     },
     {
       "source": "fr",
-      "target": "ja",
+      "target": "de",
       "strength": 3
-    },
-    {
-      "source": "fr",
-      "target": "fi",
-      "strength": 1
-    },
-    {
-      "source": "fr",
-      "target": "uk",
-      "strength": 1
     },
     {
       "source": "fr",
@@ -603,13 +584,13 @@
       "strength": 1
     },
     {
-      "source": "it",
-      "target": "fi",
+      "source": "fr",
+      "target": "uk",
       "strength": 1
     },
     {
-      "source": "it",
-      "target": "uk",
+      "source": "fr",
+      "target": "fi",
       "strength": 1
     },
     {
@@ -619,7 +600,12 @@
     },
     {
       "source": "it",
-      "target": "de",
+      "target": "uk",
+      "strength": 1
+    },
+    {
+      "source": "it",
+      "target": "ja",
       "strength": 1
     },
     {
@@ -629,17 +615,22 @@
     },
     {
       "source": "it",
-      "target": "ja",
+      "target": "de",
+      "strength": 1
+    },
+    {
+      "source": "it",
+      "target": "fi",
       "strength": 1
     },
     {
       "source": "de",
-      "target": "en",
+      "target": "ja",
       "strength": 4
     },
     {
       "source": "de",
-      "target": "ja",
+      "target": "en",
       "strength": 4
     },
     {
@@ -649,7 +640,7 @@
     },
     {
       "source": "de",
-      "target": "fi",
+      "target": "it",
       "strength": 1
     },
     {
@@ -659,7 +650,7 @@
     },
     {
       "source": "de",
-      "target": "it",
+      "target": "fi",
       "strength": 1
     },
     {
@@ -668,13 +659,43 @@
       "strength": 1
     },
     {
-      "source": "hy",
+      "source": "fi",
+      "target": "ja",
+      "strength": 2
+    },
+    {
+      "source": "fi",
       "target": "en",
+      "strength": 2
+    },
+    {
+      "source": "fi",
+      "target": "fr",
+      "strength": 1
+    },
+    {
+      "source": "fi",
+      "target": "it",
+      "strength": 1
+    },
+    {
+      "source": "fi",
+      "target": "uk",
+      "strength": 1
+    },
+    {
+      "source": "fi",
+      "target": "de",
       "strength": 1
     },
     {
       "source": "hy",
       "target": "de",
+      "strength": 1
+    },
+    {
+      "source": "hy",
+      "target": "en",
       "strength": 1
     },
     {
@@ -687,17 +708,17 @@
     {
       "domain": "japan.news-pravda.com",
       "language": "en",
-      "count": 28
+      "count": 30
     },
     {
       "domain": "japan.news-pravda.com",
       "language": "ja",
-      "count": 29
+      "count": 31
     },
     {
       "domain": "news-pravda.com",
       "language": "en",
-      "count": 11
+      "count": 13
     },
     {
       "domain": "galician.news-pravda.com",
@@ -747,7 +768,7 @@
     {
       "domain": "usa.news-pravda.com",
       "language": "en",
-      "count": 7
+      "count": 9
     },
     {
       "domain": "switzerland.news-pravda.com",
@@ -863,23 +884,23 @@
   "countryLanguageData": [
     {
       "code": "ja-JP",
-      "count": 29
+      "count": 31
     },
     {
       "code": "en-JP",
-      "count": 28
+      "count": 30
     },
     {
       "code": "en",
-      "count": 17
+      "count": 19
+    },
+    {
+      "code": "en-US",
+      "count": 9
     },
     {
       "code": "uk-UA",
       "count": 9
-    },
-    {
-      "code": "en-US",
-      "count": 7
     },
     {
       "code": "en-UA",
@@ -987,46 +1008,46 @@
     }
   ],
   "allDomains": [
-    "finland.news-pravda.com",
-    "germany.news-pravda.com",
-    "armenia.news-pravda.com",
-    "basque.news-pravda.com",
-    "south-korea.news-pravda.com",
-    "catalan.news-pravda.com",
-    "korea.news-pravda.com",
     "japan.news-pravda.com",
-    "usa.news-pravda.com",
-    "ua.news-pravda.com",
-    "md.news-pravda.com",
     "galician.news-pravda.com",
-    "news-pravda.com",
-    "spanish.news-pravda.com",
-    "eu.news-pravda.com",
-    "spain.news-pravda.com",
-    "italy.news-pravda.com",
     "france.news-pravda.com",
     "trump.news-pravda.com",
-    "canada.news-pravda.com",
+    "spanish.news-pravda.com",
+    "news-pravda.com",
+    "usa.news-pravda.com",
+    "italy.news-pravda.com",
+    "finland.news-pravda.com",
     "deutsch.news-pravda.com",
-    "singapore.news-pravda.com",
-    "switzerland.news-pravda.com",
     "francais.news-pravda.com",
+    "eu.news-pravda.com",
+    "singapore.news-pravda.com",
+    "korea.news-pravda.com",
+    "catalan.news-pravda.com",
+    "germany.news-pravda.com",
+    "basque.news-pravda.com",
+    "south-korea.news-pravda.com",
+    "spain.news-pravda.com",
+    "armenia.news-pravda.com",
+    "md.news-pravda.com",
+    "uk.news-pravda.com",
     "nato.news-pravda.com",
-    "uk.news-pravda.com"
+    "ua.news-pravda.com",
+    "switzerland.news-pravda.com",
+    "canada.news-pravda.com"
   ],
   "allLanguages": [
-    "fi",
-    "uk",
-    "ko",
+    "hy",
+    "es",
+    "gl",
     "fr",
     "it",
-    "es",
-    "ca",
-    "de",
-    "hy",
-    "gl",
+    "uk",
     "en",
+    "ja",
+    "ko",
+    "de",
+    "ca",
     "eu",
-    "ja"
+    "fi"
   ]
 }

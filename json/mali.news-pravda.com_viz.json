@@ -1,6 +1,6 @@
 {
   "domain": "mali.news-pravda.com",
-  "totalArticles": 39,
+  "totalArticles": 40,
   "articlesPerDay": [
     {
       "date": "2025-04-22",
@@ -9,6 +9,10 @@
     {
       "date": "2025-04-23",
       "count": 21
+    },
+    {
+      "date": "2025-04-24",
+      "count": 1
     }
   ],
   "topSources": [
@@ -19,6 +23,10 @@
     {
       "source": "Telegram: westernafrica",
       "count": 5
+    },
+    {
+      "source": "Telegram: Strategiescontinentales",
+      "count": 3
     },
     {
       "source": "lenta.ru",
@@ -34,10 +42,6 @@
     },
     {
       "source": "francais.rt.com",
-      "count": 2
-    },
-    {
-      "source": "Telegram: Strategiescontinentales",
       "count": 2
     },
     {
@@ -108,10 +112,14 @@
     },
     {
       "category": "mali",
-      "count": 18
+      "count": 19
     }
   ],
   "publicationHours": [
+    {
+      "hour": 0,
+      "count": 1
+    },
     {
       "hour": 5,
       "count": 1
@@ -182,11 +190,11 @@
       "date": "2025-04-22",
       "Telegram: UNION_LIBERTE_AFRICAINE_TV": 3,
       "Telegram: westernafrica": 3,
+      "Telegram: Strategiescontinentales": 0,
       "lenta.ru": 0,
       "Telegram: sputnik_afrique": 2,
       "Telegram: departamente": 2,
       "francais.rt.com": 1,
-      "Telegram: Strategiescontinentales": 0,
       "afrinz.ru": 0,
       "Telegram: africaninitiative": 0,
       "Telegram: africarebel": 1
@@ -195,37 +203,50 @@
       "date": "2025-04-23",
       "Telegram: UNION_LIBERTE_AFRICAINE_TV": 4,
       "Telegram: westernafrica": 2,
+      "Telegram: Strategiescontinentales": 2,
       "lenta.ru": 2,
       "Telegram: sputnik_afrique": 0,
       "Telegram: departamente": 0,
       "francais.rt.com": 1,
-      "Telegram: Strategiescontinentales": 2,
       "afrinz.ru": 2,
       "Telegram: africaninitiative": 2,
+      "Telegram: africarebel": 0
+    },
+    {
+      "date": "2025-04-24",
+      "Telegram: UNION_LIBERTE_AFRICAINE_TV": 0,
+      "Telegram: westernafrica": 0,
+      "Telegram: Strategiescontinentales": 1,
+      "lenta.ru": 0,
+      "Telegram: sputnik_afrique": 0,
+      "Telegram: departamente": 0,
+      "francais.rt.com": 0,
+      "afrinz.ru": 0,
+      "Telegram: africaninitiative": 0,
       "Telegram: africarebel": 0
     }
   ],
   "topSourceNames": [
     "Telegram: UNION_LIBERTE_AFRICAINE_TV",
     "Telegram: westernafrica",
+    "Telegram: Strategiescontinentales",
     "lenta.ru",
     "Telegram: sputnik_afrique",
     "Telegram: departamente",
     "francais.rt.com",
-    "Telegram: Strategiescontinentales",
     "afrinz.ru",
     "Telegram: africaninitiative",
     "Telegram: africarebel"
   ],
   "alternatesStats": {
-    "articlesWithAlternates": 31,
-    "percentWithAlternates": 79.48717948717949,
-    "avgAlternatesPerArticle": 4.193548387096774
+    "articlesWithAlternates": 32,
+    "percentWithAlternates": 80.0,
+    "avgAlternatesPerArticle": 4.21875
   },
   "languages": [
     {
       "language": "fr",
-      "count": 77
+      "count": 82
     },
     {
       "language": "en",
@@ -246,24 +267,14 @@
   ],
   "languageConnections": [
     {
-      "source": "en",
+      "source": "es",
       "target": "fr",
-      "strength": 18
-    },
-    {
-      "source": "en",
-      "target": "ar",
-      "strength": 7
-    },
-    {
-      "source": "en",
-      "target": "es",
       "strength": 2
     },
     {
-      "source": "en",
-      "target": "tr",
-      "strength": 1
+      "source": "es",
+      "target": "en",
+      "strength": 2
     },
     {
       "source": "fr",
@@ -286,23 +297,33 @@
       "strength": 1
     },
     {
-      "source": "es",
-      "target": "en",
+      "source": "en",
+      "target": "fr",
+      "strength": 18
+    },
+    {
+      "source": "en",
+      "target": "ar",
+      "strength": 7
+    },
+    {
+      "source": "en",
+      "target": "es",
       "strength": 2
     },
     {
-      "source": "es",
-      "target": "fr",
-      "strength": 2
+      "source": "en",
+      "target": "tr",
+      "strength": 1
     },
     {
       "source": "ar",
-      "target": "en",
+      "target": "fr",
       "strength": 7
     },
     {
       "source": "ar",
-      "target": "fr",
+      "target": "en",
       "strength": 7
     },
     {
@@ -312,12 +333,12 @@
     },
     {
       "source": "tr",
-      "target": "en",
+      "target": "fr",
       "strength": 1
     },
     {
       "source": "tr",
-      "target": "fr",
+      "target": "en",
       "strength": 1
     },
     {
@@ -335,7 +356,7 @@
     {
       "domain": "mali.news-pravda.com",
       "language": "fr",
-      "count": 31
+      "count": 32
     },
     {
       "domain": "spanish.news-pravda.com",
@@ -350,7 +371,7 @@
     {
       "domain": "burkina-faso.news-pravda.com",
       "language": "fr",
-      "count": 12
+      "count": 13
     },
     {
       "domain": "niger.news-pravda.com",
@@ -360,17 +381,17 @@
     {
       "domain": "niger.news-pravda.com",
       "language": "fr",
-      "count": 14
+      "count": 15
     },
     {
       "domain": "france.news-pravda.com",
       "language": "fr",
-      "count": 5
+      "count": 6
     },
     {
       "domain": "francais.news-pravda.com",
       "language": "fr",
-      "count": 7
+      "count": 8
     },
     {
       "domain": "rca.news-pravda.com",
@@ -486,7 +507,7 @@
   "countryLanguageData": [
     {
       "code": "fr-ML",
-      "count": 31
+      "count": 32
     },
     {
       "code": "en-ML",
@@ -494,19 +515,19 @@
     },
     {
       "code": "fr-NE",
-      "count": 14
+      "count": 15
     },
     {
       "code": "fr-BF",
-      "count": 12
+      "count": 13
     },
     {
       "code": "fr",
-      "count": 7
+      "count": 8
     },
     {
       "code": "fr-FR",
-      "count": 5
+      "count": 6
     },
     {
       "code": "ar-DZ",
@@ -610,30 +631,30 @@
     }
   ],
   "allDomains": [
-    "rca.news-pravda.com",
-    "canada.news-pravda.com",
-    "spanish.news-pravda.com",
-    "cameroon.news-pravda.com",
-    "francais.news-pravda.com",
-    "chad.news-pravda.com",
     "mali.news-pravda.com",
-    "nigeria.news-pravda.com",
+    "sudan.news-pravda.com",
+    "chad.news-pravda.com",
+    "turkey.news-pravda.com",
+    "france.news-pravda.com",
+    "niger.news-pravda.com",
+    "francais.news-pravda.com",
     "guinea.news-pravda.com",
+    "nigeria.news-pravda.com",
+    "algeria.news-pravda.com",
+    "spanish.news-pravda.com",
+    "canada.news-pravda.com",
     "egypt.news-pravda.com",
     "burkina-faso.news-pravda.com",
-    "senegal.news-pravda.com",
-    "algeria.news-pravda.com",
-    "sudan.news-pravda.com",
-    "turkey.news-pravda.com",
-    "niger.news-pravda.com",
-    "france.news-pravda.com",
-    "syria.news-pravda.com"
+    "rca.news-pravda.com",
+    "syria.news-pravda.com",
+    "cameroon.news-pravda.com",
+    "senegal.news-pravda.com"
   ],
   "allLanguages": [
-    "fr",
+    "ar",
     "es",
-    "tr",
+    "fr",
     "en",
-    "ar"
+    "tr"
   ]
 }
