@@ -1,6 +1,6 @@
 {
   "domain": "chad.news-pravda.com",
-  "totalArticles": 48,
+  "totalArticles": 49,
   "articlesPerDay": [
     {
       "date": "2025-04-22",
@@ -12,13 +12,13 @@
     },
     {
       "date": "2025-04-24",
-      "count": 2
+      "count": 3
     }
   ],
   "topSources": [
     {
       "source": "arabic.rt.com",
-      "count": 18
+      "count": 19
     },
     {
       "source": "ar.topwar.ru",
@@ -60,7 +60,7 @@
   "categories": [
     {
       "category": "chad",
-      "count": 30
+      "count": 31
     },
     {
       "category": "world",
@@ -74,7 +74,7 @@
     },
     {
       "hour": 3,
-      "count": 2
+      "count": 3
     },
     {
       "hour": 4,
@@ -170,7 +170,7 @@
     },
     {
       "date": "2025-04-24",
-      "arabic.rt.com": 2,
+      "arabic.rt.com": 3,
       "ar.topwar.ru": 0,
       "sarabic.ae": 0,
       "afrinz.ru": 0,
@@ -195,14 +195,14 @@
     "Telegram: Arabs_Live"
   ],
   "alternatesStats": {
-    "articlesWithAlternates": 37,
-    "percentWithAlternates": 77.08333333333334,
-    "avgAlternatesPerArticle": 2.8378378378378377
+    "articlesWithAlternates": 38,
+    "percentWithAlternates": 77.55102040816327,
+    "avgAlternatesPerArticle": 2.8157894736842106
   },
   "languages": [
     {
       "language": "ar",
-      "count": 87
+      "count": 89
     },
     {
       "language": "en",
@@ -215,7 +215,12 @@
   ],
   "languageConnections": [
     {
-      "source": "ar",
+      "source": "en",
+      "target": "ar",
+      "strength": 3
+    },
+    {
+      "source": "en",
       "target": "fr",
       "strength": 3
     },
@@ -225,8 +230,8 @@
       "strength": 3
     },
     {
-      "source": "fr",
-      "target": "ar",
+      "source": "ar",
+      "target": "fr",
       "strength": 3
     },
     {
@@ -235,13 +240,8 @@
       "strength": 3
     },
     {
-      "source": "en",
+      "source": "fr",
       "target": "ar",
-      "strength": 3
-    },
-    {
-      "source": "en",
-      "target": "fr",
       "strength": 3
     }
   ],
@@ -249,7 +249,7 @@
     {
       "domain": "chad.news-pravda.com",
       "language": "ar",
-      "count": 37
+      "count": 38
     },
     {
       "domain": "chad.news-pravda.com",
@@ -340,12 +340,17 @@
       "domain": "cameroon.news-pravda.com",
       "language": "fr",
       "count": 1
+    },
+    {
+      "domain": "eritrea.news-pravda.com",
+      "language": "ar",
+      "count": 1
     }
   ],
   "countryLanguageData": [
     {
       "code": "ar-TD",
-      "count": 37
+      "count": 38
     },
     {
       "code": "ar-SY",
@@ -418,24 +423,29 @@
     {
       "code": "en-ML",
       "count": 1
+    },
+    {
+      "code": "ar-ER",
+      "count": 1
     }
   ],
   "allDomains": [
-    "mali.news-pravda.com",
-    "egypt.news-pravda.com",
-    "syria.news-pravda.com",
-    "guinea.news-pravda.com",
-    "chad.news-pravda.com",
     "senegal.news-pravda.com",
+    "egypt.news-pravda.com",
     "cameroon.news-pravda.com",
-    "rca.news-pravda.com",
-    "nigeria.news-pravda.com",
     "sudan.news-pravda.com",
-    "algeria.news-pravda.com"
+    "chad.news-pravda.com",
+    "nigeria.news-pravda.com",
+    "rca.news-pravda.com",
+    "mali.news-pravda.com",
+    "eritrea.news-pravda.com",
+    "algeria.news-pravda.com",
+    "guinea.news-pravda.com",
+    "syria.news-pravda.com"
   ],
   "allLanguages": [
+    "en",
     "ar",
-    "fr",
-    "en"
+    "fr"
   ]
 }

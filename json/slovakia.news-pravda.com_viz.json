@@ -1,16 +1,20 @@
 {
   "domain": "slovakia.news-pravda.com",
-  "totalArticles": 135,
+  "totalArticles": 139,
   "articlesPerDay": [
     {
       "date": "2025-04-23",
       "count": 135
+    },
+    {
+      "date": "2025-04-24",
+      "count": 4
     }
   ],
   "topSources": [
     {
       "source": "Telegram: casusbellilive",
-      "count": 22
+      "count": 23
     },
     {
       "source": "Telegram: vsetkyspravy",
@@ -30,6 +34,10 @@
     },
     {
       "source": "Telegram: spravydomozaiky",
+      "count": 7
+    },
+    {
+      "source": "Telegram: slovenskymedved",
       "count": 6
     },
     {
@@ -37,7 +45,7 @@
       "count": 5
     },
     {
-      "source": "Telegram: slovenskymedved",
+      "source": "Telegram: pravdavzdyvitazi",
       "count": 5
     },
     {
@@ -46,10 +54,6 @@
     },
     {
       "source": "Telegram: tajm_sk",
-      "count": 4
-    },
-    {
-      "source": "Telegram: pravdavzdyvitazi",
       "count": 4
     },
     {
@@ -112,7 +116,7 @@
   "categories": [
     {
       "category": "world",
-      "count": 123
+      "count": 127
     },
     {
       "category": "eu",
@@ -124,6 +128,14 @@
     }
   ],
   "publicationHours": [
+    {
+      "hour": 3,
+      "count": 3
+    },
+    {
+      "hour": 4,
+      "count": 1
+    },
     {
       "hour": 7,
       "count": 9
@@ -174,10 +186,23 @@
       "Telegram: zemavek": 15,
       "sk.news-front.su": 13,
       "Telegram: spravydomozaiky": 6,
-      "Telegram: dennikstandard": 5,
       "Telegram: slovenskymedved": 5,
-      "Telegram: spravy_slovakia": 4,
-      "Telegram: tajm_sk": 4
+      "Telegram: dennikstandard": 5,
+      "Telegram: pravdavzdyvitazi": 4,
+      "Telegram: spravy_slovakia": 4
+    },
+    {
+      "date": "2025-04-24",
+      "Telegram: casusbellilive": 1,
+      "Telegram: vsetkyspravy": 0,
+      "Telegram: puchoviny": 0,
+      "Telegram: zemavek": 0,
+      "sk.news-front.su": 0,
+      "Telegram: spravydomozaiky": 1,
+      "Telegram: slovenskymedved": 1,
+      "Telegram: dennikstandard": 0,
+      "Telegram: pravdavzdyvitazi": 1,
+      "Telegram: spravy_slovakia": 0
     }
   ],
   "topSourceNames": [
@@ -187,14 +212,14 @@
     "Telegram: zemavek",
     "sk.news-front.su",
     "Telegram: spravydomozaiky",
-    "Telegram: dennikstandard",
     "Telegram: slovenskymedved",
-    "Telegram: spravy_slovakia",
-    "Telegram: tajm_sk"
+    "Telegram: dennikstandard",
+    "Telegram: pravdavzdyvitazi",
+    "Telegram: spravy_slovakia"
   ],
   "alternatesStats": {
     "articlesWithAlternates": 4,
-    "percentWithAlternates": 2.9629629629629632,
+    "percentWithAlternates": 2.877697841726619,
     "avgAlternatesPerArticle": 4.0
   },
   "languages": [
@@ -221,23 +246,23 @@
   ],
   "languageConnections": [
     {
-      "source": "sr",
+      "source": "hy",
       "target": "sk",
       "strength": 1
     },
     {
-      "source": "sr",
-      "target": "uk",
-      "strength": 1
-    },
-    {
-      "source": "sr",
+      "source": "hy",
       "target": "en",
       "strength": 1
     },
     {
-      "source": "sr",
-      "target": "hy",
+      "source": "hy",
+      "target": "uk",
+      "strength": 1
+    },
+    {
+      "source": "hy",
+      "target": "sr",
       "strength": 1
     },
     {
@@ -247,7 +272,7 @@
     },
     {
       "source": "sk",
-      "target": "sr",
+      "target": "hy",
       "strength": 1
     },
     {
@@ -257,27 +282,7 @@
     },
     {
       "source": "sk",
-      "target": "hy",
-      "strength": 1
-    },
-    {
-      "source": "uk",
       "target": "sr",
-      "strength": 1
-    },
-    {
-      "source": "uk",
-      "target": "sk",
-      "strength": 1
-    },
-    {
-      "source": "uk",
-      "target": "en",
-      "strength": 1
-    },
-    {
-      "source": "uk",
-      "target": "hy",
       "strength": 1
     },
     {
@@ -287,37 +292,57 @@
     },
     {
       "source": "en",
-      "target": "sr",
-      "strength": 1
-    },
-    {
-      "source": "en",
-      "target": "uk",
-      "strength": 1
-    },
-    {
-      "source": "en",
       "target": "hy",
       "strength": 1
     },
     {
-      "source": "hy",
-      "target": "sr",
-      "strength": 1
-    },
-    {
-      "source": "hy",
-      "target": "sk",
-      "strength": 1
-    },
-    {
-      "source": "hy",
+      "source": "en",
       "target": "uk",
       "strength": 1
     },
     {
-      "source": "hy",
+      "source": "en",
+      "target": "sr",
+      "strength": 1
+    },
+    {
+      "source": "uk",
+      "target": "hy",
+      "strength": 1
+    },
+    {
+      "source": "uk",
+      "target": "sk",
+      "strength": 1
+    },
+    {
+      "source": "uk",
       "target": "en",
+      "strength": 1
+    },
+    {
+      "source": "uk",
+      "target": "sr",
+      "strength": 1
+    },
+    {
+      "source": "sr",
+      "target": "hy",
+      "strength": 1
+    },
+    {
+      "source": "sr",
+      "target": "sk",
+      "strength": 1
+    },
+    {
+      "source": "sr",
+      "target": "en",
+      "strength": 1
+    },
+    {
+      "source": "sr",
+      "target": "uk",
       "strength": 1
     }
   ],
@@ -416,17 +441,17 @@
     }
   ],
   "allDomains": [
-    "armenia.news-pravda.com",
-    "serbia.news-pravda.com",
-    "slovakia.news-pravda.com",
     "ua.news-pravda.com",
-    "balkan.news-pravda.com"
+    "balkan.news-pravda.com",
+    "slovakia.news-pravda.com",
+    "serbia.news-pravda.com",
+    "armenia.news-pravda.com"
   ],
   "allLanguages": [
-    "sr",
+    "hy",
     "sk",
-    "uk",
     "en",
-    "hy"
+    "uk",
+    "sr"
   ]
 }
