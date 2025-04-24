@@ -1,6 +1,6 @@
 {
   "domain": "taiwan.news-pravda.com",
-  "totalArticles": 69,
+  "totalArticles": 71,
   "articlesPerDay": [
     {
       "date": "2025-04-23",
@@ -8,13 +8,13 @@
     },
     {
       "date": "2025-04-24",
-      "count": 10
+      "count": 12
     }
   ],
   "topSources": [
     {
       "source": "zh-cn.topwar.ru",
-      "count": 62
+      "count": 63
     },
     {
       "source": "Telegram: ukr_leaks_cn",
@@ -27,12 +27,16 @@
     {
       "source": "ria.ru",
       "count": 1
+    },
+    {
+      "source": "sputniknews.cn",
+      "count": 1
     }
   ],
   "categories": [
     {
       "category": "taiwan",
-      "count": 49
+      "count": 51
     },
     {
       "category": "world",
@@ -54,7 +58,7 @@
     },
     {
       "hour": 5,
-      "count": 4
+      "count": 6
     },
     {
       "hour": 6,
@@ -119,25 +123,28 @@
       "zh-cn.topwar.ru": 54,
       "Telegram: ukr_leaks_cn": 3,
       "Telegram: spydell_finance": 1,
-      "ria.ru": 1
+      "ria.ru": 1,
+      "sputniknews.cn": 0
     },
     {
       "date": "2025-04-24",
-      "zh-cn.topwar.ru": 8,
+      "zh-cn.topwar.ru": 9,
       "Telegram: ukr_leaks_cn": 2,
       "Telegram: spydell_finance": 0,
-      "ria.ru": 0
+      "ria.ru": 0,
+      "sputniknews.cn": 1
     }
   ],
   "topSourceNames": [
     "zh-cn.topwar.ru",
     "Telegram: ukr_leaks_cn",
     "Telegram: spydell_finance",
-    "ria.ru"
+    "ria.ru",
+    "sputniknews.cn"
   ],
   "alternatesStats": {
     "articlesWithAlternates": 2,
-    "percentWithAlternates": 2.898550724637681,
+    "percentWithAlternates": 2.8169014084507045,
     "avgAlternatesPerArticle": 15.5
   },
   "languages": [
@@ -180,93 +187,53 @@
   ],
   "languageConnections": [
     {
-      "source": "de",
-      "target": "en",
-      "strength": 1
-    },
-    {
-      "source": "de",
+      "source": "fr",
       "target": "lb",
       "strength": 1
     },
     {
-      "source": "de",
-      "target": "ga",
-      "strength": 1
-    },
-    {
-      "source": "de",
-      "target": "ja",
-      "strength": 1
-    },
-    {
-      "source": "de",
+      "source": "fr",
       "target": "nl",
       "strength": 1
     },
     {
-      "source": "de",
-      "target": "zh",
-      "strength": 1
-    },
-    {
-      "source": "de",
-      "target": "fr",
-      "strength": 1
-    },
-    {
-      "source": "de",
-      "target": "no",
-      "strength": 1
-    },
-    {
-      "source": "en",
-      "target": "zh",
-      "strength": 2
-    },
-    {
-      "source": "en",
-      "target": "de",
-      "strength": 1
-    },
-    {
-      "source": "en",
-      "target": "lb",
-      "strength": 1
-    },
-    {
-      "source": "en",
+      "source": "fr",
       "target": "ga",
       "strength": 1
     },
     {
-      "source": "en",
+      "source": "fr",
+      "target": "zh",
+      "strength": 1
+    },
+    {
+      "source": "fr",
       "target": "ja",
       "strength": 1
     },
     {
-      "source": "en",
-      "target": "nl",
-      "strength": 1
-    },
-    {
-      "source": "en",
-      "target": "fr",
-      "strength": 1
-    },
-    {
-      "source": "en",
-      "target": "no",
-      "strength": 1
-    },
-    {
-      "source": "lb",
+      "source": "fr",
       "target": "de",
       "strength": 1
     },
     {
-      "source": "lb",
+      "source": "fr",
+      "target": "no",
+      "strength": 1
+    },
+    {
+      "source": "fr",
       "target": "en",
+      "strength": 1
+    },
+    {
+      "source": "lb",
+      "target": "fr",
+      "strength": 1
+    },
+    {
+      "source": "lb",
+      "target": "nl",
       "strength": 1
     },
     {
@@ -276,117 +243,32 @@
     },
     {
       "source": "lb",
+      "target": "zh",
+      "strength": 1
+    },
+    {
+      "source": "lb",
       "target": "ja",
       "strength": 1
     },
     {
       "source": "lb",
-      "target": "nl",
-      "strength": 1
-    },
-    {
-      "source": "lb",
-      "target": "zh",
-      "strength": 1
-    },
-    {
-      "source": "lb",
-      "target": "fr",
-      "strength": 1
-    },
-    {
-      "source": "lb",
-      "target": "no",
-      "strength": 1
-    },
-    {
-      "source": "ga",
       "target": "de",
       "strength": 1
     },
     {
-      "source": "ga",
-      "target": "en",
-      "strength": 1
-    },
-    {
-      "source": "ga",
-      "target": "lb",
-      "strength": 1
-    },
-    {
-      "source": "ga",
-      "target": "ja",
-      "strength": 1
-    },
-    {
-      "source": "ga",
-      "target": "nl",
-      "strength": 1
-    },
-    {
-      "source": "ga",
-      "target": "zh",
-      "strength": 1
-    },
-    {
-      "source": "ga",
-      "target": "fr",
-      "strength": 1
-    },
-    {
-      "source": "ga",
+      "source": "lb",
       "target": "no",
       "strength": 1
     },
     {
-      "source": "ja",
-      "target": "de",
-      "strength": 1
-    },
-    {
-      "source": "ja",
+      "source": "lb",
       "target": "en",
-      "strength": 1
-    },
-    {
-      "source": "ja",
-      "target": "lb",
-      "strength": 1
-    },
-    {
-      "source": "ja",
-      "target": "ga",
-      "strength": 1
-    },
-    {
-      "source": "ja",
-      "target": "nl",
-      "strength": 1
-    },
-    {
-      "source": "ja",
-      "target": "zh",
-      "strength": 1
-    },
-    {
-      "source": "ja",
-      "target": "fr",
-      "strength": 1
-    },
-    {
-      "source": "ja",
-      "target": "no",
       "strength": 1
     },
     {
       "source": "nl",
-      "target": "de",
-      "strength": 1
-    },
-    {
-      "source": "nl",
-      "target": "en",
+      "target": "fr",
       "strength": 1
     },
     {
@@ -401,22 +283,67 @@
     },
     {
       "source": "nl",
-      "target": "ja",
-      "strength": 1
-    },
-    {
-      "source": "nl",
       "target": "zh",
       "strength": 1
     },
     {
       "source": "nl",
-      "target": "fr",
+      "target": "ja",
+      "strength": 1
+    },
+    {
+      "source": "nl",
+      "target": "de",
       "strength": 1
     },
     {
       "source": "nl",
       "target": "no",
+      "strength": 1
+    },
+    {
+      "source": "nl",
+      "target": "en",
+      "strength": 1
+    },
+    {
+      "source": "ga",
+      "target": "fr",
+      "strength": 1
+    },
+    {
+      "source": "ga",
+      "target": "lb",
+      "strength": 1
+    },
+    {
+      "source": "ga",
+      "target": "nl",
+      "strength": 1
+    },
+    {
+      "source": "ga",
+      "target": "zh",
+      "strength": 1
+    },
+    {
+      "source": "ga",
+      "target": "ja",
+      "strength": 1
+    },
+    {
+      "source": "ga",
+      "target": "de",
+      "strength": 1
+    },
+    {
+      "source": "ga",
+      "target": "no",
+      "strength": 1
+    },
+    {
+      "source": "ga",
+      "target": "en",
       "strength": 1
     },
     {
@@ -426,12 +353,17 @@
     },
     {
       "source": "zh",
-      "target": "de",
+      "target": "fr",
       "strength": 1
     },
     {
       "source": "zh",
       "target": "lb",
+      "strength": 1
+    },
+    {
+      "source": "zh",
+      "target": "nl",
       "strength": 1
     },
     {
@@ -446,12 +378,7 @@
     },
     {
       "source": "zh",
-      "target": "nl",
-      "strength": 1
-    },
-    {
-      "source": "zh",
-      "target": "fr",
+      "target": "de",
       "strength": 1
     },
     {
@@ -460,83 +387,163 @@
       "strength": 1
     },
     {
-      "source": "fr",
-      "target": "de",
+      "source": "ja",
+      "target": "fr",
       "strength": 1
     },
     {
-      "source": "fr",
-      "target": "en",
-      "strength": 1
-    },
-    {
-      "source": "fr",
+      "source": "ja",
       "target": "lb",
       "strength": 1
     },
     {
-      "source": "fr",
-      "target": "ga",
-      "strength": 1
-    },
-    {
-      "source": "fr",
-      "target": "ja",
-      "strength": 1
-    },
-    {
-      "source": "fr",
+      "source": "ja",
       "target": "nl",
       "strength": 1
     },
     {
-      "source": "fr",
+      "source": "ja",
+      "target": "ga",
+      "strength": 1
+    },
+    {
+      "source": "ja",
       "target": "zh",
       "strength": 1
     },
     {
-      "source": "fr",
+      "source": "ja",
+      "target": "de",
+      "strength": 1
+    },
+    {
+      "source": "ja",
       "target": "no",
       "strength": 1
     },
     {
-      "source": "no",
-      "target": "de",
-      "strength": 1
-    },
-    {
-      "source": "no",
+      "source": "ja",
       "target": "en",
       "strength": 1
     },
     {
-      "source": "no",
+      "source": "de",
+      "target": "fr",
+      "strength": 1
+    },
+    {
+      "source": "de",
       "target": "lb",
       "strength": 1
     },
     {
-      "source": "no",
-      "target": "ga",
-      "strength": 1
-    },
-    {
-      "source": "no",
-      "target": "ja",
-      "strength": 1
-    },
-    {
-      "source": "no",
+      "source": "de",
       "target": "nl",
       "strength": 1
     },
     {
-      "source": "no",
+      "source": "de",
+      "target": "ga",
+      "strength": 1
+    },
+    {
+      "source": "de",
       "target": "zh",
+      "strength": 1
+    },
+    {
+      "source": "de",
+      "target": "ja",
+      "strength": 1
+    },
+    {
+      "source": "de",
+      "target": "no",
+      "strength": 1
+    },
+    {
+      "source": "de",
+      "target": "en",
       "strength": 1
     },
     {
       "source": "no",
       "target": "fr",
+      "strength": 1
+    },
+    {
+      "source": "no",
+      "target": "lb",
+      "strength": 1
+    },
+    {
+      "source": "no",
+      "target": "nl",
+      "strength": 1
+    },
+    {
+      "source": "no",
+      "target": "ga",
+      "strength": 1
+    },
+    {
+      "source": "no",
+      "target": "zh",
+      "strength": 1
+    },
+    {
+      "source": "no",
+      "target": "ja",
+      "strength": 1
+    },
+    {
+      "source": "no",
+      "target": "de",
+      "strength": 1
+    },
+    {
+      "source": "no",
+      "target": "en",
+      "strength": 1
+    },
+    {
+      "source": "en",
+      "target": "zh",
+      "strength": 2
+    },
+    {
+      "source": "en",
+      "target": "fr",
+      "strength": 1
+    },
+    {
+      "source": "en",
+      "target": "lb",
+      "strength": 1
+    },
+    {
+      "source": "en",
+      "target": "nl",
+      "strength": 1
+    },
+    {
+      "source": "en",
+      "target": "ga",
+      "strength": 1
+    },
+    {
+      "source": "en",
+      "target": "ja",
+      "strength": 1
+    },
+    {
+      "source": "en",
+      "target": "de",
+      "strength": 1
+    },
+    {
+      "source": "en",
+      "target": "no",
       "strength": 1
     }
   ],
@@ -788,32 +795,32 @@
     }
   ],
   "allDomains": [
-    "luxembourg.news-pravda.com",
-    "norway.news-pravda.com",
-    "canada.news-pravda.com",
-    "japan.news-pravda.com",
-    "francais.news-pravda.com",
-    "deutsch.news-pravda.com",
     "ireland.news-pravda.com",
     "dutch.news-pravda.com",
-    "belgium.news-pravda.com",
+    "norway.news-pravda.com",
+    "francais.news-pravda.com",
     "singapore.news-pravda.com",
-    "news-pravda.com",
     "uk.news-pravda.com",
-    "switzerland.news-pravda.com",
+    "canada.news-pravda.com",
     "taiwan.news-pravda.com",
+    "deutsch.news-pravda.com",
+    "japan.news-pravda.com",
+    "news-pravda.com",
+    "france.news-pravda.com",
+    "luxembourg.news-pravda.com",
     "usa.news-pravda.com",
-    "france.news-pravda.com"
+    "switzerland.news-pravda.com",
+    "belgium.news-pravda.com"
   ],
   "allLanguages": [
-    "en",
-    "de",
-    "ga",
-    "lb",
-    "ja",
-    "nl",
-    "zh",
     "fr",
+    "ga",
+    "nl",
+    "lb",
+    "zh",
+    "ja",
+    "de",
+    "en",
     "no"
   ]
 }
