@@ -1,6 +1,6 @@
 {
   "domain": "serbia.news-pravda.com",
-  "totalArticles": 134,
+  "totalArticles": 145,
   "articlesPerDay": [
     {
       "date": "2025-04-23",
@@ -8,7 +8,7 @@
     },
     {
       "date": "2025-04-24",
-      "count": 6
+      "count": 17
     }
   ],
   "topSources": [
@@ -18,27 +18,31 @@
     },
     {
       "source": "Telegram: istocni_front",
-      "count": 20
+      "count": 21
     },
     {
       "source": "sputnikportal.rs",
-      "count": 15
+      "count": 16
     },
     {
       "source": "Telegram: sputniksrbija",
       "count": 14
     },
     {
+      "source": "Telegram: SrbijaRusija",
+      "count": 12
+    },
+    {
       "source": "Telegram: debeljaca1vrs",
-      "count": 9
+      "count": 10
     },
     {
       "source": "Telegram: ukr_leaks_srb",
       "count": 9
     },
     {
-      "source": "Telegram: SrbijaRusija",
-      "count": 9
+      "source": "Telegram: silasaistoka",
+      "count": 8
     },
     {
       "source": "Telegram: rtbalkan",
@@ -47,10 +51,6 @@
     {
       "source": "Telegram: BunkerSrb",
       "count": 4
-    },
-    {
-      "source": "Telegram: silasaistoka",
-      "count": 3
     },
     {
       "source": "srb.news-front.su",
@@ -120,11 +120,11 @@
   "categories": [
     {
       "category": "world",
-      "count": 115
+      "count": 125
     },
     {
       "category": "serbia",
-      "count": 19
+      "count": 20
     }
   ],
   "publicationHours": [
@@ -143,6 +143,14 @@
     {
       "hour": 3,
       "count": 2
+    },
+    {
+      "hour": 4,
+      "count": 10
+    },
+    {
+      "hour": 5,
+      "count": 1
     },
     {
       "hour": 7,
@@ -192,25 +200,25 @@
       "Telegram: istocni_front": 17,
       "sputnikportal.rs": 15,
       "Telegram: sputniksrbija": 14,
+      "Telegram: SrbijaRusija": 9,
       "Telegram: debeljaca1vrs": 9,
       "Telegram: ukr_leaks_srb": 9,
-      "Telegram: SrbijaRusija": 9,
+      "Telegram: silasaistoka": 3,
       "Telegram: rtbalkan": 8,
-      "Telegram: BunkerSrb": 4,
-      "Telegram: silasaistoka": 3
+      "Telegram: BunkerSrb": 4
     },
     {
       "date": "2025-04-24",
       "rt.rs": 0,
-      "Telegram: istocni_front": 3,
-      "sputnikportal.rs": 0,
+      "Telegram: istocni_front": 4,
+      "sputnikportal.rs": 1,
       "Telegram: sputniksrbija": 0,
-      "Telegram: debeljaca1vrs": 0,
+      "Telegram: SrbijaRusija": 3,
+      "Telegram: debeljaca1vrs": 1,
       "Telegram: ukr_leaks_srb": 0,
-      "Telegram: SrbijaRusija": 0,
+      "Telegram: silasaistoka": 5,
       "Telegram: rtbalkan": 0,
-      "Telegram: BunkerSrb": 0,
-      "Telegram: silasaistoka": 0
+      "Telegram: BunkerSrb": 0
     }
   ],
   "topSourceNames": [
@@ -218,16 +226,16 @@
     "Telegram: istocni_front",
     "sputnikportal.rs",
     "Telegram: sputniksrbija",
+    "Telegram: SrbijaRusija",
     "Telegram: debeljaca1vrs",
     "Telegram: ukr_leaks_srb",
-    "Telegram: SrbijaRusija",
+    "Telegram: silasaistoka",
     "Telegram: rtbalkan",
-    "Telegram: BunkerSrb",
-    "Telegram: silasaistoka"
+    "Telegram: BunkerSrb"
   ],
   "alternatesStats": {
     "articlesWithAlternates": 11,
-    "percentWithAlternates": 8.208955223880597,
+    "percentWithAlternates": 7.586206896551724,
     "avgAlternatesPerArticle": 5.2727272727272725
   },
   "languages": [
@@ -262,36 +270,6 @@
   ],
   "languageConnections": [
     {
-      "source": "sr",
-      "target": "en",
-      "strength": 9
-    },
-    {
-      "source": "sr",
-      "target": "bs",
-      "strength": 4
-    },
-    {
-      "source": "sr",
-      "target": "uk",
-      "strength": 2
-    },
-    {
-      "source": "sr",
-      "target": "hy",
-      "strength": 1
-    },
-    {
-      "source": "sr",
-      "target": "sk",
-      "strength": 1
-    },
-    {
-      "source": "sr",
-      "target": "sq",
-      "strength": 1
-    },
-    {
       "source": "en",
       "target": "sr",
       "strength": 9
@@ -308,12 +286,12 @@
     },
     {
       "source": "en",
-      "target": "hy",
+      "target": "sk",
       "strength": 1
     },
     {
       "source": "en",
-      "target": "sk",
+      "target": "hy",
       "strength": 1
     },
     {
@@ -322,14 +300,49 @@
       "strength": 1
     },
     {
+      "source": "sr",
+      "target": "en",
+      "strength": 9
+    },
+    {
+      "source": "sr",
+      "target": "bs",
+      "strength": 4
+    },
+    {
+      "source": "sr",
+      "target": "uk",
+      "strength": 2
+    },
+    {
+      "source": "sr",
+      "target": "sk",
+      "strength": 1
+    },
+    {
+      "source": "sr",
+      "target": "hy",
+      "strength": 1
+    },
+    {
+      "source": "sr",
+      "target": "sq",
+      "strength": 1
+    },
+    {
+      "source": "uk",
+      "target": "en",
+      "strength": 2
+    },
+    {
       "source": "uk",
       "target": "sr",
       "strength": 2
     },
     {
       "source": "uk",
-      "target": "en",
-      "strength": 2
+      "target": "sk",
+      "strength": 1
     },
     {
       "source": "uk",
@@ -337,18 +350,23 @@
       "strength": 1
     },
     {
-      "source": "uk",
-      "target": "sk",
+      "source": "sk",
+      "target": "uk",
       "strength": 1
     },
     {
-      "source": "hy",
-      "target": "sk",
-      "strength": 1
-    },
-    {
-      "source": "hy",
+      "source": "sk",
       "target": "en",
+      "strength": 1
+    },
+    {
+      "source": "sk",
+      "target": "sr",
+      "strength": 1
+    },
+    {
+      "source": "sk",
+      "target": "hy",
       "strength": 1
     },
     {
@@ -358,57 +376,47 @@
     },
     {
       "source": "hy",
-      "target": "sr",
+      "target": "sk",
       "strength": 1
     },
     {
-      "source": "sk",
-      "target": "hy",
-      "strength": 1
-    },
-    {
-      "source": "sk",
+      "source": "hy",
       "target": "en",
       "strength": 1
     },
     {
-      "source": "sk",
-      "target": "uk",
-      "strength": 1
-    },
-    {
-      "source": "sk",
+      "source": "hy",
       "target": "sr",
       "strength": 1
     },
     {
       "source": "bs",
-      "target": "sr",
+      "target": "en",
       "strength": 4
     },
     {
       "source": "bs",
-      "target": "en",
+      "target": "sr",
       "strength": 4
     },
     {
       "source": "bs",
       "target": "sq",
-      "strength": 1
-    },
-    {
-      "source": "sq",
-      "target": "sr",
-      "strength": 1
-    },
-    {
-      "source": "sq",
-      "target": "en",
       "strength": 1
     },
     {
       "source": "sq",
       "target": "bs",
+      "strength": 1
+    },
+    {
+      "source": "sq",
+      "target": "en",
+      "strength": 1
+    },
+    {
+      "source": "sq",
+      "target": "sr",
       "strength": 1
     }
   ],
@@ -576,25 +584,25 @@
     }
   ],
   "allDomains": [
-    "news-pravda.com",
-    "ua.news-pravda.com",
+    "armenia.news-pravda.com",
     "albania.news-pravda.com",
+    "srpska.news-pravda.com",
+    "news-pravda.com",
+    "slovakia.news-pravda.com",
+    "bosnia-herzegovina.news-pravda.com",
+    "usa.news-pravda.com",
+    "serbia.news-pravda.com",
     "balkan.news-pravda.com",
     "eu.news-pravda.com",
-    "slovakia.news-pravda.com",
-    "serbia.news-pravda.com",
-    "srpska.news-pravda.com",
-    "usa.news-pravda.com",
-    "bosnia-herzegovina.news-pravda.com",
-    "armenia.news-pravda.com"
+    "ua.news-pravda.com"
   ],
   "allLanguages": [
-    "bs",
-    "hy",
-    "sq",
+    "uk",
     "sk",
     "en",
-    "uk",
-    "sr"
+    "sr",
+    "bs",
+    "hy",
+    "sq"
   ]
 }

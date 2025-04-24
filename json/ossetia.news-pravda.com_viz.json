@@ -1,6 +1,6 @@
 {
   "domain": "ossetia.news-pravda.com",
-  "totalArticles": 52,
+  "totalArticles": 53,
   "articlesPerDay": [
     {
       "date": "2025-04-22",
@@ -9,6 +9,10 @@
     {
       "date": "2025-04-23",
       "count": 46
+    },
+    {
+      "date": "2025-04-24",
+      "count": 1
     }
   ],
   "topSources": [
@@ -35,12 +39,16 @@
     {
       "source": "Telegram: rusembrso",
       "count": 1
+    },
+    {
+      "source": "tass.ru",
+      "count": 1
     }
   ],
   "categories": [
     {
       "category": "world",
-      "count": 35
+      "count": 36
     },
     {
       "category": "south-ossetia",
@@ -48,6 +56,10 @@
     }
   ],
   "publicationHours": [
+    {
+      "hour": 4,
+      "count": 1
+    },
     {
       "hour": 5,
       "count": 5
@@ -109,7 +121,8 @@
       "Unknown": 0,
       "Telegram: mid_rso": 0,
       "Telegram: midapsny": 0,
-      "Telegram: rusembrso": 0
+      "Telegram: rusembrso": 0,
+      "tass.ru": 0
     },
     {
       "date": "2025-04-23",
@@ -118,7 +131,18 @@
       "Unknown": 6,
       "Telegram: mid_rso": 1,
       "Telegram: midapsny": 1,
-      "Telegram: rusembrso": 1
+      "Telegram: rusembrso": 1,
+      "tass.ru": 0
+    },
+    {
+      "date": "2025-04-24",
+      "Telegram: sputnikossetia": 0,
+      "Telegram: ia_res": 0,
+      "Unknown": 0,
+      "Telegram: mid_rso": 0,
+      "Telegram: midapsny": 0,
+      "Telegram: rusembrso": 0,
+      "tass.ru": 1
     }
   ],
   "topSourceNames": [
@@ -127,62 +151,117 @@
     "Unknown",
     "Telegram: mid_rso",
     "Telegram: midapsny",
-    "Telegram: rusembrso"
+    "Telegram: rusembrso",
+    "tass.ru"
   ],
   "alternatesStats": {
-    "articlesWithAlternates": 16,
-    "percentWithAlternates": 30.76923076923077,
-    "avgAlternatesPerArticle": 2.0
+    "articlesWithAlternates": 17,
+    "percentWithAlternates": 32.075471698113205,
+    "avgAlternatesPerArticle": 2.176470588235294
   },
   "languages": [
     {
       "language": "en",
-      "count": 16
+      "count": 18
     },
     {
       "language": "os",
-      "count": 16
+      "count": 17
+    },
+    {
+      "language": "nl",
+      "count": 2
     }
   ],
   "languageConnections": [
     {
-      "source": "en",
-      "target": "os",
-      "strength": 16
+      "source": "os",
+      "target": "en",
+      "strength": 17
     },
     {
       "source": "os",
+      "target": "nl",
+      "strength": 1
+    },
+    {
+      "source": "en",
+      "target": "os",
+      "strength": 17
+    },
+    {
+      "source": "en",
+      "target": "nl",
+      "strength": 1
+    },
+    {
+      "source": "nl",
+      "target": "os",
+      "strength": 1
+    },
+    {
+      "source": "nl",
       "target": "en",
-      "strength": 16
+      "strength": 1
     }
   ],
   "domainLanguageData": [
     {
       "domain": "ossetia.news-pravda.com",
       "language": "en",
-      "count": 16
+      "count": 17
     },
     {
       "domain": "ossetia.news-pravda.com",
       "language": "os",
-      "count": 16
+      "count": 17
+    },
+    {
+      "domain": "dutch.news-pravda.com",
+      "language": "nl",
+      "count": 1
+    },
+    {
+      "domain": "netherlands.news-pravda.com",
+      "language": "en",
+      "count": 1
+    },
+    {
+      "domain": "netherlands.news-pravda.com",
+      "language": "nl",
+      "count": 1
     }
   ],
   "countryLanguageData": [
     {
       "code": "en",
-      "count": 16
+      "count": 17
     },
     {
       "code": "os",
-      "count": 16
+      "count": 17
+    },
+    {
+      "code": "nl",
+      "count": 1
+    },
+    {
+      "code": "en-NL",
+      "count": 1
+    },
+    {
+      "code": "nl-NL",
+      "count": 1
     }
   ],
   "allDomains": [
-    "ossetia.news-pravda.com"
+    "dutch.news-pravda.com",
+    "ossetia.news-pravda.com",
+    "netherlands.news-pravda.com"
   ],
   "allLanguages": [
-    "en",
-    "os"
+    "os",
+    "nl",
+    "en"
   ]
 }
