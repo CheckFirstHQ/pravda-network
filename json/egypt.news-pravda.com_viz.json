@@ -1,6 +1,6 @@
 {
   "domain": "egypt.news-pravda.com",
-  "totalArticles": 115,
+  "totalArticles": 124,
   "articlesPerDay": [
     {
       "date": "2025-04-23",
@@ -8,17 +8,17 @@
     },
     {
       "date": "2025-04-24",
-      "count": 51
+      "count": 60
     }
   ],
   "topSources": [
     {
       "source": "arabic.rt.com",
-      "count": 47
+      "count": 48
     },
     {
       "source": "sarabic.ae",
-      "count": 19
+      "count": 23
     },
     {
       "source": "Telegram: Sputnik_Arabic",
@@ -26,7 +26,7 @@
     },
     {
       "source": "ar.topwar.ru",
-      "count": 9
+      "count": 10
     },
     {
       "source": "Telegram: russia_ar",
@@ -38,6 +38,10 @@
     },
     {
       "source": "Telegram: rustradeegypt",
+      "count": 2
+    },
+    {
+      "source": "md.kp.media",
       "count": 2
     },
     {
@@ -77,10 +81,6 @@
       "count": 1
     },
     {
-      "source": "md.kp.media",
-      "count": 1
-    },
-    {
       "source": "Telegram: romagolovanov",
       "count": 1
     },
@@ -99,16 +99,24 @@
     {
       "source": "Telegram: radio_sputnik",
       "count": 1
+    },
+    {
+      "source": "Telegram: Arabs_Live",
+      "count": 1
+    },
+    {
+      "source": "Telegram: africamain",
+      "count": 1
     }
   ],
   "categories": [
     {
       "category": "egypt",
-      "count": 76
+      "count": 80
     },
     {
       "category": "world",
-      "count": 39
+      "count": 44
     }
   ],
   "publicationHours": [
@@ -162,7 +170,7 @@
     },
     {
       "hour": 12,
-      "count": 1
+      "count": 10
     },
     {
       "hour": 17,
@@ -203,22 +211,22 @@
       "Telegram: russia_ar": 3,
       "Telegram: russianhouseincairo": 1,
       "Telegram: rustradeegypt": 1,
+      "md.kp.media": 0,
       "afrinz.ru": 0,
-      "Telegram: geopolitika_ar": 1,
-      "Telegram: Politnavigator": 1
+      "Telegram: geopolitika_ar": 1
     },
     {
       "date": "2025-04-24",
-      "arabic.rt.com": 20,
-      "sarabic.ae": 9,
+      "arabic.rt.com": 21,
+      "sarabic.ae": 13,
       "Telegram: Sputnik_Arabic": 8,
-      "ar.topwar.ru": 3,
+      "ar.topwar.ru": 4,
       "Telegram: russia_ar": 0,
       "Telegram: russianhouseincairo": 2,
       "Telegram: rustradeegypt": 1,
+      "md.kp.media": 2,
       "afrinz.ru": 2,
-      "Telegram: geopolitika_ar": 0,
-      "Telegram: Politnavigator": 0
+      "Telegram: geopolitika_ar": 0
     }
   ],
   "topSourceNames": [
@@ -229,26 +237,30 @@
     "Telegram: russia_ar",
     "Telegram: russianhouseincairo",
     "Telegram: rustradeegypt",
+    "md.kp.media",
     "afrinz.ru",
-    "Telegram: geopolitika_ar",
-    "Telegram: Politnavigator"
+    "Telegram: geopolitika_ar"
   ],
   "alternatesStats": {
-    "articlesWithAlternates": 79,
-    "percentWithAlternates": 68.69565217391305,
-    "avgAlternatesPerArticle": 2.430379746835443
+    "articlesWithAlternates": 87,
+    "percentWithAlternates": 70.16129032258065,
+    "avgAlternatesPerArticle": 2.4367816091954024
   },
   "languages": [
     {
       "language": "ar",
-      "count": 152
+      "count": 167
     },
     {
       "language": "en",
-      "count": 30
+      "count": 34
     },
     {
       "language": "de",
+      "count": 2
+    },
+    {
+      "language": "ro",
       "count": 2
     },
     {
@@ -261,10 +273,6 @@
     },
     {
       "language": "tr",
-      "count": 1
-    },
-    {
-      "language": "ro",
       "count": 1
     },
     {
@@ -282,54 +290,14 @@
   ],
   "languageConnections": [
     {
-      "source": "ar",
-      "target": "en",
-      "strength": 19
-    },
-    {
-      "source": "ar",
-      "target": "fr",
-      "strength": 1
-    },
-    {
-      "source": "ar",
-      "target": "de",
-      "strength": 1
-    },
-    {
-      "source": "ar",
-      "target": "ro",
-      "strength": 1
-    },
-    {
-      "source": "ar",
-      "target": "tr",
-      "strength": 1
-    },
-    {
-      "source": "ar",
-      "target": "fi",
-      "strength": 1
-    },
-    {
-      "source": "ar",
-      "target": "it",
-      "strength": 1
-    },
-    {
-      "source": "ar",
-      "target": "es",
-      "strength": 1
-    },
-    {
-      "source": "ar",
-      "target": "sr",
-      "strength": 1
-    },
-    {
       "source": "en",
       "target": "ar",
-      "strength": 19
+      "strength": 22
+    },
+    {
+      "source": "en",
+      "target": "ro",
+      "strength": 2
     },
     {
       "source": "en",
@@ -339,11 +307,6 @@
     {
       "source": "en",
       "target": "de",
-      "strength": 1
-    },
-    {
-      "source": "en",
-      "target": "ro",
       "strength": 1
     },
     {
@@ -372,37 +335,72 @@
       "strength": 1
     },
     {
-      "source": "fr",
-      "target": "ar",
-      "strength": 1
-    },
-    {
-      "source": "fr",
+      "source": "ar",
       "target": "en",
+      "strength": 22
+    },
+    {
+      "source": "ar",
+      "target": "ro",
+      "strength": 2
+    },
+    {
+      "source": "ar",
+      "target": "fr",
       "strength": 1
     },
     {
-      "source": "de",
-      "target": "ar",
+      "source": "ar",
+      "target": "de",
       "strength": 1
     },
     {
-      "source": "de",
-      "target": "en",
-      "strength": 1
-    },
-    {
-      "source": "ro",
-      "target": "ar",
-      "strength": 1
-    },
-    {
-      "source": "ro",
+      "source": "ar",
       "target": "tr",
       "strength": 1
     },
     {
-      "source": "ro",
+      "source": "ar",
+      "target": "fi",
+      "strength": 1
+    },
+    {
+      "source": "ar",
+      "target": "it",
+      "strength": 1
+    },
+    {
+      "source": "ar",
+      "target": "es",
+      "strength": 1
+    },
+    {
+      "source": "ar",
+      "target": "sr",
+      "strength": 1
+    },
+    {
+      "source": "fr",
+      "target": "en",
+      "strength": 1
+    },
+    {
+      "source": "fr",
+      "target": "ar",
+      "strength": 1
+    },
+    {
+      "source": "de",
+      "target": "en",
+      "strength": 1
+    },
+    {
+      "source": "de",
+      "target": "ar",
+      "strength": 1
+    },
+    {
+      "source": "tr",
       "target": "en",
       "strength": 1
     },
@@ -417,8 +415,18 @@
       "strength": 1
     },
     {
-      "source": "tr",
+      "source": "ro",
       "target": "en",
+      "strength": 2
+    },
+    {
+      "source": "ro",
+      "target": "ar",
+      "strength": 2
+    },
+    {
+      "source": "ro",
+      "target": "tr",
       "strength": 1
     },
     {
@@ -433,7 +441,7 @@
     },
     {
       "source": "it",
-      "target": "ar",
+      "target": "en",
       "strength": 1
     },
     {
@@ -448,7 +456,7 @@
     },
     {
       "source": "it",
-      "target": "en",
+      "target": "ar",
       "strength": 1
     },
     {
@@ -458,7 +466,7 @@
     },
     {
       "source": "es",
-      "target": "ar",
+      "target": "en",
       "strength": 1
     },
     {
@@ -468,7 +476,7 @@
     },
     {
       "source": "es",
-      "target": "en",
+      "target": "ar",
       "strength": 1
     },
     {
@@ -478,7 +486,7 @@
     },
     {
       "source": "sr",
-      "target": "ar",
+      "target": "en",
       "strength": 1
     },
     {
@@ -488,7 +496,7 @@
     },
     {
       "source": "sr",
-      "target": "en",
+      "target": "ar",
       "strength": 1
     }
   ],
@@ -496,17 +504,17 @@
     {
       "domain": "egypt.news-pravda.com",
       "language": "ar",
-      "count": 79
+      "count": 87
     },
     {
       "domain": "egypt.news-pravda.com",
       "language": "en",
-      "count": 19
+      "count": 22
     },
     {
       "domain": "syria.news-pravda.com",
       "language": "ar",
-      "count": 49
+      "count": 54
     },
     {
       "domain": "chad.news-pravda.com",
@@ -526,7 +534,7 @@
     {
       "domain": "sudan.news-pravda.com",
       "language": "ar",
-      "count": 12
+      "count": 13
     },
     {
       "domain": "austria.news-pravda.com",
@@ -551,7 +559,7 @@
     {
       "domain": "algeria.news-pravda.com",
       "language": "ar",
-      "count": 1
+      "count": 2
     },
     {
       "domain": "turkey.news-pravda.com",
@@ -566,12 +574,12 @@
     {
       "domain": "md.news-pravda.com",
       "language": "en",
-      "count": 1
+      "count": 2
     },
     {
       "domain": "md.news-pravda.com",
       "language": "ro",
-      "count": 1
+      "count": 2
     },
     {
       "domain": "news-pravda.com",
@@ -637,19 +645,19 @@
   "countryLanguageData": [
     {
       "code": "ar-EG",
-      "count": 79
+      "count": 87
     },
     {
       "code": "ar-SY",
-      "count": 49
+      "count": 54
     },
     {
       "code": "en-EG",
-      "count": 19
+      "count": 22
     },
     {
       "code": "ar-SD",
-      "count": 12
+      "count": 13
     },
     {
       "code": "ar-TD",
@@ -658,6 +666,18 @@
     {
       "code": "en",
       "count": 3
+    },
+    {
+      "code": "ar-DZ",
+      "count": 2
+    },
+    {
+      "code": "en-MD",
+      "count": 2
+    },
+    {
+      "code": "ro-MD",
+      "count": 2
     },
     {
       "code": "en-SN",
@@ -684,23 +704,11 @@
       "count": 1
     },
     {
-      "code": "ar-DZ",
-      "count": 1
-    },
-    {
       "code": "tr-TR",
       "count": 1
     },
     {
-      "code": "en-MD",
-      "count": 1
-    },
-    {
       "code": "en-TR",
-      "count": 1
-    },
-    {
-      "code": "ro-MD",
       "count": 1
     },
     {
@@ -741,36 +749,36 @@
     }
   ],
   "allDomains": [
-    "eritrea.news-pravda.com",
-    "deutsch.news-pravda.com",
-    "sudan.news-pravda.com",
-    "spanish.news-pravda.com",
-    "egypt.news-pravda.com",
-    "md.news-pravda.com",
-    "algeria.news-pravda.com",
-    "syria.news-pravda.com",
-    "turkey.news-pravda.com",
-    "italy.news-pravda.com",
-    "serbia.news-pravda.com",
-    "abkhazia.news-pravda.com",
-    "austria.news-pravda.com",
-    "uk.news-pravda.com",
-    "finland.news-pravda.com",
-    "balkan.news-pravda.com",
     "senegal.news-pravda.com",
     "news-pravda.com",
-    "chad.news-pravda.com"
+    "italy.news-pravda.com",
+    "turkey.news-pravda.com",
+    "md.news-pravda.com",
+    "syria.news-pravda.com",
+    "balkan.news-pravda.com",
+    "chad.news-pravda.com",
+    "eritrea.news-pravda.com",
+    "austria.news-pravda.com",
+    "uk.news-pravda.com",
+    "serbia.news-pravda.com",
+    "algeria.news-pravda.com",
+    "egypt.news-pravda.com",
+    "spanish.news-pravda.com",
+    "deutsch.news-pravda.com",
+    "sudan.news-pravda.com",
+    "finland.news-pravda.com",
+    "abkhazia.news-pravda.com"
   ],
   "allLanguages": [
-    "fr",
-    "tr",
-    "ar",
-    "fi",
-    "ro",
     "it",
-    "es",
-    "sr",
+    "tr",
+    "ro",
+    "en",
+    "fi",
     "de",
-    "en"
+    "es",
+    "fr",
+    "sr",
+    "ar"
   ]
 }
