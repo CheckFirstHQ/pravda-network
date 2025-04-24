@@ -1,6 +1,6 @@
 {
   "domain": "ja-jp.news-pravda.com",
-  "totalArticles": 94,
+  "totalArticles": 104,
   "articlesPerDay": [
     {
       "date": "2025-04-23",
@@ -8,13 +8,13 @@
     },
     {
       "date": "2025-04-24",
-      "count": 4
+      "count": 14
     }
   ],
   "topSources": [
     {
       "source": "ja.topwar.ru",
-      "count": 33
+      "count": 36
     },
     {
       "source": "Telegram: keybo101_st_monkey",
@@ -22,6 +22,10 @@
     },
     {
       "source": "sputniknews.jp",
+      "count": 7
+    },
+    {
+      "source": "Telegram: miyupova",
       "count": 7
     },
     {
@@ -120,11 +124,11 @@
   "categories": [
     {
       "category": "world",
-      "count": 54
+      "count": 61
     },
     {
       "category": "japan",
-      "count": 40
+      "count": 43
     }
   ],
   "publicationHours": [
@@ -134,6 +138,14 @@
     },
     {
       "hour": 1,
+      "count": 2
+    },
+    {
+      "hour": 2,
+      "count": 8
+    },
+    {
+      "hour": 3,
       "count": 2
     },
     {
@@ -203,43 +215,43 @@
       "ja.topwar.ru": 33,
       "Telegram: keybo101_st_monkey": 16,
       "sputniknews.jp": 7,
+      "Telegram: miyupova": 0,
       "Telegram: infodefensejpn": 4,
       "lenta.ru": 4,
       "tass.ru": 3,
       "tsargrad.tv": 2,
       "Telegram: rentv_news": 1,
-      "kp.ru": 1,
-      "ria.ru": 1
+      "kp.ru": 1
     },
     {
       "date": "2025-04-24",
-      "ja.topwar.ru": 0,
+      "ja.topwar.ru": 3,
       "Telegram: keybo101_st_monkey": 1,
       "sputniknews.jp": 0,
+      "Telegram: miyupova": 7,
       "Telegram: infodefensejpn": 0,
       "lenta.ru": 0,
       "tass.ru": 0,
       "tsargrad.tv": 0,
       "Telegram: rentv_news": 1,
-      "kp.ru": 1,
-      "ria.ru": 1
+      "kp.ru": 1
     }
   ],
   "topSourceNames": [
     "ja.topwar.ru",
     "Telegram: keybo101_st_monkey",
     "sputniknews.jp",
+    "Telegram: miyupova",
     "Telegram: infodefensejpn",
     "lenta.ru",
     "tass.ru",
     "tsargrad.tv",
     "Telegram: rentv_news",
-    "kp.ru",
-    "ria.ru"
+    "kp.ru"
   ],
   "alternatesStats": {
     "articlesWithAlternates": 32,
-    "percentWithAlternates": 34.04255319148936,
+    "percentWithAlternates": 30.76923076923077,
     "avgAlternatesPerArticle": 4.8125
   },
   "languages": [
@@ -298,66 +310,6 @@
   ],
   "languageConnections": [
     {
-      "source": "en",
-      "target": "ja",
-      "strength": 32
-    },
-    {
-      "source": "en",
-      "target": "uk",
-      "strength": 9
-    },
-    {
-      "source": "en",
-      "target": "de",
-      "strength": 4
-    },
-    {
-      "source": "en",
-      "target": "es",
-      "strength": 3
-    },
-    {
-      "source": "en",
-      "target": "fr",
-      "strength": 3
-    },
-    {
-      "source": "en",
-      "target": "ca",
-      "strength": 2
-    },
-    {
-      "source": "en",
-      "target": "gl",
-      "strength": 2
-    },
-    {
-      "source": "en",
-      "target": "eu",
-      "strength": 2
-    },
-    {
-      "source": "en",
-      "target": "ko",
-      "strength": 2
-    },
-    {
-      "source": "en",
-      "target": "fi",
-      "strength": 2
-    },
-    {
-      "source": "en",
-      "target": "it",
-      "strength": 1
-    },
-    {
-      "source": "en",
-      "target": "hy",
-      "strength": 1
-    },
-    {
       "source": "ja",
       "target": "en",
       "strength": 32
@@ -384,12 +336,12 @@
     },
     {
       "source": "ja",
-      "target": "ca",
+      "target": "gl",
       "strength": 2
     },
     {
       "source": "ja",
-      "target": "gl",
+      "target": "ca",
       "strength": 2
     },
     {
@@ -418,29 +370,64 @@
       "strength": 1
     },
     {
-      "source": "ca",
+      "source": "en",
+      "target": "ja",
+      "strength": 32
+    },
+    {
+      "source": "en",
+      "target": "uk",
+      "strength": 9
+    },
+    {
+      "source": "en",
+      "target": "de",
+      "strength": 4
+    },
+    {
+      "source": "en",
+      "target": "es",
+      "strength": 3
+    },
+    {
+      "source": "en",
+      "target": "fr",
+      "strength": 3
+    },
+    {
+      "source": "en",
       "target": "gl",
       "strength": 2
     },
     {
-      "source": "ca",
-      "target": "es",
+      "source": "en",
+      "target": "ca",
       "strength": 2
     },
     {
-      "source": "ca",
-      "target": "en",
-      "strength": 2
-    },
-    {
-      "source": "ca",
+      "source": "en",
       "target": "eu",
       "strength": 2
     },
     {
-      "source": "ca",
-      "target": "ja",
+      "source": "en",
+      "target": "ko",
       "strength": 2
+    },
+    {
+      "source": "en",
+      "target": "fi",
+      "strength": 2
+    },
+    {
+      "source": "en",
+      "target": "it",
+      "strength": 1
+    },
+    {
+      "source": "en",
+      "target": "hy",
+      "strength": 1
     },
     {
       "source": "gl",
@@ -449,11 +436,6 @@
     },
     {
       "source": "gl",
-      "target": "es",
-      "strength": 2
-    },
-    {
-      "source": "gl",
       "target": "en",
       "strength": 2
     },
@@ -464,6 +446,61 @@
     },
     {
       "source": "gl",
+      "target": "es",
+      "strength": 2
+    },
+    {
+      "source": "gl",
+      "target": "ja",
+      "strength": 2
+    },
+    {
+      "source": "ca",
+      "target": "gl",
+      "strength": 2
+    },
+    {
+      "source": "ca",
+      "target": "en",
+      "strength": 2
+    },
+    {
+      "source": "ca",
+      "target": "eu",
+      "strength": 2
+    },
+    {
+      "source": "ca",
+      "target": "es",
+      "strength": 2
+    },
+    {
+      "source": "ca",
+      "target": "ja",
+      "strength": 2
+    },
+    {
+      "source": "eu",
+      "target": "gl",
+      "strength": 2
+    },
+    {
+      "source": "eu",
+      "target": "ca",
+      "strength": 2
+    },
+    {
+      "source": "eu",
+      "target": "en",
+      "strength": 2
+    },
+    {
+      "source": "eu",
+      "target": "es",
+      "strength": 2
+    },
+    {
+      "source": "eu",
       "target": "ja",
       "strength": 2
     },
@@ -479,12 +516,12 @@
     },
     {
       "source": "es",
-      "target": "ca",
+      "target": "gl",
       "strength": 2
     },
     {
       "source": "es",
-      "target": "gl",
+      "target": "ca",
       "strength": 2
     },
     {
@@ -498,38 +535,13 @@
       "strength": 1
     },
     {
-      "source": "eu",
-      "target": "ca",
-      "strength": 2
-    },
-    {
-      "source": "eu",
-      "target": "gl",
-      "strength": 2
-    },
-    {
-      "source": "eu",
-      "target": "es",
-      "strength": 2
-    },
-    {
-      "source": "eu",
-      "target": "en",
-      "strength": 2
-    },
-    {
-      "source": "eu",
+      "source": "ko",
       "target": "ja",
       "strength": 2
     },
     {
       "source": "ko",
       "target": "en",
-      "strength": 2
-    },
-    {
-      "source": "ko",
-      "target": "ja",
       "strength": 2
     },
     {
@@ -539,18 +551,13 @@
     },
     {
       "source": "uk",
-      "target": "en",
-      "strength": 9
-    },
-    {
-      "source": "uk",
       "target": "ja",
       "strength": 9
     },
     {
       "source": "uk",
-      "target": "it",
-      "strength": 1
+      "target": "en",
+      "strength": 9
     },
     {
       "source": "uk",
@@ -564,48 +571,33 @@
     },
     {
       "source": "uk",
+      "target": "it",
+      "strength": 1
+    },
+    {
+      "source": "uk",
       "target": "fr",
       "strength": 1
     },
     {
-      "source": "it",
-      "target": "fi",
-      "strength": 1
+      "source": "fi",
+      "target": "en",
+      "strength": 2
     },
     {
-      "source": "it",
+      "source": "fi",
+      "target": "ja",
+      "strength": 2
+    },
+    {
+      "source": "fi",
       "target": "de",
       "strength": 1
     },
     {
-      "source": "it",
-      "target": "en",
-      "strength": 1
-    },
-    {
-      "source": "it",
-      "target": "fr",
-      "strength": 1
-    },
-    {
-      "source": "it",
+      "source": "fi",
       "target": "uk",
       "strength": 1
-    },
-    {
-      "source": "it",
-      "target": "ja",
-      "strength": 1
-    },
-    {
-      "source": "fi",
-      "target": "en",
-      "strength": 2
-    },
-    {
-      "source": "fi",
-      "target": "ja",
-      "strength": 2
     },
     {
       "source": "fi",
@@ -614,17 +606,7 @@
     },
     {
       "source": "fi",
-      "target": "de",
-      "strength": 1
-    },
-    {
-      "source": "fi",
       "target": "fr",
-      "strength": 1
-    },
-    {
-      "source": "fi",
-      "target": "uk",
       "strength": 1
     },
     {
@@ -644,17 +626,17 @@
     },
     {
       "source": "de",
-      "target": "it",
-      "strength": 1
-    },
-    {
-      "source": "de",
       "target": "fi",
       "strength": 1
     },
     {
       "source": "de",
       "target": "uk",
+      "strength": 1
+    },
+    {
+      "source": "de",
+      "target": "it",
       "strength": 1
     },
     {
@@ -663,6 +645,36 @@
       "strength": 1
     },
     {
+      "source": "it",
+      "target": "fi",
+      "strength": 1
+    },
+    {
+      "source": "it",
+      "target": "de",
+      "strength": 1
+    },
+    {
+      "source": "it",
+      "target": "en",
+      "strength": 1
+    },
+    {
+      "source": "it",
+      "target": "uk",
+      "strength": 1
+    },
+    {
+      "source": "it",
+      "target": "ja",
+      "strength": 1
+    },
+    {
+      "source": "it",
+      "target": "fr",
+      "strength": 1
+    },
+    {
       "source": "fr",
       "target": "de",
       "strength": 3
@@ -676,11 +688,6 @@
       "source": "fr",
       "target": "ja",
       "strength": 3
-    },
-    {
-      "source": "fr",
-      "target": "it",
-      "strength": 1
     },
     {
       "source": "fr",
@@ -693,6 +700,16 @@
       "strength": 1
     },
     {
+      "source": "fr",
+      "target": "it",
+      "strength": 1
+    },
+    {
+      "source": "hy",
+      "target": "ja",
+      "strength": 1
+    },
+    {
       "source": "hy",
       "target": "de",
       "strength": 1
@@ -700,11 +717,6 @@
     {
       "source": "hy",
       "target": "en",
-      "strength": 1
-    },
-    {
-      "source": "hy",
-      "target": "ja",
       "strength": 1
     }
   ],
@@ -1012,46 +1024,46 @@
     }
   ],
   "allDomains": [
-    "spanish.news-pravda.com",
-    "germany.news-pravda.com",
-    "south-korea.news-pravda.com",
-    "news-pravda.com",
-    "switzerland.news-pravda.com",
-    "md.news-pravda.com",
-    "canada.news-pravda.com",
-    "catalan.news-pravda.com",
-    "korea.news-pravda.com",
-    "singapore.news-pravda.com",
-    "spain.news-pravda.com",
     "armenia.news-pravda.com",
-    "italy.news-pravda.com",
-    "nato.news-pravda.com",
-    "francais.news-pravda.com",
     "japan.news-pravda.com",
-    "uk.news-pravda.com",
     "galician.news-pravda.com",
-    "trump.news-pravda.com",
-    "eu.news-pravda.com",
-    "france.news-pravda.com",
-    "usa.news-pravda.com",
-    "deutsch.news-pravda.com",
+    "md.news-pravda.com",
+    "italy.news-pravda.com",
     "ua.news-pravda.com",
+    "spanish.news-pravda.com",
+    "deutsch.news-pravda.com",
+    "korea.news-pravda.com",
+    "south-korea.news-pravda.com",
+    "germany.news-pravda.com",
+    "francais.news-pravda.com",
+    "usa.news-pravda.com",
+    "singapore.news-pravda.com",
+    "eu.news-pravda.com",
+    "trump.news-pravda.com",
+    "switzerland.news-pravda.com",
+    "spain.news-pravda.com",
+    "nato.news-pravda.com",
+    "catalan.news-pravda.com",
+    "canada.news-pravda.com",
+    "news-pravda.com",
+    "france.news-pravda.com",
     "finland.news-pravda.com",
+    "uk.news-pravda.com",
     "basque.news-pravda.com"
   ],
   "allLanguages": [
-    "ca",
-    "hy",
-    "gl",
-    "it",
-    "es",
     "fi",
-    "ko",
     "de",
+    "gl",
+    "ca",
     "en",
-    "fr",
     "uk",
+    "es",
     "eu",
-    "ja"
+    "hy",
+    "ko",
+    "it",
+    "ja",
+    "fr"
   ]
 }
