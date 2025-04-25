@@ -1,6 +1,6 @@
 {
   "domain": "chad.news-pravda.com",
-  "totalArticles": 86,
+  "totalArticles": 88,
   "articlesPerDay": [
     {
       "date": "2025-04-22",
@@ -12,13 +12,17 @@
     },
     {
       "date": "2025-04-24",
-      "count": 40
+      "count": 41
+    },
+    {
+      "date": "2025-04-25",
+      "count": 1
     }
   ],
   "topSources": [
     {
       "source": "arabic.rt.com",
-      "count": 33
+      "count": 35
     },
     {
       "source": "sarabic.ae",
@@ -72,17 +76,17 @@
   "categories": [
     {
       "category": "chad",
-      "count": 56
+      "count": 57
     },
     {
       "category": "world",
-      "count": 30
+      "count": 31
     }
   ],
   "publicationHours": [
     {
       "hour": 0,
-      "count": 2
+      "count": 3
     },
     {
       "hour": 3,
@@ -166,7 +170,7 @@
     },
     {
       "hour": 23,
-      "count": 3
+      "count": 4
     }
   ],
   "sourcesByDay": [
@@ -198,12 +202,25 @@
     },
     {
       "date": "2025-04-24",
-      "arabic.rt.com": 17,
+      "arabic.rt.com": 18,
       "sarabic.ae": 9,
       "ar.topwar.ru": 7,
       "afrinz.ru": 1,
       "Telegram: Sputnik_Arabic": 2,
       "Telegram: rtarabicnewsroom": 1,
+      "Telegram: tass_ar": 0,
+      "kp.ru": 0,
+      "Telegram: westernafrica": 0,
+      "Telegram: Arabs_Live": 0
+    },
+    {
+      "date": "2025-04-25",
+      "arabic.rt.com": 1,
+      "sarabic.ae": 0,
+      "ar.topwar.ru": 0,
+      "afrinz.ru": 0,
+      "Telegram: Sputnik_Arabic": 0,
+      "Telegram: rtarabicnewsroom": 0,
       "Telegram: tass_ar": 0,
       "kp.ru": 0,
       "Telegram: westernafrica": 0,
@@ -223,14 +240,14 @@
     "Telegram: Arabs_Live"
   ],
   "alternatesStats": {
-    "articlesWithAlternates": 66,
-    "percentWithAlternates": 76.74418604651163,
-    "avgAlternatesPerArticle": 2.6818181818181817
+    "articlesWithAlternates": 67,
+    "percentWithAlternates": 76.13636363636364,
+    "avgAlternatesPerArticle": 2.671641791044776
   },
   "languages": [
     {
       "language": "ar",
-      "count": 152
+      "count": 154
     },
     {
       "language": "en",
@@ -243,7 +260,12 @@
   ],
   "languageConnections": [
     {
-      "source": "fr",
+      "source": "ar",
+      "target": "fr",
+      "strength": 6
+    },
+    {
+      "source": "ar",
       "target": "en",
       "strength": 6
     },
@@ -253,8 +275,8 @@
       "strength": 6
     },
     {
-      "source": "en",
-      "target": "fr",
+      "source": "fr",
+      "target": "en",
       "strength": 6
     },
     {
@@ -263,13 +285,8 @@
       "strength": 6
     },
     {
-      "source": "ar",
+      "source": "en",
       "target": "fr",
-      "strength": 6
-    },
-    {
-      "source": "ar",
-      "target": "en",
       "strength": 6
     }
   ],
@@ -277,7 +294,7 @@
     {
       "domain": "chad.news-pravda.com",
       "language": "ar",
-      "count": 66
+      "count": 67
     },
     {
       "domain": "chad.news-pravda.com",
@@ -292,7 +309,7 @@
     {
       "domain": "syria.news-pravda.com",
       "language": "ar",
-      "count": 49
+      "count": 50
     },
     {
       "domain": "egypt.news-pravda.com",
@@ -388,11 +405,11 @@
   "countryLanguageData": [
     {
       "code": "ar-TD",
-      "count": 66
+      "count": 67
     },
     {
       "code": "ar-SY",
-      "count": 49
+      "count": 50
     },
     {
       "code": "ar-EG",
@@ -477,23 +494,23 @@
   ],
   "allDomains": [
     "cameroon.news-pravda.com",
-    "chad.news-pravda.com",
-    "algeria.news-pravda.com",
-    "nigeria.news-pravda.com",
-    "rca.news-pravda.com",
-    "egypt.news-pravda.com",
-    "guinea.news-pravda.com",
-    "syria.news-pravda.com",
     "news-pravda.com",
-    "eritrea.news-pravda.com",
+    "guinea.news-pravda.com",
+    "sudan.news-pravda.com",
+    "chad.news-pravda.com",
+    "egypt.news-pravda.com",
+    "nigeria.news-pravda.com",
+    "mauritania.news-pravda.com",
+    "rca.news-pravda.com",
     "senegal.news-pravda.com",
     "mali.news-pravda.com",
-    "sudan.news-pravda.com",
-    "mauritania.news-pravda.com"
+    "syria.news-pravda.com",
+    "eritrea.news-pravda.com",
+    "algeria.news-pravda.com"
   ],
   "allLanguages": [
+    "ar",
     "fr",
-    "en",
-    "ar"
+    "en"
   ]
 }
