@@ -1,6 +1,6 @@
 {
   "domain": "armenia.news-pravda.com",
-  "totalArticles": 215,
+  "totalArticles": 217,
   "articlesPerDay": [
     {
       "date": "2025-04-23",
@@ -9,6 +9,10 @@
     {
       "date": "2025-04-24",
       "count": 144
+    },
+    {
+      "date": "2025-04-25",
+      "count": 2
     }
   ],
   "topSources": [
@@ -34,7 +38,7 @@
     },
     {
       "source": "tass.ru",
-      "count": 6
+      "count": 7
     },
     {
       "source": "Telegram: infodefARM",
@@ -211,12 +215,16 @@
     {
       "source": "Telegram: RVvoenkor",
       "count": 1
+    },
+    {
+      "source": "Telegram: movsesgazaryan",
+      "count": 1
     }
   ],
   "categories": [
     {
       "category": "world",
-      "count": 149
+      "count": 151
     },
     {
       "category": "armenia",
@@ -226,6 +234,10 @@
   "publicationHours": [
     {
       "hour": 0,
+      "count": 2
+    },
+    {
+      "hour": 1,
       "count": 2
     },
     {
@@ -343,6 +355,19 @@
       "ren.tv": 3,
       "Telegram: barantchik": 1,
       "Telegram: marochkolive": 1
+    },
+    {
+      "date": "2025-04-25",
+      "Telegram: armeniasputnik": 0,
+      "arm.sputniknews.ru": 0,
+      "Telegram: rusembassyarm": 0,
+      "Telegram: tsargradnewsarmenia": 0,
+      "ria.ru": 0,
+      "tass.ru": 1,
+      "Telegram: infodefARM": 0,
+      "ren.tv": 0,
+      "Telegram: barantchik": 0,
+      "Telegram: marochkolive": 0
     }
   ],
   "topSourceNames": [
@@ -358,18 +383,18 @@
     "Telegram: marochkolive"
   ],
   "alternatesStats": {
-    "articlesWithAlternates": 73,
-    "percentWithAlternates": 33.95348837209302,
-    "avgAlternatesPerArticle": 4.397260273972603
+    "articlesWithAlternates": 75,
+    "percentWithAlternates": 34.56221198156682,
+    "avgAlternatesPerArticle": 4.333333333333333
   },
   "languages": [
     {
       "language": "en",
-      "count": 174
+      "count": 176
     },
     {
       "language": "hy",
-      "count": 73
+      "count": 75
     },
     {
       "language": "de",
@@ -452,7 +477,7 @@
     {
       "source": "hy",
       "target": "en",
-      "strength": 73
+      "strength": 75
     },
     {
       "source": "hy",
@@ -481,12 +506,12 @@
     },
     {
       "source": "hy",
-      "target": "ro",
+      "target": "lv",
       "strength": 3
     },
     {
       "source": "hy",
-      "target": "lv",
+      "target": "ro",
       "strength": 3
     },
     {
@@ -552,7 +577,7 @@
     {
       "source": "en",
       "target": "hy",
-      "strength": 73
+      "strength": 75
     },
     {
       "source": "en",
@@ -581,12 +606,12 @@
     },
     {
       "source": "en",
-      "target": "ro",
+      "target": "lv",
       "strength": 3
     },
     {
       "source": "en",
-      "target": "lv",
+      "target": "ro",
       "strength": 3
     },
     {
@@ -650,9 +675,24 @@
       "strength": 1
     },
     {
-      "source": "ka",
+      "source": "bg",
+      "target": "ka",
+      "strength": 1
+    },
+    {
+      "source": "bg",
+      "target": "en",
+      "strength": 1
+    },
+    {
+      "source": "bg",
+      "target": "uk",
+      "strength": 1
+    },
+    {
+      "source": "bg",
       "target": "hy",
-      "strength": 6
+      "strength": 1
     },
     {
       "source": "ka",
@@ -661,7 +701,12 @@
     },
     {
       "source": "ka",
-      "target": "et",
+      "target": "hy",
+      "strength": 6
+    },
+    {
+      "source": "ka",
+      "target": "lv",
       "strength": 2
     },
     {
@@ -671,7 +716,7 @@
     },
     {
       "source": "ka",
-      "target": "lv",
+      "target": "et",
       "strength": 2
     },
     {
@@ -691,12 +736,7 @@
     },
     {
       "source": "ka",
-      "target": "fi",
-      "strength": 1
-    },
-    {
-      "source": "ka",
-      "target": "pl",
+      "target": "fr",
       "strength": 1
     },
     {
@@ -706,33 +746,13 @@
     },
     {
       "source": "ka",
-      "target": "fr",
+      "target": "pl",
       "strength": 1
     },
     {
-      "source": "bg",
-      "target": "ka",
+      "source": "ka",
+      "target": "fi",
       "strength": 1
-    },
-    {
-      "source": "bg",
-      "target": "hy",
-      "strength": 1
-    },
-    {
-      "source": "bg",
-      "target": "en",
-      "strength": 1
-    },
-    {
-      "source": "bg",
-      "target": "uk",
-      "strength": 1
-    },
-    {
-      "source": "uk",
-      "target": "hy",
-      "strength": 3
     },
     {
       "source": "uk",
@@ -741,12 +761,17 @@
     },
     {
       "source": "uk",
-      "target": "ka",
-      "strength": 1
+      "target": "hy",
+      "strength": 3
     },
     {
       "source": "uk",
       "target": "bg",
+      "strength": 1
+    },
+    {
+      "source": "uk",
+      "target": "ka",
       "strength": 1
     },
     {
@@ -760,63 +785,63 @@
       "strength": 1
     },
     {
-      "source": "et",
+      "source": "lv",
+      "target": "en",
+      "strength": 3
+    },
+    {
+      "source": "lv",
+      "target": "hy",
+      "strength": 3
+    },
+    {
+      "source": "lv",
       "target": "ka",
       "strength": 2
     },
     {
-      "source": "et",
-      "target": "lv",
+      "source": "lv",
+      "target": "et",
       "strength": 2
     },
     {
-      "source": "et",
-      "target": "hy",
-      "strength": 2
-    },
-    {
-      "source": "et",
+      "source": "lv",
       "target": "lt",
       "strength": 2
     },
     {
-      "source": "et",
-      "target": "en",
+      "source": "lv",
+      "target": "de",
       "strength": 2
     },
     {
-      "source": "et",
+      "source": "lv",
       "target": "ro",
       "strength": 1
     },
     {
-      "source": "et",
-      "target": "fi",
-      "strength": 1
-    },
-    {
-      "source": "et",
-      "target": "pl",
-      "strength": 1
-    },
-    {
-      "source": "et",
-      "target": "de",
-      "strength": 1
-    },
-    {
-      "source": "et",
+      "source": "lv",
       "target": "fr",
       "strength": 1
     },
     {
-      "source": "ro",
-      "target": "hy",
-      "strength": 3
+      "source": "lv",
+      "target": "pl",
+      "strength": 1
+    },
+    {
+      "source": "lv",
+      "target": "fi",
+      "strength": 1
     },
     {
       "source": "ro",
       "target": "en",
+      "strength": 3
+    },
+    {
+      "source": "ro",
+      "target": "hy",
       "strength": 3
     },
     {
@@ -826,12 +851,12 @@
     },
     {
       "source": "ro",
-      "target": "et",
+      "target": "lv",
       "strength": 1
     },
     {
       "source": "ro",
-      "target": "lv",
+      "target": "et",
       "strength": 1
     },
     {
@@ -845,59 +870,54 @@
       "strength": 1
     },
     {
-      "source": "lv",
-      "target": "hy",
-      "strength": 3
-    },
-    {
-      "source": "lv",
-      "target": "en",
-      "strength": 3
-    },
-    {
-      "source": "lv",
-      "target": "et",
+      "source": "et",
+      "target": "lv",
       "strength": 2
     },
     {
-      "source": "lv",
+      "source": "et",
       "target": "ka",
       "strength": 2
     },
     {
-      "source": "lv",
+      "source": "et",
+      "target": "en",
+      "strength": 2
+    },
+    {
+      "source": "et",
       "target": "lt",
       "strength": 2
     },
     {
-      "source": "lv",
-      "target": "de",
+      "source": "et",
+      "target": "hy",
       "strength": 2
     },
     {
-      "source": "lv",
+      "source": "et",
       "target": "ro",
       "strength": 1
     },
     {
-      "source": "lv",
-      "target": "fi",
-      "strength": 1
-    },
-    {
-      "source": "lv",
-      "target": "pl",
-      "strength": 1
-    },
-    {
-      "source": "lv",
+      "source": "et",
       "target": "fr",
       "strength": 1
     },
     {
-      "source": "lt",
-      "target": "hy",
-      "strength": 3
+      "source": "et",
+      "target": "de",
+      "strength": 1
+    },
+    {
+      "source": "et",
+      "target": "pl",
+      "strength": 1
+    },
+    {
+      "source": "et",
+      "target": "fi",
+      "strength": 1
     },
     {
       "source": "lt",
@@ -906,13 +926,8 @@
     },
     {
       "source": "lt",
-      "target": "et",
-      "strength": 2
-    },
-    {
-      "source": "lt",
-      "target": "ka",
-      "strength": 2
+      "target": "hy",
+      "strength": 3
     },
     {
       "source": "lt",
@@ -921,7 +936,12 @@
     },
     {
       "source": "lt",
-      "target": "pl",
+      "target": "ka",
+      "strength": 2
+    },
+    {
+      "source": "lt",
+      "target": "et",
       "strength": 2
     },
     {
@@ -931,17 +951,22 @@
     },
     {
       "source": "lt",
+      "target": "pl",
+      "strength": 2
+    },
+    {
+      "source": "lt",
       "target": "ro",
       "strength": 1
     },
     {
       "source": "lt",
-      "target": "fi",
+      "target": "de",
       "strength": 1
     },
     {
       "source": "lt",
-      "target": "de",
+      "target": "fi",
       "strength": 1
     },
     {
@@ -981,7 +1006,7 @@
     },
     {
       "source": "de",
-      "target": "fi",
+      "target": "ka",
       "strength": 1
     },
     {
@@ -996,12 +1021,12 @@
     },
     {
       "source": "de",
-      "target": "ka",
+      "target": "lt",
       "strength": 1
     },
     {
       "source": "de",
-      "target": "lt",
+      "target": "fi",
       "strength": 1
     },
     {
@@ -1011,17 +1036,17 @@
     },
     {
       "source": "sk",
-      "target": "hy",
-      "strength": 1
-    },
-    {
-      "source": "sk",
       "target": "en",
       "strength": 1
     },
     {
       "source": "sk",
       "target": "uk",
+      "strength": 1
+    },
+    {
+      "source": "sk",
+      "target": "hy",
       "strength": 1
     },
     {
@@ -1031,11 +1056,6 @@
     },
     {
       "source": "sr",
-      "target": "hy",
-      "strength": 1
-    },
-    {
-      "source": "sr",
       "target": "en",
       "strength": 1
     },
@@ -1045,13 +1065,13 @@
       "strength": 1
     },
     {
-      "source": "ja",
+      "source": "sr",
       "target": "hy",
       "strength": 1
     },
     {
       "source": "ja",
-      "target": "en",
+      "target": "hy",
       "strength": 1
     },
     {
@@ -1060,104 +1080,9 @@
       "strength": 1
     },
     {
-      "source": "fi",
-      "target": "pl",
-      "strength": 1
-    },
-    {
-      "source": "fi",
-      "target": "et",
-      "strength": 1
-    },
-    {
-      "source": "fi",
-      "target": "de",
-      "strength": 1
-    },
-    {
-      "source": "fi",
-      "target": "fr",
-      "strength": 1
-    },
-    {
-      "source": "fi",
-      "target": "ka",
-      "strength": 1
-    },
-    {
-      "source": "fi",
-      "target": "lv",
-      "strength": 1
-    },
-    {
-      "source": "fi",
-      "target": "hy",
-      "strength": 1
-    },
-    {
-      "source": "fi",
-      "target": "lt",
-      "strength": 1
-    },
-    {
-      "source": "fi",
+      "source": "ja",
       "target": "en",
       "strength": 1
-    },
-    {
-      "source": "pl",
-      "target": "hy",
-      "strength": 3
-    },
-    {
-      "source": "pl",
-      "target": "en",
-      "strength": 3
-    },
-    {
-      "source": "pl",
-      "target": "fr",
-      "strength": 2
-    },
-    {
-      "source": "pl",
-      "target": "lt",
-      "strength": 2
-    },
-    {
-      "source": "pl",
-      "target": "fi",
-      "strength": 1
-    },
-    {
-      "source": "pl",
-      "target": "et",
-      "strength": 1
-    },
-    {
-      "source": "pl",
-      "target": "de",
-      "strength": 1
-    },
-    {
-      "source": "pl",
-      "target": "ka",
-      "strength": 1
-    },
-    {
-      "source": "pl",
-      "target": "lv",
-      "strength": 1
-    },
-    {
-      "source": "pl",
-      "target": "nl",
-      "strength": 1
-    },
-    {
-      "source": "fr",
-      "target": "hy",
-      "strength": 5
     },
     {
       "source": "fr",
@@ -1166,12 +1091,17 @@
     },
     {
       "source": "fr",
-      "target": "pl",
-      "strength": 2
+      "target": "hy",
+      "strength": 5
     },
     {
       "source": "fr",
       "target": "de",
+      "strength": 2
+    },
+    {
+      "source": "fr",
+      "target": "pl",
       "strength": 2
     },
     {
@@ -1186,12 +1116,7 @@
     },
     {
       "source": "fr",
-      "target": "fi",
-      "strength": 1
-    },
-    {
-      "source": "fr",
-      "target": "et",
+      "target": "lv",
       "strength": 1
     },
     {
@@ -1201,7 +1126,12 @@
     },
     {
       "source": "fr",
-      "target": "lv",
+      "target": "et",
+      "strength": 1
+    },
+    {
+      "source": "fr",
+      "target": "fi",
       "strength": 1
     },
     {
@@ -1212,6 +1142,101 @@
     {
       "source": "fr",
       "target": "nl",
+      "strength": 1
+    },
+    {
+      "source": "pl",
+      "target": "en",
+      "strength": 3
+    },
+    {
+      "source": "pl",
+      "target": "hy",
+      "strength": 3
+    },
+    {
+      "source": "pl",
+      "target": "fr",
+      "strength": 2
+    },
+    {
+      "source": "pl",
+      "target": "lt",
+      "strength": 2
+    },
+    {
+      "source": "pl",
+      "target": "lv",
+      "strength": 1
+    },
+    {
+      "source": "pl",
+      "target": "ka",
+      "strength": 1
+    },
+    {
+      "source": "pl",
+      "target": "de",
+      "strength": 1
+    },
+    {
+      "source": "pl",
+      "target": "et",
+      "strength": 1
+    },
+    {
+      "source": "pl",
+      "target": "fi",
+      "strength": 1
+    },
+    {
+      "source": "pl",
+      "target": "nl",
+      "strength": 1
+    },
+    {
+      "source": "fi",
+      "target": "fr",
+      "strength": 1
+    },
+    {
+      "source": "fi",
+      "target": "lv",
+      "strength": 1
+    },
+    {
+      "source": "fi",
+      "target": "ka",
+      "strength": 1
+    },
+    {
+      "source": "fi",
+      "target": "de",
+      "strength": 1
+    },
+    {
+      "source": "fi",
+      "target": "pl",
+      "strength": 1
+    },
+    {
+      "source": "fi",
+      "target": "en",
+      "strength": 1
+    },
+    {
+      "source": "fi",
+      "target": "et",
+      "strength": 1
+    },
+    {
+      "source": "fi",
+      "target": "lt",
+      "strength": 1
+    },
+    {
+      "source": "fi",
+      "target": "hy",
       "strength": 1
     },
     {
@@ -1261,23 +1286,18 @@
     },
     {
       "source": "it",
-      "target": "hy",
-      "strength": 1
-    },
-    {
-      "source": "it",
       "target": "ro",
       "strength": 1
     },
     {
       "source": "it",
-      "target": "en",
+      "target": "hy",
       "strength": 1
     },
     {
-      "source": "nl",
+      "source": "it",
       "target": "en",
-      "strength": 2
+      "strength": 1
     },
     {
       "source": "nl",
@@ -1286,12 +1306,17 @@
     },
     {
       "source": "nl",
-      "target": "pl",
-      "strength": 1
+      "target": "en",
+      "strength": 2
     },
     {
       "source": "nl",
       "target": "fr",
+      "strength": 1
+    },
+    {
+      "source": "nl",
+      "target": "pl",
       "strength": 1
     },
     {
@@ -1304,12 +1329,12 @@
     {
       "domain": "armenia.news-pravda.com",
       "language": "en",
-      "count": 73
+      "count": 75
     },
     {
       "domain": "armenia.news-pravda.com",
       "language": "hy",
-      "count": 73
+      "count": 75
     },
     {
       "domain": "ge.news-pravda.com",
@@ -1595,11 +1620,11 @@
   "countryLanguageData": [
     {
       "code": "en-AM",
-      "count": 73
+      "count": 75
     },
     {
       "code": "hy-AM",
-      "count": 73
+      "count": 75
     },
     {
       "code": "en",
@@ -1811,60 +1836,60 @@
     }
   ],
   "allDomains": [
-    "estonia.news-pravda.com",
-    "ua.news-pravda.com",
-    "france.news-pravda.com",
-    "francais.news-pravda.com",
-    "slovakia.news-pravda.com",
-    "md.news-pravda.com",
-    "usa.news-pravda.com",
-    "japan.news-pravda.com",
-    "latvia.news-pravda.com",
-    "abkhazia.news-pravda.com",
-    "netherlands.news-pravda.com",
-    "poland.news-pravda.com",
-    "balkan.news-pravda.com",
-    "turkey.news-pravda.com",
-    "bulgaria.news-pravda.com",
-    "hungary.news-pravda.com",
-    "news-pravda.com",
-    "finland.news-pravda.com",
-    "uk.news-pravda.com",
-    "romania.news-pravda.com",
-    "deutsch.news-pravda.com",
+    "germany.news-pravda.com",
     "italy.news-pravda.com",
-    "syria.news-pravda.com",
-    "dutch.news-pravda.com",
-    "armenia.news-pravda.com",
     "serbia.news-pravda.com",
-    "switzerland.news-pravda.com",
-    "nato.news-pravda.com",
+    "estonia.news-pravda.com",
+    "uk.news-pravda.com",
+    "syria.news-pravda.com",
+    "balkan.news-pravda.com",
+    "francais.news-pravda.com",
+    "abkhazia.news-pravda.com",
+    "armenia.news-pravda.com",
+    "hungary.news-pravda.com",
+    "latvia.news-pravda.com",
+    "poland.news-pravda.com",
+    "eu.news-pravda.com",
+    "dutch.news-pravda.com",
+    "france.news-pravda.com",
     "belgium.news-pravda.com",
+    "md.news-pravda.com",
+    "slovakia.news-pravda.com",
+    "usa.news-pravda.com",
+    "switzerland.news-pravda.com",
+    "news-pravda.com",
     "ge.news-pravda.com",
     "lt.news-pravda.com",
-    "eu.news-pravda.com",
-    "germany.news-pravda.com"
+    "romania.news-pravda.com",
+    "bulgaria.news-pravda.com",
+    "nato.news-pravda.com",
+    "ua.news-pravda.com",
+    "netherlands.news-pravda.com",
+    "turkey.news-pravda.com",
+    "deutsch.news-pravda.com",
+    "finland.news-pravda.com",
+    "japan.news-pravda.com"
   ],
   "allLanguages": [
-    "it",
-    "de",
-    "sr",
+    "tr",
+    "lv",
+    "ro",
     "ja",
+    "it",
+    "hu",
+    "fi",
+    "bg",
+    "ar",
+    "en",
+    "uk",
     "hy",
-    "pl",
     "sk",
     "fr",
     "nl",
-    "en",
-    "uk",
-    "ar",
-    "hu",
-    "tr",
-    "ro",
+    "pl",
     "ka",
-    "lv",
-    "bg",
-    "fi",
+    "sr",
+    "de",
     "et",
     "lt"
   ]
