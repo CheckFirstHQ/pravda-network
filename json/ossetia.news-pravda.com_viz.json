@@ -1,6 +1,6 @@
 {
   "domain": "ossetia.news-pravda.com",
-  "totalArticles": 128,
+  "totalArticles": 133,
   "articlesPerDay": [
     {
       "date": "2025-04-22",
@@ -16,21 +16,21 @@
     },
     {
       "date": "2025-04-25",
-      "count": 11
+      "count": 16
     }
   ],
   "topSources": [
     {
       "source": "Telegram: sputnikossetia",
-      "count": 64
+      "count": 65
     },
     {
       "source": "Telegram: ia_res",
-      "count": 37
+      "count": 39
     },
     {
       "source": "Unknown",
-      "count": 13
+      "count": 14
     },
     {
       "source": "Telegram: mid_rso",
@@ -55,16 +55,20 @@
     {
       "source": "Telegram: rentv_news",
       "count": 1
+    },
+    {
+      "source": "ren.tv",
+      "count": 1
     }
   ],
   "categories": [
     {
       "category": "world",
-      "count": 74
+      "count": 77
     },
     {
       "category": "south-ossetia",
-      "count": 54
+      "count": 56
     }
   ],
   "publicationHours": [
@@ -86,7 +90,7 @@
     },
     {
       "hour": 7,
-      "count": 6
+      "count": 11
     },
     {
       "hour": 8,
@@ -152,7 +156,8 @@
       "Telegram: rusembrso": 0,
       "tass.ru": 0,
       "Telegram: midapsny": 0,
-      "Telegram: rentv_news": 0
+      "Telegram: rentv_news": 0,
+      "ren.tv": 0
     },
     {
       "date": "2025-04-23",
@@ -164,7 +169,8 @@
       "Telegram: rusembrso": 1,
       "tass.ru": 0,
       "Telegram: midapsny": 1,
-      "Telegram: rentv_news": 0
+      "Telegram: rentv_news": 0,
+      "ren.tv": 0
     },
     {
       "date": "2025-04-24",
@@ -176,19 +182,21 @@
       "Telegram: rusembrso": 1,
       "tass.ru": 1,
       "Telegram: midapsny": 0,
-      "Telegram: rentv_news": 1
+      "Telegram: rentv_news": 1,
+      "ren.tv": 0
     },
     {
       "date": "2025-04-25",
-      "Telegram: sputnikossetia": 5,
-      "Telegram: ia_res": 3,
-      "Unknown": 0,
+      "Telegram: sputnikossetia": 6,
+      "Telegram: ia_res": 5,
+      "Unknown": 1,
       "Telegram: mid_rso": 1,
       "Telegram: mchsruo": 1,
       "Telegram: rusembrso": 0,
       "tass.ru": 1,
       "Telegram: midapsny": 0,
-      "Telegram: rentv_news": 0
+      "Telegram: rentv_news": 0,
+      "ren.tv": 1
     }
   ],
   "topSourceNames": [
@@ -200,78 +208,64 @@
     "Telegram: rusembrso",
     "tass.ru",
     "Telegram: midapsny",
-    "Telegram: rentv_news"
+    "Telegram: rentv_news",
+    "ren.tv"
   ],
   "alternatesStats": {
-    "articlesWithAlternates": 55,
-    "percentWithAlternates": 42.96875,
-    "avgAlternatesPerArticle": 2.2
+    "articlesWithAlternates": 57,
+    "percentWithAlternates": 42.857142857142854,
+    "avgAlternatesPerArticle": 2.2982456140350878
   },
   "languages": [
     {
       "language": "en",
-      "count": 60
+      "count": 65
     },
     {
       "language": "os",
-      "count": 55
+      "count": 57
     },
     {
       "language": "nl",
       "count": 2
     },
     {
-      "language": "ar",
-      "count": 1
-    },
-    {
       "language": "lt",
-      "count": 1
+      "count": 2
     },
     {
       "language": "lv",
-      "count": 1
+      "count": 2
     },
     {
       "language": "et",
+      "count": 2
+    },
+    {
+      "language": "ar",
       "count": 1
     }
   ],
   "languageConnections": [
     {
-      "source": "en",
-      "target": "os",
-      "strength": 55
-    },
-    {
-      "source": "en",
-      "target": "nl",
-      "strength": 1
-    },
-    {
-      "source": "en",
-      "target": "ar",
-      "strength": 1
-    },
-    {
-      "source": "en",
-      "target": "lv",
-      "strength": 1
-    },
-    {
-      "source": "en",
-      "target": "et",
-      "strength": 1
-    },
-    {
-      "source": "en",
-      "target": "lt",
-      "strength": 1
+      "source": "os",
+      "target": "en",
+      "strength": 57
     },
     {
       "source": "os",
-      "target": "en",
-      "strength": 55
+      "target": "et",
+      "strength": 2
+    },
+    {
+      "source": "os",
+      "target": "lv",
+      "strength": 2
+    },
+    {
+      "source": "os",
+      "target": "lt",
+      "strength": 2
     },
     {
       "source": "os",
@@ -284,18 +278,38 @@
       "strength": 1
     },
     {
-      "source": "os",
-      "target": "lv",
-      "strength": 1
+      "source": "en",
+      "target": "os",
+      "strength": 57
     },
     {
-      "source": "os",
+      "source": "en",
       "target": "et",
+      "strength": 2
+    },
+    {
+      "source": "en",
+      "target": "lv",
+      "strength": 2
+    },
+    {
+      "source": "en",
+      "target": "lt",
+      "strength": 2
+    },
+    {
+      "source": "en",
+      "target": "nl",
       "strength": 1
     },
     {
-      "source": "os",
-      "target": "lt",
+      "source": "en",
+      "target": "ar",
+      "strength": 1
+    },
+    {
+      "source": "nl",
+      "target": "os",
       "strength": 1
     },
     {
@@ -304,7 +318,7 @@
       "strength": 1
     },
     {
-      "source": "nl",
+      "source": "ar",
       "target": "os",
       "strength": 1
     },
@@ -314,81 +328,76 @@
       "strength": 1
     },
     {
-      "source": "ar",
+      "source": "et",
       "target": "os",
-      "strength": 1
-    },
-    {
-      "source": "lv",
-      "target": "en",
-      "strength": 1
-    },
-    {
-      "source": "lv",
-      "target": "et",
-      "strength": 1
-    },
-    {
-      "source": "lv",
-      "target": "lt",
-      "strength": 1
-    },
-    {
-      "source": "lv",
-      "target": "os",
-      "strength": 1
+      "strength": 2
     },
     {
       "source": "et",
       "target": "en",
-      "strength": 1
+      "strength": 2
     },
     {
       "source": "et",
       "target": "lv",
-      "strength": 1
+      "strength": 2
     },
     {
       "source": "et",
       "target": "lt",
-      "strength": 1
+      "strength": 2
     },
     {
-      "source": "et",
+      "source": "lv",
+      "target": "et",
+      "strength": 2
+    },
+    {
+      "source": "lv",
       "target": "os",
-      "strength": 1
+      "strength": 2
     },
     {
-      "source": "lt",
+      "source": "lv",
       "target": "en",
-      "strength": 1
+      "strength": 2
     },
     {
-      "source": "lt",
-      "target": "lv",
-      "strength": 1
+      "source": "lv",
+      "target": "lt",
+      "strength": 2
     },
     {
       "source": "lt",
       "target": "et",
-      "strength": 1
+      "strength": 2
     },
     {
       "source": "lt",
       "target": "os",
-      "strength": 1
+      "strength": 2
+    },
+    {
+      "source": "lt",
+      "target": "en",
+      "strength": 2
+    },
+    {
+      "source": "lt",
+      "target": "lv",
+      "strength": 2
     }
   ],
   "domainLanguageData": [
     {
       "domain": "ossetia.news-pravda.com",
       "language": "en",
-      "count": 55
+      "count": 56
     },
     {
       "domain": "ossetia.news-pravda.com",
       "language": "os",
-      "count": 55
+      "count": 57
     },
     {
       "domain": "dutch.news-pravda.com",
@@ -418,30 +427,35 @@
     {
       "domain": "estonia.news-pravda.com",
       "language": "en",
-      "count": 1
+      "count": 2
     },
     {
       "domain": "estonia.news-pravda.com",
       "language": "et",
-      "count": 1
+      "count": 2
     },
     {
       "domain": "lt.news-pravda.com",
       "language": "lt",
-      "count": 1
+      "count": 2
     },
     {
       "domain": "lt.news-pravda.com",
       "language": "en",
-      "count": 1
+      "count": 2
     },
     {
       "domain": "latvia.news-pravda.com",
       "language": "lv",
-      "count": 1
+      "count": 2
     },
     {
       "domain": "latvia.news-pravda.com",
+      "language": "en",
+      "count": 2
+    },
+    {
+      "domain": "abkhazia.news-pravda.com",
       "language": "en",
       "count": 1
     }
@@ -449,11 +463,35 @@
   "countryLanguageData": [
     {
       "code": "en",
-      "count": 55
+      "count": 57
     },
     {
       "code": "os",
-      "count": 55
+      "count": 57
+    },
+    {
+      "code": "en-EE",
+      "count": 2
+    },
+    {
+      "code": "lt-LT",
+      "count": 2
+    },
+    {
+      "code": "lv-LV",
+      "count": 2
+    },
+    {
+      "code": "en-LV",
+      "count": 2
+    },
+    {
+      "code": "en-LT",
+      "count": 2
+    },
+    {
+      "code": "et-EE",
+      "count": 2
     },
     {
       "code": "nl",
@@ -474,48 +512,25 @@
     {
       "code": "en-SY",
       "count": 1
-    },
-    {
-      "code": "en-EE",
-      "count": 1
-    },
-    {
-      "code": "lt-LT",
-      "count": 1
-    },
-    {
-      "code": "lv-LV",
-      "count": 1
-    },
-    {
-      "code": "en-LV",
-      "count": 1
-    },
-    {
-      "code": "en-LT",
-      "count": 1
-    },
-    {
-      "code": "et-EE",
-      "count": 1
     }
   ],
   "allDomains": [
-    "netherlands.news-pravda.com",
-    "latvia.news-pravda.com",
-    "ossetia.news-pravda.com",
-    "lt.news-pravda.com",
     "dutch.news-pravda.com",
+    "syria.news-pravda.com",
+    "netherlands.news-pravda.com",
+    "abkhazia.news-pravda.com",
+    "ossetia.news-pravda.com",
     "estonia.news-pravda.com",
-    "syria.news-pravda.com"
+    "lt.news-pravda.com",
+    "latvia.news-pravda.com"
   ],
   "allLanguages": [
+    "nl",
+    "et",
+    "os",
     "en",
     "lv",
-    "et",
-    "lt",
     "ar",
-    "os",
-    "nl"
+    "lt"
   ]
 }
