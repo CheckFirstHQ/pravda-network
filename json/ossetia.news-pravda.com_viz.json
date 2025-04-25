@@ -1,6 +1,6 @@
 {
   "domain": "ossetia.news-pravda.com",
-  "totalArticles": 117,
+  "totalArticles": 118,
   "articlesPerDay": [
     {
       "date": "2025-04-22",
@@ -13,6 +13,10 @@
     {
       "date": "2025-04-24",
       "count": 65
+    },
+    {
+      "date": "2025-04-25",
+      "count": 1
     }
   ],
   "topSources": [
@@ -41,11 +45,11 @@
       "count": 2
     },
     {
-      "source": "Telegram: midapsny",
-      "count": 1
+      "source": "tass.ru",
+      "count": 2
     },
     {
-      "source": "tass.ru",
+      "source": "Telegram: midapsny",
       "count": 1
     },
     {
@@ -56,7 +60,7 @@
   "categories": [
     {
       "category": "world",
-      "count": 67
+      "count": 68
     },
     {
       "category": "south-ossetia",
@@ -64,6 +68,10 @@
     }
   ],
   "publicationHours": [
+    {
+      "hour": 2,
+      "count": 1
+    },
     {
       "hour": 4,
       "count": 1
@@ -142,8 +150,8 @@
       "Telegram: mid_rso": 0,
       "Telegram: mchsruo": 0,
       "Telegram: rusembrso": 0,
-      "Telegram: midapsny": 0,
       "tass.ru": 0,
+      "Telegram: midapsny": 0,
       "Telegram: rentv_news": 0
     },
     {
@@ -154,8 +162,8 @@
       "Telegram: mid_rso": 1,
       "Telegram: mchsruo": 0,
       "Telegram: rusembrso": 1,
-      "Telegram: midapsny": 1,
       "tass.ru": 0,
+      "Telegram: midapsny": 1,
       "Telegram: rentv_news": 0
     },
     {
@@ -166,9 +174,21 @@
       "Telegram: mid_rso": 2,
       "Telegram: mchsruo": 3,
       "Telegram: rusembrso": 1,
-      "Telegram: midapsny": 0,
       "tass.ru": 1,
+      "Telegram: midapsny": 0,
       "Telegram: rentv_news": 1
+    },
+    {
+      "date": "2025-04-25",
+      "Telegram: sputnikossetia": 0,
+      "Telegram: ia_res": 0,
+      "Unknown": 0,
+      "Telegram: mid_rso": 0,
+      "Telegram: mchsruo": 0,
+      "Telegram: rusembrso": 0,
+      "tass.ru": 1,
+      "Telegram: midapsny": 0,
+      "Telegram: rentv_news": 0
     }
   ],
   "topSourceNames": [
@@ -178,23 +198,23 @@
     "Telegram: mid_rso",
     "Telegram: mchsruo",
     "Telegram: rusembrso",
-    "Telegram: midapsny",
     "tass.ru",
+    "Telegram: midapsny",
     "Telegram: rentv_news"
   ],
   "alternatesStats": {
-    "articlesWithAlternates": 49,
-    "percentWithAlternates": 41.88034188034188,
-    "avgAlternatesPerArticle": 2.1020408163265305
+    "articlesWithAlternates": 50,
+    "percentWithAlternates": 42.3728813559322,
+    "avgAlternatesPerArticle": 2.22
   },
   "languages": [
     {
       "language": "en",
-      "count": 51
+      "count": 55
     },
     {
       "language": "os",
-      "count": 49
+      "count": 50
     },
     {
       "language": "nl",
@@ -203,13 +223,25 @@
     {
       "language": "ar",
       "count": 1
+    },
+    {
+      "language": "lt",
+      "count": 1
+    },
+    {
+      "language": "lv",
+      "count": 1
+    },
+    {
+      "language": "et",
+      "count": 1
     }
   ],
   "languageConnections": [
     {
       "source": "en",
       "target": "os",
-      "strength": 49
+      "strength": 50
     },
     {
       "source": "en",
@@ -219,12 +251,27 @@
     {
       "source": "en",
       "target": "ar",
+      "strength": 1
+    },
+    {
+      "source": "en",
+      "target": "lt",
+      "strength": 1
+    },
+    {
+      "source": "en",
+      "target": "et",
+      "strength": 1
+    },
+    {
+      "source": "en",
+      "target": "lv",
       "strength": 1
     },
     {
       "source": "os",
       "target": "en",
-      "strength": 49
+      "strength": 50
     },
     {
       "source": "os",
@@ -234,6 +281,21 @@
     {
       "source": "os",
       "target": "ar",
+      "strength": 1
+    },
+    {
+      "source": "os",
+      "target": "lt",
+      "strength": 1
+    },
+    {
+      "source": "os",
+      "target": "et",
+      "strength": 1
+    },
+    {
+      "source": "os",
+      "target": "lv",
       "strength": 1
     },
     {
@@ -253,6 +315,66 @@
     },
     {
       "source": "ar",
+      "target": "os",
+      "strength": 1
+    },
+    {
+      "source": "lt",
+      "target": "en",
+      "strength": 1
+    },
+    {
+      "source": "lt",
+      "target": "et",
+      "strength": 1
+    },
+    {
+      "source": "lt",
+      "target": "os",
+      "strength": 1
+    },
+    {
+      "source": "lt",
+      "target": "lv",
+      "strength": 1
+    },
+    {
+      "source": "et",
+      "target": "en",
+      "strength": 1
+    },
+    {
+      "source": "et",
+      "target": "lt",
+      "strength": 1
+    },
+    {
+      "source": "et",
+      "target": "os",
+      "strength": 1
+    },
+    {
+      "source": "et",
+      "target": "lv",
+      "strength": 1
+    },
+    {
+      "source": "lv",
+      "target": "en",
+      "strength": 1
+    },
+    {
+      "source": "lv",
+      "target": "lt",
+      "strength": 1
+    },
+    {
+      "source": "lv",
+      "target": "et",
+      "strength": 1
+    },
+    {
+      "source": "lv",
       "target": "os",
       "strength": 1
     }
@@ -261,12 +383,12 @@
     {
       "domain": "ossetia.news-pravda.com",
       "language": "en",
-      "count": 49
+      "count": 50
     },
     {
       "domain": "ossetia.news-pravda.com",
       "language": "os",
-      "count": 49
+      "count": 50
     },
     {
       "domain": "dutch.news-pravda.com",
@@ -292,16 +414,46 @@
       "domain": "syria.news-pravda.com",
       "language": "en",
       "count": 1
+    },
+    {
+      "domain": "estonia.news-pravda.com",
+      "language": "en",
+      "count": 1
+    },
+    {
+      "domain": "estonia.news-pravda.com",
+      "language": "et",
+      "count": 1
+    },
+    {
+      "domain": "lt.news-pravda.com",
+      "language": "lt",
+      "count": 1
+    },
+    {
+      "domain": "lt.news-pravda.com",
+      "language": "en",
+      "count": 1
+    },
+    {
+      "domain": "latvia.news-pravda.com",
+      "language": "lv",
+      "count": 1
+    },
+    {
+      "domain": "latvia.news-pravda.com",
+      "language": "en",
+      "count": 1
     }
   ],
   "countryLanguageData": [
     {
       "code": "en",
-      "count": 49
+      "count": 50
     },
     {
       "code": "os",
-      "count": 49
+      "count": 50
     },
     {
       "code": "nl",
@@ -322,18 +474,48 @@
     {
       "code": "en-SY",
       "count": 1
+    },
+    {
+      "code": "en-EE",
+      "count": 1
+    },
+    {
+      "code": "lt-LT",
+      "count": 1
+    },
+    {
+      "code": "lv-LV",
+      "count": 1
+    },
+    {
+      "code": "en-LV",
+      "count": 1
+    },
+    {
+      "code": "en-LT",
+      "count": 1
+    },
+    {
+      "code": "et-EE",
+      "count": 1
     }
   ],
   "allDomains": [
     "syria.news-pravda.com",
-    "netherlands.news-pravda.com",
+    "estonia.news-pravda.com",
     "ossetia.news-pravda.com",
+    "latvia.news-pravda.com",
+    "lt.news-pravda.com",
+    "netherlands.news-pravda.com",
     "dutch.news-pravda.com"
   ],
   "allLanguages": [
-    "ar",
-    "nl",
     "en",
-    "os"
+    "lt",
+    "et",
+    "os",
+    "nl",
+    "ar",
+    "lv"
   ]
 }
