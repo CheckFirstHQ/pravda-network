@@ -1,6 +1,6 @@
 {
   "domain": "mali.news-pravda.com",
-  "totalArticles": 104,
+  "totalArticles": 105,
   "articlesPerDay": [
     {
       "date": "2025-04-22",
@@ -24,7 +24,7 @@
     },
     {
       "date": "2025-04-27",
-      "count": 14
+      "count": 15
     }
   ],
   "topSources": [
@@ -61,6 +61,10 @@
       "count": 5
     },
     {
+      "source": "Telegram: lafrquelibre",
+      "count": 3
+    },
+    {
       "source": "Telegram: silboyofficiell",
       "count": 3
     },
@@ -82,10 +86,6 @@
     },
     {
       "source": "Telegram: sputnik_afrique",
-      "count": 2
-    },
-    {
-      "source": "Telegram: lafrquelibre",
       "count": 2
     },
     {
@@ -188,7 +188,7 @@
     },
     {
       "category": "mali",
-      "count": 48
+      "count": 49
     }
   ],
   "publicationHours": [
@@ -254,7 +254,7 @@
     },
     {
       "hour": 18,
-      "count": 3
+      "count": 4
     },
     {
       "hour": 19,
@@ -284,8 +284,8 @@
       "Telegram: africaninitiative": 0,
       "Telegram: africaninitiativefr": 0,
       "Telegram: AESchronique": 0,
-      "Telegram: silboyofficiell": 1,
-      "Telegram: departamente": 2
+      "Telegram: lafrquelibre": 1,
+      "Telegram: silboyofficiell": 1
     },
     {
       "date": "2025-04-23",
@@ -297,8 +297,8 @@
       "Telegram: africaninitiative": 2,
       "Telegram: africaninitiativefr": 1,
       "Telegram: AESchronique": 0,
-      "Telegram: silboyofficiell": 0,
-      "Telegram: departamente": 0
+      "Telegram: lafrquelibre": 0,
+      "Telegram: silboyofficiell": 0
     },
     {
       "date": "2025-04-24",
@@ -310,8 +310,8 @@
       "Telegram: africaninitiative": 2,
       "Telegram: africaninitiativefr": 2,
       "Telegram: AESchronique": 1,
-      "Telegram: silboyofficiell": 2,
-      "Telegram: departamente": 0
+      "Telegram: lafrquelibre": 0,
+      "Telegram: silboyofficiell": 2
     },
     {
       "date": "2025-04-25",
@@ -323,8 +323,8 @@
       "Telegram: africaninitiative": 1,
       "Telegram: africaninitiativefr": 2,
       "Telegram: AESchronique": 2,
-      "Telegram: silboyofficiell": 0,
-      "Telegram: departamente": 0
+      "Telegram: lafrquelibre": 0,
+      "Telegram: silboyofficiell": 0
     },
     {
       "date": "2025-04-26",
@@ -336,8 +336,8 @@
       "Telegram: africaninitiative": 0,
       "Telegram: africaninitiativefr": 0,
       "Telegram: AESchronique": 2,
-      "Telegram: silboyofficiell": 0,
-      "Telegram: departamente": 0
+      "Telegram: lafrquelibre": 0,
+      "Telegram: silboyofficiell": 0
     },
     {
       "date": "2025-04-27",
@@ -349,8 +349,8 @@
       "Telegram: africaninitiative": 0,
       "Telegram: africaninitiativefr": 0,
       "Telegram: AESchronique": 0,
-      "Telegram: silboyofficiell": 0,
-      "Telegram: departamente": 1
+      "Telegram: lafrquelibre": 2,
+      "Telegram: silboyofficiell": 0
     }
   ],
   "topSourceNames": [
@@ -362,12 +362,12 @@
     "Telegram: africaninitiative",
     "Telegram: africaninitiativefr",
     "Telegram: AESchronique",
-    "Telegram: silboyofficiell",
-    "Telegram: departamente"
+    "Telegram: lafrquelibre",
+    "Telegram: silboyofficiell"
   ],
   "alternatesStats": {
     "articlesWithAlternates": 84,
-    "percentWithAlternates": 80.76923076923077,
+    "percentWithAlternates": 80.0,
     "avgAlternatesPerArticle": 3.9047619047619047
   },
   "languages": [
@@ -402,6 +402,21 @@
   ],
   "languageConnections": [
     {
+      "source": "es",
+      "target": "en",
+      "strength": 3
+    },
+    {
+      "source": "es",
+      "target": "fr",
+      "strength": 3
+    },
+    {
+      "source": "es",
+      "target": "de",
+      "strength": 1
+    },
+    {
       "source": "en",
       "target": "fr",
       "strength": 42
@@ -462,21 +477,6 @@
       "strength": 1
     },
     {
-      "source": "es",
-      "target": "en",
-      "strength": 3
-    },
-    {
-      "source": "es",
-      "target": "fr",
-      "strength": 3
-    },
-    {
-      "source": "es",
-      "target": "de",
-      "strength": 1
-    },
-    {
       "source": "ar",
       "target": "en",
       "strength": 12
@@ -498,12 +498,17 @@
     },
     {
       "source": "tr",
-      "target": "fr",
+      "target": "ar",
       "strength": 1
     },
     {
       "source": "tr",
-      "target": "ar",
+      "target": "fr",
+      "strength": 1
+    },
+    {
+      "source": "de",
+      "target": "es",
       "strength": 1
     },
     {
@@ -514,11 +519,6 @@
     {
       "source": "de",
       "target": "fr",
-      "strength": 1
-    },
-    {
-      "source": "de",
-      "target": "es",
       "strength": 1
     },
     {
@@ -938,41 +938,41 @@
     }
   ],
   "allDomains": [
-    "deutsch.news-pravda.com",
-    "usa.news-pravda.com",
-    "mali.news-pravda.com",
-    "canada.news-pravda.com",
-    "syria.news-pravda.com",
-    "burkina-faso.news-pravda.com",
-    "news-pravda.com",
-    "francais.news-pravda.com",
-    "senegal.news-pravda.com",
-    "niger.news-pravda.com",
-    "spanish.news-pravda.com",
-    "nigeria.news-pravda.com",
-    "cameroon.news-pravda.com",
-    "algeria.news-pravda.com",
-    "germany.news-pravda.com",
-    "abkhazia.news-pravda.com",
-    "rca.news-pravda.com",
-    "chad.news-pravda.com",
-    "turkey.news-pravda.com",
-    "ossetia.news-pravda.com",
     "switzerland.news-pravda.com",
-    "gambia.news-pravda.com",
-    "sudan.news-pravda.com",
+    "chad.news-pravda.com",
     "egypt.news-pravda.com",
-    "guinea.news-pravda.com",
+    "germany.news-pravda.com",
+    "eritrea.news-pravda.com",
+    "senegal.news-pravda.com",
+    "sudan.news-pravda.com",
+    "syria.news-pravda.com",
+    "mali.news-pravda.com",
+    "usa.news-pravda.com",
+    "algeria.news-pravda.com",
+    "turkey.news-pravda.com",
+    "canada.news-pravda.com",
+    "nigeria.news-pravda.com",
+    "burkina-faso.news-pravda.com",
+    "abkhazia.news-pravda.com",
+    "news-pravda.com",
+    "gambia.news-pravda.com",
     "france.news-pravda.com",
-    "eritrea.news-pravda.com"
+    "cameroon.news-pravda.com",
+    "francais.news-pravda.com",
+    "ossetia.news-pravda.com",
+    "niger.news-pravda.com",
+    "deutsch.news-pravda.com",
+    "rca.news-pravda.com",
+    "spanish.news-pravda.com",
+    "guinea.news-pravda.com"
   ],
   "allLanguages": [
+    "de",
     "en",
-    "es",
-    "tr",
-    "os",
-    "fr",
     "ar",
-    "de"
+    "fr",
+    "os",
+    "es",
+    "tr"
   ]
 }
