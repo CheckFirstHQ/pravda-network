@@ -1,6 +1,6 @@
 {
   "domain": "mali.news-pravda.com",
-  "totalArticles": 221,
+  "totalArticles": 227,
   "articlesPerDay": [
     {
       "date": "2025-04-22",
@@ -48,7 +48,7 @@
     },
     {
       "date": "2025-05-03",
-      "count": 14
+      "count": 20
     }
   ],
   "topSources": [
@@ -129,6 +129,10 @@
       "count": 4
     },
     {
+      "source": "lenta.ru",
+      "count": 3
+    },
+    {
       "source": "ria.ru",
       "count": 3
     },
@@ -151,10 +155,6 @@
     {
       "source": "Telegram: businessafrica",
       "count": 3
-    },
-    {
-      "source": "lenta.ru",
-      "count": 2
     },
     {
       "source": "Telegram: corpsafrica",
@@ -279,6 +279,26 @@
     {
       "source": "Telegram: MaksLifeOff",
       "count": 1
+    },
+    {
+      "source": "Telegram: internationalreporters",
+      "count": 1
+    },
+    {
+      "source": "russian.rt.com",
+      "count": 1
+    },
+    {
+      "source": "Telegram: rt_russian",
+      "count": 1
+    },
+    {
+      "source": "kp.ru",
+      "count": 1
+    },
+    {
+      "source": "Telegram: izvestia",
+      "count": 1
     }
   ],
   "categories": [
@@ -288,7 +308,7 @@
     },
     {
       "category": "world",
-      "count": 105
+      "count": 111
     }
   ],
   "publicationHours": [
@@ -358,7 +378,7 @@
     },
     {
       "hour": 19,
-      "count": 10
+      "count": 16
     },
     {
       "hour": 20,
@@ -548,18 +568,18 @@
     "Telegram: africaninitiativefr"
   ],
   "alternatesStats": {
-    "articlesWithAlternates": 189,
-    "percentWithAlternates": 85.52036199095022,
-    "avgAlternatesPerArticle": 4.026455026455026
+    "articlesWithAlternates": 195,
+    "percentWithAlternates": 85.90308370044053,
+    "avgAlternatesPerArticle": 4.076923076923077
   },
   "languages": [
     {
       "language": "fr",
-      "count": 506
+      "count": 513
     },
     {
       "language": "en",
-      "count": 210
+      "count": 227
     },
     {
       "language": "ar",
@@ -567,7 +587,7 @@
     },
     {
       "language": "sr",
-      "count": 6
+      "count": 16
     },
     {
       "language": "es",
@@ -592,24 +612,44 @@
   ],
   "languageConnections": [
     {
+      "source": "es",
+      "target": "en",
+      "strength": 4
+    },
+    {
+      "source": "es",
+      "target": "fr",
+      "strength": 4
+    },
+    {
+      "source": "es",
+      "target": "de",
+      "strength": 1
+    },
+    {
+      "source": "es",
+      "target": "ar",
+      "strength": 1
+    },
+    {
       "source": "en",
       "target": "fr",
-      "strength": 85
+      "strength": 90
     },
     {
       "source": "en",
       "target": "ar",
       "strength": 22
-    },
-    {
-      "source": "en",
-      "target": "es",
-      "strength": 4
     },
     {
       "source": "en",
       "target": "sr",
-      "strength": 3
+      "strength": 8
+    },
+    {
+      "source": "en",
+      "target": "es",
+      "strength": 4
     },
     {
       "source": "en",
@@ -632,44 +672,24 @@
       "strength": 1
     },
     {
-      "source": "es",
-      "target": "en",
-      "strength": 4
-    },
-    {
-      "source": "es",
-      "target": "fr",
-      "strength": 4
-    },
-    {
-      "source": "es",
-      "target": "de",
-      "strength": 1
-    },
-    {
-      "source": "es",
-      "target": "ar",
-      "strength": 1
-    },
-    {
       "source": "fr",
       "target": "en",
-      "strength": 85
+      "strength": 90
     },
     {
       "source": "fr",
       "target": "ar",
       "strength": 22
-    },
-    {
-      "source": "fr",
-      "target": "es",
-      "strength": 4
     },
     {
       "source": "fr",
       "target": "sr",
-      "strength": 3
+      "strength": 8
+    },
+    {
+      "source": "fr",
+      "target": "es",
+      "strength": 4
     },
     {
       "source": "fr",
@@ -738,16 +758,16 @@
     },
     {
       "source": "de",
-      "target": "en",
-      "strength": 1
-    },
-    {
-      "source": "de",
       "target": "es",
       "strength": 1
     },
     {
       "source": "de",
+      "target": "en",
+      "strength": 1
+    },
+    {
+      "source": "de",
       "target": "fr",
       "strength": 1
     },
@@ -760,6 +780,11 @@
       "source": "os",
       "target": "fr",
       "strength": 2
+    },
+    {
+      "source": "os",
+      "target": "ko",
+      "strength": 1
     },
     {
       "source": "os",
@@ -767,8 +792,8 @@
       "strength": 1
     },
     {
-      "source": "os",
-      "target": "ko",
+      "source": "ko",
+      "target": "en",
       "strength": 1
     },
     {
@@ -779,11 +804,6 @@
     {
       "source": "ko",
       "target": "ar",
-      "strength": 1
-    },
-    {
-      "source": "ko",
-      "target": "en",
       "strength": 1
     },
     {
@@ -794,24 +814,24 @@
     {
       "source": "sr",
       "target": "en",
-      "strength": 3
+      "strength": 8
     },
     {
       "source": "sr",
       "target": "fr",
-      "strength": 3
+      "strength": 8
     }
   ],
   "domainLanguageData": [
     {
       "domain": "mali.news-pravda.com",
       "language": "en",
-      "count": 85
+      "count": 90
     },
     {
       "domain": "mali.news-pravda.com",
       "language": "fr",
-      "count": 189
+      "count": 195
     },
     {
       "domain": "spanish.news-pravda.com",
@@ -851,7 +871,7 @@
     {
       "domain": "francais.news-pravda.com",
       "language": "fr",
-      "count": 65
+      "count": 66
     },
     {
       "domain": "rca.news-pravda.com",
@@ -991,7 +1011,7 @@
     {
       "domain": "usa.news-pravda.com",
       "language": "en",
-      "count": 4
+      "count": 6
     },
     {
       "domain": "switzerland.news-pravda.com",
@@ -1076,28 +1096,28 @@
     {
       "domain": "balkan.news-pravda.com",
       "language": "sr",
-      "count": 3
+      "count": 8
     },
     {
       "domain": "balkan.news-pravda.com",
       "language": "en",
-      "count": 2
+      "count": 7
     },
     {
       "domain": "serbia.news-pravda.com",
       "language": "en",
-      "count": 3
+      "count": 8
     },
     {
       "domain": "serbia.news-pravda.com",
       "language": "sr",
-      "count": 3
+      "count": 8
     }
   ],
   "countryLanguageData": [
     {
       "code": "fr-ML",
-      "count": 189
+      "count": 195
     },
     {
       "code": "fr-BF",
@@ -1105,7 +1125,7 @@
     },
     {
       "code": "en-ML",
-      "count": 85
+      "count": 90
     },
     {
       "code": "fr-NE",
@@ -1113,7 +1133,7 @@
     },
     {
       "code": "fr",
-      "count": 65
+      "count": 66
     },
     {
       "code": "fr-FR",
@@ -1129,6 +1149,10 @@
     },
     {
       "code": "fr-SN",
+      "count": 15
+    },
+    {
+      "code": "en",
       "count": 15
     },
     {
@@ -1152,11 +1176,19 @@
       "count": 10
     },
     {
-      "code": "en",
-      "count": 10
+      "code": "en-NG",
+      "count": 8
     },
     {
-      "code": "en-NG",
+      "code": "sr",
+      "count": 8
+    },
+    {
+      "code": "en-RS",
+      "count": 8
+    },
+    {
+      "code": "sr-RS",
       "count": 8
     },
     {
@@ -1166,6 +1198,10 @@
     {
       "code": "fr-TD",
       "count": 7
+    },
+    {
+      "code": "en-US",
+      "count": 6
     },
     {
       "code": "en-GN",
@@ -1178,22 +1214,6 @@
     {
       "code": "en-CF",
       "count": 4
-    },
-    {
-      "code": "en-US",
-      "count": 4
-    },
-    {
-      "code": "sr",
-      "count": 3
-    },
-    {
-      "code": "en-RS",
-      "count": 3
-    },
-    {
-      "code": "sr-RS",
-      "count": 3
     },
     {
       "code": "en-TD",
@@ -1317,51 +1337,51 @@
     }
   ],
   "allDomains": [
-    "korea.news-pravda.com",
-    "senegal.news-pravda.com",
-    "news-pravda.com",
-    "serbia.news-pravda.com",
-    "chad.news-pravda.com",
-    "balkan.news-pravda.com",
-    "canada.news-pravda.com",
-    "niger.news-pravda.com",
-    "francais.news-pravda.com",
-    "nigeria.news-pravda.com",
-    "deutsch.news-pravda.com",
-    "mali.news-pravda.com",
-    "usa.news-pravda.com",
-    "syria.news-pravda.com",
-    "egypt.news-pravda.com",
-    "burkina-faso.news-pravda.com",
-    "gambia.news-pravda.com",
-    "uk.news-pravda.com",
-    "eritrea.news-pravda.com",
-    "guinea.news-pravda.com",
-    "mauritania.news-pravda.com",
-    "germany.news-pravda.com",
-    "switzerland.news-pravda.com",
     "rca.news-pravda.com",
-    "dprk.news-pravda.com",
-    "algeria.news-pravda.com",
-    "ossetia.news-pravda.com",
-    "abkhazia.news-pravda.com",
-    "france.news-pravda.com",
-    "cameroon.news-pravda.com",
+    "syria.news-pravda.com",
+    "deutsch.news-pravda.com",
+    "niger.news-pravda.com",
     "spanish.news-pravda.com",
-    "trump.news-pravda.com",
-    "spain.news-pravda.com",
+    "turkey.news-pravda.com",
+    "usa.news-pravda.com",
+    "francais.news-pravda.com",
+    "guinea.news-pravda.com",
+    "balkan.news-pravda.com",
+    "gambia.news-pravda.com",
+    "dprk.news-pravda.com",
+    "chad.news-pravda.com",
     "sudan.news-pravda.com",
-    "turkey.news-pravda.com"
+    "burkina-faso.news-pravda.com",
+    "switzerland.news-pravda.com",
+    "egypt.news-pravda.com",
+    "mali.news-pravda.com",
+    "spain.news-pravda.com",
+    "france.news-pravda.com",
+    "nigeria.news-pravda.com",
+    "eritrea.news-pravda.com",
+    "canada.news-pravda.com",
+    "algeria.news-pravda.com",
+    "uk.news-pravda.com",
+    "mauritania.news-pravda.com",
+    "abkhazia.news-pravda.com",
+    "senegal.news-pravda.com",
+    "germany.news-pravda.com",
+    "news-pravda.com",
+    "korea.news-pravda.com",
+    "ossetia.news-pravda.com",
+    "trump.news-pravda.com",
+    "serbia.news-pravda.com",
+    "cameroon.news-pravda.com"
   ],
   "allLanguages": [
-    "os",
-    "tr",
-    "es",
-    "ar",
-    "de",
-    "sr",
     "en",
+    "os",
+    "es",
     "ko",
-    "fr"
+    "ar",
+    "sr",
+    "fr",
+    "tr",
+    "de"
   ]
 }
