@@ -500,12 +500,12 @@
     },
     {
       "source": "os",
-      "target": "lt",
+      "target": "lv",
       "strength": 2
     },
     {
       "source": "os",
-      "target": "lv",
+      "target": "lt",
       "strength": 2
     },
     {
@@ -540,12 +540,12 @@
     },
     {
       "source": "os",
-      "target": "sk",
+      "target": "sr",
       "strength": 1
     },
     {
       "source": "os",
-      "target": "sr",
+      "target": "sk",
       "strength": 1
     },
     {
@@ -565,12 +565,12 @@
     },
     {
       "source": "en",
-      "target": "lt",
+      "target": "lv",
       "strength": 2
     },
     {
       "source": "en",
-      "target": "lv",
+      "target": "lt",
       "strength": 2
     },
     {
@@ -605,12 +605,12 @@
     },
     {
       "source": "en",
-      "target": "sk",
+      "target": "sr",
       "strength": 1
     },
     {
       "source": "en",
-      "target": "sr",
+      "target": "sk",
       "strength": 1
     },
     {
@@ -644,13 +644,33 @@
       "strength": 1
     },
     {
+      "source": "lv",
+      "target": "lt",
+      "strength": 2
+    },
+    {
+      "source": "lv",
+      "target": "en",
+      "strength": 2
+    },
+    {
+      "source": "lv",
+      "target": "os",
+      "strength": 2
+    },
+    {
+      "source": "lv",
+      "target": "et",
+      "strength": 2
+    },
+    {
       "source": "lt",
       "target": "lv",
       "strength": 2
     },
     {
       "source": "lt",
-      "target": "et",
+      "target": "en",
       "strength": 2
     },
     {
@@ -660,32 +680,7 @@
     },
     {
       "source": "lt",
-      "target": "en",
-      "strength": 2
-    },
-    {
-      "source": "lv",
-      "target": "lt",
-      "strength": 2
-    },
-    {
-      "source": "lv",
       "target": "et",
-      "strength": 2
-    },
-    {
-      "source": "lv",
-      "target": "os",
-      "strength": 2
-    },
-    {
-      "source": "lv",
-      "target": "en",
-      "strength": 2
-    },
-    {
-      "source": "et",
-      "target": "lt",
       "strength": 2
     },
     {
@@ -695,12 +690,17 @@
     },
     {
       "source": "et",
-      "target": "os",
+      "target": "lt",
       "strength": 2
     },
     {
       "source": "et",
       "target": "en",
+      "strength": 2
+    },
+    {
+      "source": "et",
+      "target": "os",
       "strength": 2
     },
     {
@@ -722,11 +722,6 @@
       "source": "fr",
       "target": "en",
       "strength": 2
-    },
-    {
-      "source": "fr",
-      "target": "ko",
-      "strength": 1
     },
     {
       "source": "fr",
@@ -734,6 +729,11 @@
       "strength": 1
     },
     {
+      "source": "fr",
+      "target": "ko",
+      "strength": 1
+    },
+    {
       "source": "ka",
       "target": "os",
       "strength": 4
@@ -745,13 +745,18 @@
     },
     {
       "source": "ko",
+      "target": "en",
+      "strength": 2
+    },
+    {
+      "source": "ko",
       "target": "os",
       "strength": 2
     },
     {
       "source": "ko",
-      "target": "en",
-      "strength": 2
+      "target": "ar",
+      "strength": 1
     },
     {
       "source": "ko",
@@ -760,22 +765,17 @@
     },
     {
       "source": "ko",
-      "target": "ar",
-      "strength": 1
-    },
-    {
-      "source": "ko",
       "target": "es",
       "strength": 1
     },
     {
       "source": "ko",
-      "target": "sk",
+      "target": "sr",
       "strength": 1
     },
     {
       "source": "ko",
-      "target": "sr",
+      "target": "sk",
       "strength": 1
     },
     {
@@ -785,7 +785,12 @@
     },
     {
       "source": "es",
-      "target": "sk",
+      "target": "en",
+      "strength": 1
+    },
+    {
+      "source": "es",
+      "target": "os",
       "strength": 1
     },
     {
@@ -795,37 +800,12 @@
     },
     {
       "source": "es",
-      "target": "os",
+      "target": "sk",
       "strength": 1
     },
     {
-      "source": "es",
-      "target": "en",
-      "strength": 1
-    },
-    {
-      "source": "sk",
-      "target": "ko",
-      "strength": 1
-    },
-    {
-      "source": "sk",
+      "source": "sr",
       "target": "es",
-      "strength": 1
-    },
-    {
-      "source": "sk",
-      "target": "sr",
-      "strength": 1
-    },
-    {
-      "source": "sk",
-      "target": "os",
-      "strength": 1
-    },
-    {
-      "source": "sk",
-      "target": "en",
       "strength": 1
     },
     {
@@ -835,7 +815,12 @@
     },
     {
       "source": "sr",
-      "target": "es",
+      "target": "en",
+      "strength": 1
+    },
+    {
+      "source": "sr",
+      "target": "os",
       "strength": 1
     },
     {
@@ -844,13 +829,28 @@
       "strength": 1
     },
     {
-      "source": "sr",
+      "source": "sk",
+      "target": "es",
+      "strength": 1
+    },
+    {
+      "source": "sk",
+      "target": "ko",
+      "strength": 1
+    },
+    {
+      "source": "sk",
+      "target": "en",
+      "strength": 1
+    },
+    {
+      "source": "sk",
       "target": "os",
       "strength": 1
     },
     {
-      "source": "sr",
-      "target": "en",
+      "source": "sk",
+      "target": "sr",
       "strength": 1
     }
   ],
@@ -1188,44 +1188,44 @@
     }
   ],
   "allDomains": [
-    "mali.news-pravda.com",
-    "netherlands.news-pravda.com",
-    "korea.news-pravda.com",
-    "slovakia.news-pravda.com",
-    "dprk.news-pravda.com",
-    "rca.news-pravda.com",
-    "abkhazia.news-pravda.com",
-    "gambia.news-pravda.com",
-    "spanish.news-pravda.com",
-    "lt.news-pravda.com",
-    "serbia.news-pravda.com",
     "niger.news-pravda.com",
-    "estonia.news-pravda.com",
-    "syria.news-pravda.com",
-    "uk.news-pravda.com",
-    "ge.news-pravda.com",
-    "latvia.news-pravda.com",
+    "rca.news-pravda.com",
     "ossetia.news-pravda.com",
+    "slovakia.news-pravda.com",
+    "ge.news-pravda.com",
+    "usa.news-pravda.com",
+    "netherlands.news-pravda.com",
     "burkina-faso.news-pravda.com",
-    "balkan.news-pravda.com",
-    "dutch.news-pravda.com",
+    "abkhazia.news-pravda.com",
+    "mali.news-pravda.com",
+    "latvia.news-pravda.com",
     "armenia.news-pravda.com",
-    "usa.news-pravda.com"
+    "balkan.news-pravda.com",
+    "spanish.news-pravda.com",
+    "korea.news-pravda.com",
+    "gambia.news-pravda.com",
+    "lt.news-pravda.com",
+    "uk.news-pravda.com",
+    "dprk.news-pravda.com",
+    "serbia.news-pravda.com",
+    "estonia.news-pravda.com",
+    "dutch.news-pravda.com",
+    "syria.news-pravda.com"
   ],
   "allLanguages": [
-    "ko",
-    "lt",
-    "es",
-    "hy",
-    "ka",
-    "fr",
-    "ar",
-    "lv",
-    "sr",
-    "sk",
-    "et",
     "nl",
+    "lv",
+    "ar",
+    "lt",
+    "ka",
+    "en",
+    "ko",
     "os",
-    "en"
+    "es",
+    "fr",
+    "sr",
+    "hy",
+    "sk",
+    "et"
   ]
 }
