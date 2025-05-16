@@ -1,6 +1,6 @@
 {
   "domain": "chad.news-pravda.com",
-  "totalArticles": 740,
+  "totalArticles": 744,
   "articlesPerDay": [
     {
       "date": "2025-04-22",
@@ -100,13 +100,17 @@
     },
     {
       "date": "2025-05-16",
-      "count": 35
+      "count": 38
+    },
+    {
+      "date": "2025-05-17",
+      "count": 1
     }
   ],
   "topSources": [
     {
       "source": "arabic.rt.com",
-      "count": 365
+      "count": 367
     },
     {
       "source": "sarabic.ae",
@@ -118,7 +122,7 @@
     },
     {
       "source": "Telegram: Sputnik_Arabic",
-      "count": 32
+      "count": 34
     },
     {
       "source": "afrinz.ru",
@@ -288,17 +292,17 @@
   "categories": [
     {
       "category": "chad",
-      "count": 476
+      "count": 478
     },
     {
       "category": "world",
-      "count": 264
+      "count": 266
     }
   ],
   "publicationHours": [
     {
       "hour": 0,
-      "count": 11
+      "count": 12
     },
     {
       "hour": 1,
@@ -390,7 +394,7 @@
     },
     {
       "hour": 23,
-      "count": 22
+      "count": 25
     }
   ],
   "sourcesByDay": [
@@ -708,15 +712,28 @@
     },
     {
       "date": "2025-05-16",
-      "arabic.rt.com": 13,
+      "arabic.rt.com": 15,
       "sarabic.ae": 5,
       "ar.topwar.ru": 6,
-      "Telegram: Sputnik_Arabic": 0,
+      "Telegram: Sputnik_Arabic": 1,
       "afrinz.ru": 3,
       "Telegram: RiaArabic": 1,
       "Telegram: rtarabicnewsroom": 0,
       "Telegram: tass_ar": 0,
       "Telegram: arabicafrica": 2,
+      "Telegram: ukr_leaks_ara": 0
+    },
+    {
+      "date": "2025-05-17",
+      "arabic.rt.com": 0,
+      "sarabic.ae": 0,
+      "ar.topwar.ru": 0,
+      "Telegram: Sputnik_Arabic": 1,
+      "afrinz.ru": 0,
+      "Telegram: RiaArabic": 0,
+      "Telegram: rtarabicnewsroom": 0,
+      "Telegram: tass_ar": 0,
+      "Telegram: arabicafrica": 0,
       "Telegram: ukr_leaks_ara": 0
     }
   ],
@@ -733,14 +750,14 @@
     "Telegram: ukr_leaks_ara"
   ],
   "alternatesStats": {
-    "articlesWithAlternates": 507,
-    "percentWithAlternates": 68.51351351351352,
-    "avgAlternatesPerArticle": 2.9743589743589745
+    "articlesWithAlternates": 510,
+    "percentWithAlternates": 68.54838709677419,
+    "avgAlternatesPerArticle": 2.9745098039215687
   },
   "languages": [
     {
       "language": "ar",
-      "count": 1227
+      "count": 1236
     },
     {
       "language": "en",
@@ -777,13 +794,53 @@
   ],
   "languageConnections": [
     {
-      "source": "fr",
+      "source": "ar",
       "target": "en",
+      "strength": 58
+    },
+    {
+      "source": "ar",
+      "target": "fr",
       "strength": 56
+    },
+    {
+      "source": "ar",
+      "target": "ko",
+      "strength": 3
+    },
+    {
+      "source": "ar",
+      "target": "da",
+      "strength": 2
+    },
+    {
+      "source": "ar",
+      "target": "ro",
+      "strength": 1
+    },
+    {
+      "source": "ar",
+      "target": "it",
+      "strength": 1
+    },
+    {
+      "source": "ar",
+      "target": "uk",
+      "strength": 1
+    },
+    {
+      "source": "ar",
+      "target": "mi",
+      "strength": 1
     },
     {
       "source": "fr",
       "target": "ar",
+      "strength": 56
+    },
+    {
+      "source": "fr",
+      "target": "en",
       "strength": 56
     },
     {
@@ -852,58 +909,18 @@
       "strength": 1
     },
     {
-      "source": "ar",
-      "target": "en",
-      "strength": 58
-    },
-    {
-      "source": "ar",
-      "target": "fr",
-      "strength": 56
-    },
-    {
-      "source": "ar",
-      "target": "ko",
-      "strength": 3
-    },
-    {
-      "source": "ar",
-      "target": "da",
-      "strength": 2
-    },
-    {
-      "source": "ar",
-      "target": "ro",
-      "strength": 1
-    },
-    {
-      "source": "ar",
-      "target": "it",
-      "strength": 1
-    },
-    {
-      "source": "ar",
-      "target": "uk",
-      "strength": 1
-    },
-    {
-      "source": "ar",
-      "target": "mi",
-      "strength": 1
-    },
-    {
-      "source": "ro",
-      "target": "fr",
-      "strength": 1
-    },
-    {
-      "source": "ro",
-      "target": "en",
-      "strength": 1
-    },
-    {
       "source": "ro",
       "target": "ar",
+      "strength": 1
+    },
+    {
+      "source": "ro",
+      "target": "fr",
+      "strength": 1
+    },
+    {
+      "source": "ro",
+      "target": "en",
       "strength": 1
     },
     {
@@ -923,17 +940,17 @@
     },
     {
       "source": "uk",
+      "target": "ar",
+      "strength": 1
+    },
+    {
+      "source": "uk",
       "target": "fr",
       "strength": 1
     },
     {
       "source": "uk",
       "target": "en",
-      "strength": 1
-    },
-    {
-      "source": "uk",
-      "target": "ar",
       "strength": 1
     },
     {
@@ -981,7 +998,7 @@
     {
       "domain": "chad.news-pravda.com",
       "language": "ar",
-      "count": 569
+      "count": 574
     },
     {
       "domain": "chad.news-pravda.com",
@@ -996,7 +1013,7 @@
     {
       "domain": "syria.news-pravda.com",
       "language": "ar",
-      "count": 394
+      "count": 397
     },
     {
       "domain": "egypt.news-pravda.com",
@@ -1096,7 +1113,7 @@
     {
       "domain": "mauritania.news-pravda.com",
       "language": "ar",
-      "count": 5
+      "count": 6
     },
     {
       "domain": "south-sudan.news-pravda.com",
@@ -1227,11 +1244,11 @@
   "countryLanguageData": [
     {
       "code": "ar-TD",
-      "count": 507
+      "count": 510
     },
     {
       "code": "ar-SY",
-      "count": 351
+      "count": 353
     },
     {
       "code": "ar-EG",
@@ -1239,7 +1256,7 @@
     },
     {
       "code": "ar",
-      "count": 130
+      "count": 133
     },
     {
       "code": "ar-SD",
@@ -1282,6 +1299,10 @@
       "count": 8
     },
     {
+      "code": "ar-MR",
+      "count": 6
+    },
+    {
       "code": "en-NE",
       "count": 6
     },
@@ -1291,10 +1312,6 @@
     },
     {
       "code": "en-ML",
-      "count": 5
-    },
-    {
-      "code": "ar-MR",
       "count": 5
     },
     {
@@ -1427,47 +1444,47 @@
     }
   ],
   "allDomains": [
-    "sudan.news-pravda.com",
-    "algeria.news-pravda.com",
-    "france.news-pravda.com",
-    "chad.news-pravda.com",
-    "md.news-pravda.com",
-    "eritrea.news-pravda.com",
-    "trump.news-pravda.com",
-    "syria.news-pravda.com",
     "uk.news-pravda.com",
-    "italy.news-pravda.com",
-    "mauritania.news-pravda.com",
-    "denmark.news-pravda.com",
-    "cameroon.news-pravda.com",
-    "burkina-faso.news-pravda.com",
-    "francais.news-pravda.com",
-    "guinea.news-pravda.com",
-    "rca.news-pravda.com",
-    "south-korea.news-pravda.com",
-    "news-pravda.com",
-    "south-sudan.news-pravda.com",
-    "egypt.news-pravda.com",
-    "mali.news-pravda.com",
-    "korea.news-pravda.com",
+    "sudan.news-pravda.com",
     "nigeria.news-pravda.com",
-    "usa.news-pravda.com",
-    "australia.news-pravda.com",
+    "syria.news-pravda.com",
     "maori.news-pravda.com",
+    "md.news-pravda.com",
+    "new-zealand.news-pravda.com",
+    "australia.news-pravda.com",
     "ua.news-pravda.com",
-    "niger.news-pravda.com",
+    "korea.news-pravda.com",
+    "egypt.news-pravda.com",
+    "cameroon.news-pravda.com",
     "senegal.news-pravda.com",
-    "new-zealand.news-pravda.com"
+    "mauritania.news-pravda.com",
+    "trump.news-pravda.com",
+    "francais.news-pravda.com",
+    "eritrea.news-pravda.com",
+    "guinea.news-pravda.com",
+    "south-korea.news-pravda.com",
+    "france.news-pravda.com",
+    "news-pravda.com",
+    "usa.news-pravda.com",
+    "algeria.news-pravda.com",
+    "south-sudan.news-pravda.com",
+    "niger.news-pravda.com",
+    "burkina-faso.news-pravda.com",
+    "italy.news-pravda.com",
+    "chad.news-pravda.com",
+    "mali.news-pravda.com",
+    "rca.news-pravda.com",
+    "denmark.news-pravda.com"
   ],
   "allLanguages": [
-    "ar",
-    "da",
-    "ro",
-    "fr",
     "uk",
-    "mi",
-    "it",
+    "ko",
     "en",
-    "ko"
+    "it",
+    "ro",
+    "ar",
+    "mi",
+    "da",
+    "fr"
   ]
 }
