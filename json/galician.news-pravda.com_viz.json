@@ -1,6 +1,6 @@
 {
   "domain": "galician.news-pravda.com",
-  "totalArticles": 11,
+  "totalArticles": 12,
   "articlesPerDay": [
     {
       "date": "2025-10-22",
@@ -33,6 +33,10 @@
     {
       "date": "2025-12-05",
       "count": 4
+    },
+    {
+      "date": "2025-12-08",
+      "count": 1
     }
   ],
   "topSources": [
@@ -79,15 +83,23 @@
     {
       "source": "Telegram: rentv_news",
       "count": 1
+    },
+    {
+      "source": "Telegram: dva_majors",
+      "count": 1
     }
   ],
   "categories": [
     {
       "category": "world",
-      "count": 11
+      "count": 12
     }
   ],
   "publicationHours": [
+    {
+      "hour": 3,
+      "count": 1
+    },
     {
       "hour": 5,
       "count": 1
@@ -229,6 +241,19 @@
       "Telegram: rian_crimea": 1,
       "Telegram: vesticrimea": 1,
       "Telegram: tvcrimea24": 1
+    },
+    {
+      "date": "2025-12-08",
+      "Telegram: topalov_vadim": 0,
+      "Telegram: mvdszfo": 0,
+      "Telegram: warhistoryalconafter": 0,
+      "Telegram: rostransnadzor_official": 0,
+      "Telegram: vesti_dezhurnaya_chast": 0,
+      "Telegram: EvPanina": 0,
+      "Telegram: zimovskyAL": 0,
+      "Telegram: rian_crimea": 0,
+      "Telegram: vesticrimea": 0,
+      "Telegram: tvcrimea24": 0
     }
   ],
   "topSourceNames": [
@@ -244,76 +269,76 @@
     "Telegram: tvcrimea24"
   ],
   "alternatesStats": {
-    "articlesWithAlternates": 11,
+    "articlesWithAlternates": 12,
     "percentWithAlternates": 100.0,
-    "avgAlternatesPerArticle": 6.090909090909091
+    "avgAlternatesPerArticle": 6.083333333333333
   },
   "languages": [
     {
       "language": "en",
-      "count": 23
+      "count": 25
     },
     {
       "language": "es",
-      "count": 22
+      "count": 24
     },
     {
       "language": "gl",
-      "count": 11
+      "count": 12
     }
   ],
   "languageConnections": [
     {
       "source": "es",
-      "target": "gl",
-      "strength": 11
+      "target": "en",
+      "strength": 12
     },
     {
       "source": "es",
-      "target": "en",
-      "strength": 11
-    },
-    {
-      "source": "gl",
-      "target": "es",
-      "strength": 11
-    },
-    {
-      "source": "gl",
-      "target": "en",
-      "strength": 11
+      "target": "gl",
+      "strength": 12
     },
     {
       "source": "en",
       "target": "es",
-      "strength": 11
+      "strength": 12
     },
     {
       "source": "en",
       "target": "gl",
-      "strength": 11
+      "strength": 12
+    },
+    {
+      "source": "gl",
+      "target": "es",
+      "strength": 12
+    },
+    {
+      "source": "gl",
+      "target": "en",
+      "strength": 12
     }
   ],
   "domainLanguageData": [
     {
       "domain": "spain.news-pravda.com",
       "language": "es",
-      "count": 11
+      "count": 12
     },
     {
       "domain": "spain.news-pravda.com",
       "language": "en",
-      "count": 21
+      "count": 23
     },
     {
       "domain": "spanish.news-pravda.com",
       "language": "es",
-      "count": 11
+      "count": 12
     },
     {
       "domain": "galician.news-pravda.com",
       "language": "gl",
-      "count": 11
+      "count": 12
     },
     {
       "domain": "usa.news-pravda.com",
@@ -329,23 +354,23 @@
   "countryLanguageData": [
     {
       "code": "es-ES",
-      "count": 11
+      "count": 12
     },
     {
       "code": "es",
-      "count": 11
+      "count": 12
     },
     {
       "code": "gl",
-      "count": 11
+      "count": 12
     },
     {
       "code": "en-ES",
-      "count": 11
+      "count": 12
     },
     {
       "code": "en",
-      "count": 11
+      "count": 12
     },
     {
       "code": "en-US",
@@ -353,15 +378,15 @@
     }
   ],
   "allDomains": [
-    "galician.news-pravda.com",
-    "spanish.news-pravda.com",
-    "news-pravda.com",
     "usa.news-pravda.com",
-    "spain.news-pravda.com"
+    "galician.news-pravda.com",
+    "news-pravda.com",
+    "spain.news-pravda.com",
+    "spanish.news-pravda.com"
   ],
   "allLanguages": [
     "es",
-    "gl",
-    "en"
+    "en",
+    "gl"
   ]
 }
